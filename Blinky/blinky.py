@@ -1,6 +1,7 @@
 from migen import *
-from migen.build.platforms import tinyfpga_a
-from migen.build.generic_platform import Pins, Subsignal, IOStandard
+# from migen.build.platforms import tinyfpga_a
+import tinyPlatform
+#from migen.build.generic_platform import Pins, Subsignal, IOStandard
 
 class blinky(Module):
     def __init__(self, platform):
@@ -26,7 +27,7 @@ class blinky(Module):
 
 
 # Create our platform (fpga interface)
-plat = tinyfpga_a.Platform()
+plat = tinyPlatform.Platform()
 # Create our module and blink LEDs
 module = blinky(plat)
 # Build
