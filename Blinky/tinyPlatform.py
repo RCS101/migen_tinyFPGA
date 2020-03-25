@@ -26,9 +26,9 @@ serial = [
 
 # Define io here
 _io = [
-    ("user_led0", 0, Pins("GPIO:0"), IOStandard("LVCMOS33")),
-    ("user_led1", 0, Pins("GPIO:9"), IOStandard("LVCMOS33")),
-    ("user_led2", 0, Pins("GPIO:10"), IOStandard("LVCMOS33"))
+    ("user_led0", 0, Pins("GPIO:0"), IOStandard("LVCMOS33")), # Pin 1, connected to on board LED
+    ("user_led1", 0, Pins("GPIO:1"), IOStandard("LVCMOS33")), # Pin 2
+    ("user_led2", 0, Pins("GPIO:2"), IOStandard("LVCMOS33")) # Pin 3
 ]
 
 class MachClock(Module):

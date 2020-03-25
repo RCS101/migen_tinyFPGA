@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lattice/blinky"  

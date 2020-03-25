@@ -8,15 +8,15 @@ class blinky(Module):
         self.led0 = led0 = platform.request("user_led0")
         self.led1 = led1 = platform.request("user_led1")
         self.led2 = led2 = platform.request("user_led2")
-        counter = Signal(3)
+        counter = Signal(24)
 
         self.sync += counter.eq(counter+1)
         self.comb += [
-            If(counter[0] == 1,
+            If(counter[21] == 1,
                 led0.eq(1)
-            ).Elif(counter[1] == 1,
+            ).Elif(counter[22] == 1,
                 led1.eq(1)
-            ).Elif(counter[2] == 1,
+            ).Elif(counter[23] == 1,
                 led2.eq(1)
             ).Else(
                 led0.eq(0),

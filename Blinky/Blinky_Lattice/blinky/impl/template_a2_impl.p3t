@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "template_a2_impl.log"
+-o "template_a2_impl.csv"
+-pr "template_a2_impl.prf"

@@ -1,0 +1,247 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Mar 25 14:14:47 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     top
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets osch_clk]
+            311 items scored, 41 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 0.878ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             counter_19__i0  (from osch_clk +)
+   Destination:    FD1S3AX    D              counter_19__i23  (to osch_clk +)
+
+   Delay:                   5.718ns  (62.9% logic, 37.1% route), 14 logic levels.
+
+ Constraint Details:
+
+      5.718ns data_path counter_19__i0 to counter_19__i23 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 0.878ns
+
+ Path Details: counter_19__i0 to counter_19__i23
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              counter_19__i0 (from osch_clk)
+Route         1   e 0.941                                  n24
+A1_TO_FCO   ---     0.827           A[2] to COUT           counter_19_add_4_1
+Route         1   e 0.020                                  n142
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_3
+Route         1   e 0.020                                  n143
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_5
+Route         1   e 0.020                                  n144
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_7
+Route         1   e 0.020                                  n145
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_9
+Route         1   e 0.020                                  n146
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_11
+Route         1   e 0.020                                  n147
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_13
+Route         1   e 0.020                                  n148
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_15
+Route         1   e 0.020                                  n149
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_17
+Route         1   e 0.020                                  n150
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_19
+Route         1   e 0.020                                  n151
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_21
+Route         1   e 0.020                                  n152
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_23
+Route         1   e 0.020                                  n153
+FCI_TO_F    ---     0.598            CIN to S[2]           counter_19_add_4_25
+Route         1   e 0.941                                  n102
+                  --------
+                    5.718  (62.9% logic, 37.1% route), 14 logic levels.
+
+
+Error:  The following path violates requirements by 0.701ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             counter_19__i0  (from osch_clk +)
+   Destination:    FD1S3AX    D              counter_19__i21  (to osch_clk +)
+
+   Delay:                   5.541ns  (62.1% logic, 37.9% route), 13 logic levels.
+
+ Constraint Details:
+
+      5.541ns data_path counter_19__i0 to counter_19__i21 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 0.701ns
+
+ Path Details: counter_19__i0 to counter_19__i21
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              counter_19__i0 (from osch_clk)
+Route         1   e 0.941                                  n24
+A1_TO_FCO   ---     0.827           A[2] to COUT           counter_19_add_4_1
+Route         1   e 0.020                                  n142
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_3
+Route         1   e 0.020                                  n143
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_5
+Route         1   e 0.020                                  n144
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_7
+Route         1   e 0.020                                  n145
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_9
+Route         1   e 0.020                                  n146
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_11
+Route         1   e 0.020                                  n147
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_13
+Route         1   e 0.020                                  n148
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_15
+Route         1   e 0.020                                  n149
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_17
+Route         1   e 0.020                                  n150
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_19
+Route         1   e 0.020                                  n151
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_21
+Route         1   e 0.020                                  n152
+FCI_TO_F    ---     0.598            CIN to S[2]           counter_19_add_4_23
+Route         1   e 0.941                                  n104
+                  --------
+                    5.541  (62.1% logic, 37.9% route), 13 logic levels.
+
+
+Error:  The following path violates requirements by 0.701ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             counter_19__i0  (from osch_clk +)
+   Destination:    FD1S3AX    D              counter_19__i22  (to osch_clk +)
+
+   Delay:                   5.541ns  (62.1% logic, 37.9% route), 13 logic levels.
+
+ Constraint Details:
+
+      5.541ns data_path counter_19__i0 to counter_19__i22 violates
+      5.000ns delay constraint less
+      0.160ns L_S requirement (totaling 4.840ns) by 0.701ns
+
+ Path Details: counter_19__i0 to counter_19__i22
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              counter_19__i0 (from osch_clk)
+Route         1   e 0.941                                  n24
+A1_TO_FCO   ---     0.827           A[2] to COUT           counter_19_add_4_1
+Route         1   e 0.020                                  n142
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_3
+Route         1   e 0.020                                  n143
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_5
+Route         1   e 0.020                                  n144
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_7
+Route         1   e 0.020                                  n145
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_9
+Route         1   e 0.020                                  n146
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_11
+Route         1   e 0.020                                  n147
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_13
+Route         1   e 0.020                                  n148
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_15
+Route         1   e 0.020                                  n149
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_17
+Route         1   e 0.020                                  n150
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_19
+Route         1   e 0.020                                  n151
+FCI_TO_FCO  ---     0.157            CIN to COUT           counter_19_add_4_21
+Route         1   e 0.020                                  n152
+FCI_TO_F    ---     0.598            CIN to S[2]           counter_19_add_4_23
+Route         1   e 0.941                                  n103
+                  --------
+                    5.541  (62.1% logic, 37.9% route), 13 logic levels.
+
+Warning: 5.878 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets osch_clk]                |     5.000 ns|     5.878 ns|    14 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+n146                                    |       1|      41|     99.00%
+                                        |        |        |
+n147                                    |       1|      41|     99.00%
+                                        |        |        |
+n148                                    |       1|      41|     99.00%
+                                        |        |        |
+n149                                    |       1|      41|     99.00%
+                                        |        |        |
+n145                                    |       1|      39|     95.12%
+                                        |        |        |
+n150                                    |       1|      39|     95.12%
+                                        |        |        |
+n144                                    |       1|      33|     80.49%
+                                        |        |        |
+n151                                    |       1|      33|     80.49%
+                                        |        |        |
+n143                                    |       1|      23|     56.10%
+                                        |        |        |
+n152                                    |       1|      23|     56.10%
+                                        |        |        |
+n24                                     |       1|       9|     21.95%
+                                        |        |        |
+n102                                    |       1|       9|     21.95%
+                                        |        |        |
+n142                                    |       1|       9|     21.95%
+                                        |        |        |
+n153                                    |       1|       9|     21.95%
+                                        |        |        |
+n22                                     |       1|       7|     17.07%
+                                        |        |        |
+n23                                     |       1|       7|     17.07%
+                                        |        |        |
+n103                                    |       1|       7|     17.07%
+                                        |        |        |
+n104                                    |       1|       7|     17.07%
+                                        |        |        |
+n20                                     |       1|       5|     12.20%
+                                        |        |        |
+n21                                     |       1|       5|     12.20%
+                                        |        |        |
+n105                                    |       1|       5|     12.20%
+                                        |        |        |
+n106                                    |       1|       5|     12.20%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 41  Score: 14758
+
+Constraints cover  311 paths, 61 nets, and 84 connections (91.3% coverage)
+
+
+Peak memory: 54095872 bytes, TRCE: 1863680 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
