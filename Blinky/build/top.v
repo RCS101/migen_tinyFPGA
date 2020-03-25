@@ -6,7 +6,7 @@ module top(
 );
 
 wire osch_clk;
-reg [2:0] counter = 3'd0;
+reg [23:0] counter = 24'd0;
 wire sys_clk;
 wire sys_rst;
 wire por_clk;
@@ -25,13 +25,13 @@ always @(*) begin
 	user_led0 <= 1'd0;
 	user_led1 <= 1'd0;
 	user_led2 <= 1'd0;
-	if ((counter[0] == 1'd1)) begin
+	if ((counter[8] == 1'd1)) begin
 		user_led0 <= 1'd1;
 	end else begin
-		if ((counter[1] == 1'd1)) begin
+		if ((counter[16] == 1'd1)) begin
 			user_led1 <= 1'd1;
 		end else begin
-			if ((counter[2] == 1'd1)) begin
+			if ((counter[20] == 1'd1)) begin
 				user_led2 <= 1'd1;
 			end else begin
 				user_led0 <= 1'd0;
@@ -55,7 +55,7 @@ end
 always @(posedge sys_clk) begin
 	counter <= (counter + 1'd1);
 	if (sys_rst) begin
-		counter <= 3'd0;
+		counter <= 24'd0;
 	end
 end
 
