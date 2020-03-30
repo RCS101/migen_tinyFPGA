@@ -44,7 +44,6 @@ class SPI_slave(Module):
         self.mosi_fsm.act("IDLE",
             If(~self.cs, # Active low
                 If(~self.byte_ack, # If there is a byte in data, this needs to be read first
-                    self.data.eq(0),
                     NextState("START")
                 )
             ) # No else. If CS is deactive then we don't do anything!
