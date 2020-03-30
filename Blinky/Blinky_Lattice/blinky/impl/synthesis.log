@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Mar 25 14:14:47 2020
+Wed Mar 25 17:21:27 2020
 
 
 Command Line:  synthesis -f template_a2_impl_lattice.synproj -gui 
@@ -81,7 +81,7 @@ Analyzing Verilog file C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HE
 Top module name (Verilog): top
 INFO - synthesis: c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(2): compiling module top. VERI-1018
 INFO - synthesis: C:/lscc/diamond/3.11_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v(1793): compiling module OSCH(NOM_FREQ="15.65"). VERI-1018
-WARNING - synthesis: c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(53): Register int_rst_14 is stuck at Zero. VDB-5013
+WARNING - synthesis: c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(25): Register int_rst_17 is stuck at Zero. VDB-5013
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
 Loading NGL library 'C:/lscc/diamond/3.11_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
@@ -106,12 +106,13 @@ All blocks are expanded and NGD expansion is successful.
 Writing NGD file template_a2_impl.ngd.
 
 ################### Begin Area Report (top)######################
-Number of register bits => 24 of 1346 (1 % )
-CCU2D => 13
-FD1S3AX => 24
+Number of register bits => 11 of 1346 (0 % )
+CCU2D => 6
+FD1S3AX => 1
+FD1S3IX => 10
 GSR => 1
-LUT4 => 2
-OB => 3
+LUT4 => 6
+OB => 2
 OSCH => 1
 ################### End Area Report ##################
 
@@ -122,22 +123,22 @@ TSALL => 1
 ################### Begin Clock Report ######################
 Clock Nets
 Number of Clocks: 1
-  Net : osch_clk, loads : 24
+  Net : osch_clk, loads : 11
 Clock Enable Nets
 Number of Clock Enables: 0
 Top 0 highest fanout Clock Enables:
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : user_led0_c_21, loads : 4
-  Net : counter_22, loads : 3
-  Net : counter_23, loads : 2
-  Net : user_led1_c, loads : 1
-  Net : user_led2_c, loads : 1
-  Net : n24, loads : 1
-  Net : n23, loads : 1
-  Net : n22, loads : 1
-  Net : n21, loads : 1
-  Net : n20, loads : 1
+  Net : n97, loads : 10
+  Net : cnt_4, loads : 3
+  Net : cnt_3, loads : 3
+  Net : cnt_2, loads : 3
+  Net : cnt_1, loads : 3
+  Net : cnt_0, loads : 3
+  Net : Dout_c, loads : 2
+  Net : cnt_9, loads : 2
+  Net : cnt_8, loads : 2
+  Net : cnt_7, loads : 2
 ################### End Clock Report ##################
 
 Timing Report Summary
@@ -147,7 +148,7 @@ Constraint                              |   Constraint|       Actual|Levels
 --------------------------------------------------------------------------------
                                         |             |             |
 create_clock -period 5.000000 -name     |             |             |
-clk0 [get_nets osch_clk]                |  200.000 MHz|  170.126 MHz|    14 *
+clk0 [get_nets osch_clk]                |  200.000 MHz|  143.534 MHz|     4 *
                                         |             |             |
 --------------------------------------------------------------------------------
 
@@ -155,8 +156,8 @@ clk0 [get_nets osch_clk]                |  200.000 MHz|  170.126 MHz|    14 *
 1 constraints not met.
 
 
-Peak Memory Usage: 51.672  MB
+Peak Memory Usage: 51.625  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 0.297  secs
+Elapsed CPU time for LSE flow : 0.328  secs
 --------------------------------------------------------------

@@ -39,10 +39,10 @@
         <Message>
             <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(53): </Dynamic>
-            <Dynamic>int_rst_14</Dynamic>
+            <Dynamic>c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(25): </Dynamic>
+            <Dynamic>int_rst_17</Dynamic>
             <Navigation>c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v</Navigation>
-            <Navigation>53</Navigation>
+            <Navigation>25</Navigation>
         </Message>
         <Message>
             <ID>35001771</ID>

@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Mar 25 14:14:48 2020
+Wed Mar 25 17:21:28 2020
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f template_a2_impl.p2t
 template_a2_impl_map.ncd template_a2_impl.dir template_a2_impl.prf -gui
@@ -15,11 +15,11 @@ Preference file: template_a2_impl.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            56.325       0            0.377        0            03           Completed
+5_1   *      0            54.002       0            0.379        0            02           Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 3 secs 
+Total (real) run time for 1-seed: 2 secs 
 
 par done!
 

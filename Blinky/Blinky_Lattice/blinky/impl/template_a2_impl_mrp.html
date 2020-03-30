@@ -23,23 +23,23 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-1200HCQFN32
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  03/25/20  14:14:47
+Mapped on:  03/25/20  17:21:27
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     24 out of  1346 (2%)
-      PFU registers:           24 out of  1280 (2%)
+   Number of registers:     11 out of  1346 (1%)
+      PFU registers:           11 out of  1280 (1%)
       PIO registers:            0 out of    66 (0%)
-   Number of SLICEs:        14 out of   640 (2%)
-      SLICEs as Logic/ROM:     14 out of   640 (2%)
+   Number of SLICEs:         9 out of   640 (1%)
+      SLICEs as Logic/ROM:      9 out of   640 (1%)
       SLICEs as RAM:            0 out of   480 (0%)
-      SLICEs as Carry:         13 out of   640 (2%)
-   Number of LUT4s:         28 out of  1280 (2%)
-      Number used as logic LUTs:          2
+      SLICEs as Carry:          6 out of   640 (1%)
+   Number of LUT4s:         18 out of  1280 (1%)
+      Number used as logic LUTs:          6
       Number used as distributed RAM:     0
-      Number used as ripple logic:       26
+      Number used as ripple logic:       12
       Number used as shift registers:     0
-   Number of PIO sites used: 3 + 4(JTAG) out of 22 (32%)
+   Number of PIO sites used: 2 + 4(JTAG) out of 22 (27%)
    Number of block RAMs:  0 out of 7 (0%)
    Number of GSRs:        0 out of 1 (0%)
    EFB used :        No
@@ -65,22 +65,23 @@ Mapped on:  03/25/20  14:14:47
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net osch_clk: 13 loads, 13 rising, 0 falling (Driver: OSCH )
+     Net osch_clk: 7 loads, 7 rising, 0 falling (Driver: OSCH )
    Number of Clock Enables:  0
 
-   Number of LSRs:  0
+   Number of LSRs:  1
+     Net n97: 6 loads, 6 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net user_led0_c_21: 4 loads
-     Net counter_22: 3 loads
-     Net counter_23: 2 loads
-     Net n102: 1 loads
-     Net n103: 1 loads
-     Net n104: 1 loads
-     Net n152: 1 loads
-     Net n153: 1 loads
-     Net user_led1_c: 1 loads
-     Net user_led2_c: 1 loads
+     Net n97: 6 loads
+     Net cnt_0: 3 loads
+     Net cnt_1: 3 loads
+     Net cnt_2: 3 loads
+     Net cnt_3: 3 loads
+     Net cnt_4: 3 loads
+     Net cnt_5: 2 loads
+     Net cnt_6: 2 loads
+     Net Dout_c: 2 loads
+     Net n118: 2 loads
 
 
 
@@ -108,9 +109,7 @@ WARNING - map: OSCH 'OSCH' has FREQUENCY preference value set to 16.43 MHZ,
 +---------------------+-----------+-----------+------------+
 | user_led0           | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| user_led1           | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| user_led2           | OUTPUT    | LVCMOS33  |            |
+| Dout                | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 
 
@@ -121,10 +120,10 @@ Block i2 undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
 Signal GND_net undriven or does not drive anything - clipped.
 Signal VCC_net undriven or does not drive anything - clipped.
-Signal counter_19_add_4_1/S0 undriven or does not drive anything - clipped.
-Signal counter_19_add_4_1/CI undriven or does not drive anything - clipped.
-Signal counter_19_add_4_25/S1 undriven or does not drive anything - clipped.
-Signal counter_19_add_4_25/CO undriven or does not drive anything - clipped.
+Signal cnt_25_add_4_11/S1 undriven or does not drive anything - clipped.
+Signal cnt_25_add_4_11/CO undriven or does not drive anything - clipped.
+Signal cnt_25_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal cnt_25_add_4_1/CI undriven or does not drive anything - clipped.
 Block i1 was optimized away.
 
      
@@ -155,8 +154,9 @@ Instance Name: OSCH
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 39 MB
+   Peak Memory Usage: 38 MB
         
+
 
 
 

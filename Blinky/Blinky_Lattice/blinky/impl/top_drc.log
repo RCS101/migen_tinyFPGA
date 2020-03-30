@@ -10,7 +10,7 @@ Running DRC...
 DRC complete with no errors or warnings
 
 Design Results:
-     47 blocks expanded
+     30 blocks expanded
 completed the first expansion
 All blocks are expanded and NGD expansion is successful.
 Writing NGD file template_a2_impl.ngd.

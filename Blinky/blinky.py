@@ -5,7 +5,7 @@ import tinyPlatform
 
 class blinky(Module):
     def __init__(self, platform):
-        self.led0 = led0 = platform.request("user_led0")
+        self.led0 = led0 = platform.request("user_led0") # user_led% are defined in tinyPlatform
         self.led1 = led1 = platform.request("user_led1")
         self.led2 = led2 = platform.request("user_led2")
         counter = Signal(24)

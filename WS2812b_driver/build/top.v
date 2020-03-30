@@ -5,7 +5,7 @@ module top(
 );
 
 wire osch_clk;
-reg [9:0] cnt = 10'd0;
+reg [4:0] cnt = 5'd0;
 wire sys_clk;
 wire sys_rst;
 wire por_clk;
@@ -39,7 +39,7 @@ always @(posedge sys_clk) begin
 	if (sys_rst) begin
 		user_led0 <= 1'd0;
 		Dout <= 1'd0;
-		cnt <= 10'd0;
+		cnt <= 5'd0;
 	end
 end
 
