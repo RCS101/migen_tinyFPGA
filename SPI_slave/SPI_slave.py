@@ -3,16 +3,22 @@ from migen import *
 import tinyPlatform
 #from migen.build.generic_platform import Pins, Subsignal, IOStandard
 
+"""
+SPI slave in mode:
+MSB
+polarity 0 = Clock idle low
+Phase 2 edge = Data read on falling edge
+"""
 class SPI_slave(Module):
-    def __init__(self):
+    def __init__(self, platform):
     #    self.led0 = led0 = platform.request("user_led0")
     #    self.DOUT = DOUT = platform.request("Dout")
 
         # Input pins
-        self.sclk = sclk = Signal()#platform.request("user_sclk")
+        self.sclk = sclk = platform.request("user_sclk")#Signal()#
     #    self.miso = miso = platform.request("user_miso")
-        self.mosi = mosi = Signal()#platform.request("user_mosi")
-        self.cs = cs = Signal()# = platform.request("user_cs")
+        self.mosi = mosi = platform.request("user_mosi")#Signal()#
+        self.cs = cs = platform.request("user_cs")#Signal()# =
         self.data = data = Signal(8) # 27 bit LED register
         self.error = error = Signal()
         self.byte_ack = byte_ack = Signal()
@@ -63,14 +69,14 @@ class SPI_slave(Module):
                 self.error.eq(1),
                 NextState("IDLE")
             ).Elif(~self.sclk,
-                NextValue(self.data, Cat(self.data[1:8], self.mosi)),
+                NextValue(self.data, Cat(self.data[1:8], self.mosi)), # Cat records the data as LSB - currently don't know how to make it MSB dumb
                 NextValue(bit_no, bit_no + 1),
                 If(bit_no == 7,
                     NextState("STOP"),
                     self.byte_ack.eq(1)
-                ).Else(
-                    NextState("HOLD")
-                )
+                    ).Else(
+                        NextState("HOLD")
+                    )
             )
         )
         ### HOLD
@@ -96,10 +102,11 @@ class SPI_slave(Module):
 """ Function to pretend to be an SPI master sending data """
 def _spi_master(tx, dut):
     ## Initialise ports
+    print("Initialise")
     yield;
     yield dut.cs.eq(1) # deactive
-    yield dut.mosi.eq(1)
-    yield dut.sclk.eq(1)
+    yield dut.mosi.eq(0)
+    yield dut.sclk.eq(0)
     yield dut.byte_ack.eq(0)
     yield dut.error.eq(0)
     yield; yield; yield; yield; # 4 clocks
@@ -108,43 +115,39 @@ def _spi_master(tx, dut):
     yield; yield; yield; yield; # 4 clocks
     # loop through the tx byte setting pins
 
-    bitmask = 0x80
-    print("TX {}".format(hex(tx)))
+    bitmask = 0x01 # LSB - make this 0x80 for MSB
+    print("Data in: {}".format(hex(tx)))
 
     for i in range(0, 8):
-        if bitmask & tx == bitmask:
-            print("HIGH")
+        if (bitmask & tx) == bitmask:
             yield dut.mosi.eq(1)
         else:
-            print("LOW")
             yield dut.mosi.eq(0)
 
-        print("Bitmask {}".format(hex(bitmask)))
-        bitmask = (bitmask>>1)
+        bitmask = (bitmask<<1) # flip shift direction for MSB
 
+        yield dut.sclk.eq(1)
         yield; yield; yield; yield;
-        #print("slck low")
         yield dut.sclk.eq(0)
         yield; yield; yield; yield;
-    #    print("slck high")
-        yield dut.sclk.eq(1)
-        yield;
 
+    yield dut.sclk.eq(0)
+    yield dut.mosi.eq(0)
     yield dut.cs.eq(1)
-
+    print("Transmit complete")
     yield; yield; yield; yield; # 4 clocks
     yield; yield; yield; yield; # 4 clocks
 
 # class TestBench(Module):
 #     def __init__(self):
 
-# plat = tinyPlatform.Platform()
-dut = SPI_slave()
-run_simulation(dut, _spi_master(0xAA, dut), vcd_name="SPI_slave.vcd")
+plat = tinyPlatform.Platform()
+dut = SPI_slave(plat)
+run_simulation(dut, _spi_master(0x05, dut), vcd_name="SPI_slave.vcd")
 
 # Create our platform (fpga interface)
 #plat = tinyPlatform.Platform()
 # Create our module and blink LEDs
-#module = bit1(plat)
+#module = SPI_slave(plat)
 # Build
 #plat.build(module)
