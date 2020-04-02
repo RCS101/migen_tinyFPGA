@@ -1,109 +1,105 @@
 // Verilog netlist produced by program LSE :  version Diamond (64-bit) 3.11.0.396.4
-// Netlist written on Wed Mar 25 17:21:27 2020
+// Netlist written on Wed Apr 01 10:27:49 2020
 //
 // Verilog Description of module top
 //
 
-module top (user_led0, Dout) /* synthesis syn_module_defined=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(2[8:11])
-    output user_led0;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(3[13:22])
-    output Dout;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(4[13:17])
+module top (user_led0, user_sclk, user_mosi, user_cs) /* synthesis syn_module_defined=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(2[8:11])
+    output user_led0;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(3[9:18])
+    input user_sclk;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(4[8:17])
+    input user_mosi;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(5[8:17])
+    input user_cs;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(6[8:15])
     
-    wire osch_clk /* synthesis SET_AS_NETWORK=osch_clk, is_clock=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(7[6:14])
+    wire osch_clk /* synthesis SET_AS_NETWORK=osch_clk, is_clock=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(9[6:14])
     
-    wire GND_net, VCC_net, Dout_c;
-    wire [9:0]cnt;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(8[11:14])
+    wire GND_net, VCC_net, user_sclk_c, user_cs_c;
+    wire [2:0]bit_no;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(13[11:17])
+    wire [2:0]state;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(14[11:16])
+    wire [2:0]next_state;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(15[11:21])
     
-    wire n6, n97, user_led0_N_22, n36, n38, n37, n39, n40, n41, 
-        n42, n43, n44, n45, n125, n106, n105, n104, n103, 
-        n6_adj_1, n102, n118;
+    wire user_led0_N_41, n18, n380, n12, osch_clk_enable_5, n498, 
+        n497, n19, n496, osch_clk_enable_2, n20, n13, n500, osch_clk_enable_3, 
+        osch_clk_enable_6, n494, n499;
     
     VHI i2 (.Z(VCC_net));
-    PUR PUR_INST (.PUR(VCC_net));
-    defparam PUR_INST.RST_PULSE = 1;
-    FD1S3AX user_led0_20 (.D(user_led0_N_22), .CK(osch_clk), .Q(Dout_c));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(27[8] 44[4])
-    defparam user_led0_20.GSR = "ENABLED";
-    CCU2D cnt_25_add_4_7 (.A0(cnt[5]), .B0(GND_net), .C0(GND_net), .D0(GND_net), 
-          .A1(cnt[6]), .B1(GND_net), .C1(GND_net), .D1(GND_net), .CIN(n104), 
-          .COUT(n105), .S0(n40), .S1(n39));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25_add_4_7.INIT0 = 16'hfaaa;
-    defparam cnt_25_add_4_7.INIT1 = 16'hfaaa;
-    defparam cnt_25_add_4_7.INJECT1_0 = "NO";
-    defparam cnt_25_add_4_7.INJECT1_1 = "NO";
+    FD1P3IX bit_no_105__i1 (.D(n19), .SP(osch_clk_enable_6), .CD(GND_net), 
+            .CK(osch_clk), .Q(bit_no[1]));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(63[28:43])
+    defparam bit_no_105__i1.GSR = "ENABLED";
     OSCH OSCH (.STDBY(GND_net), .OSC(osch_clk)) /* synthesis syn_instantiated=1 */ ;
     defparam OSCH.NOM_FREQ = "15.65";
-    OB user_led0_pad (.I(Dout_c), .O(user_led0));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(3[13:22])
-    OB Dout_pad (.I(Dout_c), .O(Dout));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(4[13:17])
-    CCU2D cnt_25_add_4_5 (.A0(cnt[3]), .B0(GND_net), .C0(GND_net), .D0(GND_net), 
-          .A1(cnt[4]), .B1(GND_net), .C1(GND_net), .D1(GND_net), .CIN(n103), 
-          .COUT(n104), .S0(n42), .S1(n41));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25_add_4_5.INIT0 = 16'hfaaa;
-    defparam cnt_25_add_4_5.INIT1 = 16'hfaaa;
-    defparam cnt_25_add_4_5.INJECT1_0 = "NO";
-    defparam cnt_25_add_4_5.INJECT1_1 = "NO";
-    FD1S3IX cnt_25__i0 (.D(n45), .CK(osch_clk), .CD(n97), .Q(cnt[0])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i0.GSR = "ENABLED";
-    LUT4 i79_4_lut (.A(cnt[2]), .B(n118), .C(cnt[3]), .D(n125), .Z(n97)) /* synthesis lut_function=(!(A+(B+(C+!(D))))) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam i79_4_lut.init = 16'h0100;
-    CCU2D cnt_25_add_4_3 (.A0(cnt[1]), .B0(GND_net), .C0(GND_net), .D0(GND_net), 
-          .A1(cnt[2]), .B1(GND_net), .C1(GND_net), .D1(GND_net), .CIN(n102), 
-          .COUT(n103), .S0(n44), .S1(n43));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25_add_4_3.INIT0 = 16'hfaaa;
-    defparam cnt_25_add_4_3.INIT1 = 16'hfaaa;
-    defparam cnt_25_add_4_3.INJECT1_0 = "NO";
-    defparam cnt_25_add_4_3.INJECT1_1 = "NO";
-    CCU2D cnt_25_add_4_1 (.A0(GND_net), .B0(GND_net), .C0(GND_net), .D0(GND_net), 
-          .A1(cnt[0]), .B1(GND_net), .C1(GND_net), .D1(GND_net), .COUT(n102), 
-          .S1(n45));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25_add_4_1.INIT0 = 16'hF000;
-    defparam cnt_25_add_4_1.INIT1 = 16'h0555;
-    defparam cnt_25_add_4_1.INJECT1_0 = "NO";
-    defparam cnt_25_add_4_1.INJECT1_1 = "NO";
-    LUT4 i72_3_lut (.A(cnt[1]), .B(cnt[4]), .C(cnt[0]), .Z(n125)) /* synthesis lut_function=(A (B (C))) */ ;
-    defparam i72_3_lut.init = 16'h8080;
-    LUT4 i1_2_lut (.A(cnt[6]), .B(cnt[9]), .Z(n6_adj_1)) /* synthesis lut_function=(A+(B)) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam i1_2_lut.init = 16'heeee;
+    FD1P3AX state_i2 (.D(next_state[2]), .SP(osch_clk_enable_2), .CK(osch_clk), 
+            .Q(state[2])) /* synthesis lse_init_val=0 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(94[8] 107[4])
+    defparam state_i2.GSR = "ENABLED";
+    IB user_sclk_pad (.I(user_sclk), .O(user_sclk_c));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(4[8:17])
+    OB user_led0_pad (.I(n494), .O(user_led0));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(3[9:18])
+    IB user_cs_pad (.I(user_cs), .O(user_cs_c));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(6[8:15])
+    LUT4 n488_bdd_2_lut_then_4_lut (.A(user_cs_c), .B(n497), .C(n496), 
+         .D(user_sclk_c), .Z(n500)) /* synthesis lut_function=(!(A+(B (C)+!B (C+!(D))))) */ ;
+    defparam n488_bdd_2_lut_then_4_lut.init = 16'h0504;
+    LUT4 n488_bdd_2_lut_else_4_lut (.A(user_cs_c), .B(n497), .C(n496), 
+         .Z(n499)) /* synthesis lut_function=(!(A+(B (C)))) */ ;
+    defparam n488_bdd_2_lut_else_4_lut.init = 16'h1515;
     GSR GSR_INST (.GSR(VCC_net));
-    LUT4 i76_4_lut (.A(n118), .B(cnt[4]), .C(n6), .D(cnt[3]), .Z(user_led0_N_22)) /* synthesis lut_function=(!(A+(B+(C (D))))) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(35[11] 38[5])
-    defparam i76_4_lut.init = 16'h0111;
-    VLO i1 (.Z(GND_net));
-    FD1S3IX cnt_25__i9 (.D(n36), .CK(osch_clk), .CD(n97), .Q(cnt[9])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i9.GSR = "ENABLED";
-    LUT4 i36_3_lut (.A(cnt[0]), .B(cnt[2]), .C(cnt[1]), .Z(n6)) /* synthesis lut_function=(A (B+(C))+!A (B)) */ ;
-    defparam i36_3_lut.init = 16'hecec;
+    FD1P3AX state_i1 (.D(next_state[1]), .SP(osch_clk_enable_3), .CK(osch_clk), 
+            .Q(state[1])) /* synthesis lse_init_val=0 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(94[8] 107[4])
+    defparam state_i1.GSR = "ENABLED";
+    FD1P3IX bit_no_105__i0 (.D(n20), .SP(osch_clk_enable_6), .CD(GND_net), 
+            .CK(osch_clk), .Q(bit_no[0]));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(63[28:43])
+    defparam bit_no_105__i0.GSR = "ENABLED";
+    LUT4 i328_2_lut_rep_11_3_lut (.A(user_cs_c), .B(n497), .C(user_sclk_c), 
+         .Z(osch_clk_enable_6)) /* synthesis lut_function=(!(A+(B+(C)))) */ ;
+    defparam i328_2_lut_rep_11_3_lut.init = 16'h0101;
+    LUT4 i1_3_lut_rep_12 (.A(state[2]), .B(state[0]), .C(state[1]), .Z(n496)) /* synthesis lut_function=(!(A+(B (C)+!B !(C)))) */ ;
+    defparam i1_3_lut_rep_12.init = 16'h1414;
+    LUT4 i31_4_lut_4_lut (.A(n494), .B(user_cs_c), .C(n12), .D(n496), 
+         .Z(osch_clk_enable_2)) /* synthesis lut_function=(A (B (D)+!B !(C+!(D)))+!A (B (D)+!B !(C (D)))) */ ;
+    defparam i31_4_lut_4_lut.init = 16'hcf11;
+    LUT4 i334_3_lut (.A(n380), .B(user_cs_c), .C(n496), .Z(next_state[1])) /* synthesis lut_function=(!(A+(B+!(C)))) */ ;
+    defparam i334_3_lut.init = 16'h1010;
+    LUT4 mux_84_i2_4_lut (.A(user_led0_N_41), .B(n498), .C(n497), .D(state[0]), 
+         .Z(n380)) /* synthesis lut_function=(A (B+!(C (D)))+!A (B (C)+!B !((D)+!C))) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(44[2] 81[9])
+    defparam mux_84_i2_4_lut.init = 16'hcafa;
+    LUT4 i249_1_lut (.A(bit_no[0]), .Z(n20)) /* synthesis lut_function=(!(A)) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(63[28:43])
+    defparam i249_1_lut.init = 16'h5555;
+    LUT4 i2_3_lut_rep_13 (.A(state[1]), .B(state[2]), .C(state[0]), .Z(n497)) /* synthesis lut_function=((B+(C))+!A) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(55[3:7])
+    defparam i2_3_lut_rep_13.init = 16'hfdfd;
+    FD1P3AX state_i0 (.D(next_state[0]), .SP(osch_clk_enable_5), .CK(osch_clk), 
+            .Q(state[0])) /* synthesis lse_init_val=0 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(94[8] 107[4])
+    defparam state_i0.GSR = "ENABLED";
+    FD1P3IX bit_no_105__i2 (.D(n18), .SP(osch_clk_enable_6), .CD(GND_net), 
+            .CK(osch_clk), .Q(bit_no[2]));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(63[28:43])
+    defparam bit_no_105__i2.GSR = "ENABLED";
+    LUT4 equal_76_i4_2_lut_rep_14 (.A(state[1]), .B(state[2]), .Z(n498)) /* synthesis lut_function=(A+(B)) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(44[2] 81[9])
+    defparam equal_76_i4_2_lut_rep_14.init = 16'heeee;
+    LUT4 i30_4_lut_4_lut (.A(n494), .B(user_cs_c), .C(n13), .D(n496), 
+         .Z(osch_clk_enable_5)) /* synthesis lut_function=(A (B (D)+!B !(C+!(D)))+!A (B (D)+!B !(C (D)))) */ ;
+    defparam i30_4_lut_4_lut.init = 16'hcf11;
+    LUT4 i2_3_lut (.A(bit_no[1]), .B(bit_no[2]), .C(bit_no[0]), .Z(user_led0_N_41)) /* synthesis lut_function=(A (B (C))) */ ;
+    defparam i2_3_lut.init = 16'h8080;
+    LUT4 i258_3_lut (.A(bit_no[2]), .B(bit_no[1]), .C(bit_no[0]), .Z(n18)) /* synthesis lut_function=(!(A (B (C))+!A !(B (C)))) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(63[28:43])
+    defparam i258_3_lut.init = 16'h6a6a;
+    LUT4 i251_2_lut (.A(bit_no[1]), .B(bit_no[0]), .Z(n19)) /* synthesis lut_function=(!(A (B)+!A !(B))) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(63[28:43])
+    defparam i251_2_lut.init = 16'h6666;
+    LUT4 i2_3_lut_4_lut (.A(user_cs_c), .B(n496), .C(n497), .D(user_led0_N_41), 
+         .Z(next_state[2])) /* synthesis lut_function=(!(A+((C+!(D))+!B))) */ ;
+    defparam i2_3_lut_4_lut.init = 16'h0400;
+    LUT4 i23_3_lut_4_lut (.A(state[0]), .B(n498), .C(user_sclk_c), .D(n497), 
+         .Z(n12)) /* synthesis lut_function=(!(A (B ((D)+!C)+!B (C (D)))+!A ((D)+!C))) */ ;
+    defparam i23_3_lut_4_lut.init = 16'h02f2;
+    LUT4 n12_bdd_4_lut (.A(n12), .B(n496), .C(user_cs_c), .D(n494), 
+         .Z(osch_clk_enable_3)) /* synthesis lut_function=(A (B (C)+!B !(C+(D)))+!A (B+!(C+(D)))) */ ;
+    defparam n12_bdd_4_lut.init = 16'hc4c7;
+    PUR PUR_INST (.PUR(VCC_net));
+    defparam PUR_INST.RST_PULSE = 1;
+    LUT4 i31_3_lut_4_lut (.A(state[0]), .B(n498), .C(user_sclk_c), .D(n497), 
+         .Z(n13)) /* synthesis lut_function=(!(A (B ((D)+!C)+!B (C (D)+!C !(D)))+!A ((D)+!C))) */ ;
+    defparam i31_3_lut_4_lut.init = 16'h02f0;
+    LUT4 i1_2_lut_rep_10_3_lut_4_lut (.A(user_cs_c), .B(n497), .C(user_led0_N_41), 
+         .D(user_sclk_c), .Z(n494)) /* synthesis lut_function=(!(A+(B+((D)+!C)))) */ ;
+    defparam i1_2_lut_rep_10_3_lut_4_lut.init = 16'h0010;
     TSALL TSALL_INST (.TSALL(GND_net));
-    CCU2D cnt_25_add_4_11 (.A0(cnt[9]), .B0(GND_net), .C0(GND_net), .D0(GND_net), 
-          .A1(GND_net), .B1(GND_net), .C1(GND_net), .D1(GND_net), .CIN(n106), 
-          .S0(n36));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25_add_4_11.INIT0 = 16'hfaaa;
-    defparam cnt_25_add_4_11.INIT1 = 16'h0000;
-    defparam cnt_25_add_4_11.INJECT1_0 = "NO";
-    defparam cnt_25_add_4_11.INJECT1_1 = "NO";
-    CCU2D cnt_25_add_4_9 (.A0(cnt[7]), .B0(GND_net), .C0(GND_net), .D0(GND_net), 
-          .A1(cnt[8]), .B1(GND_net), .C1(GND_net), .D1(GND_net), .CIN(n105), 
-          .COUT(n106), .S0(n38), .S1(n37));   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25_add_4_9.INIT0 = 16'hfaaa;
-    defparam cnt_25_add_4_9.INIT1 = 16'hfaaa;
-    defparam cnt_25_add_4_9.INJECT1_0 = "NO";
-    defparam cnt_25_add_4_9.INJECT1_1 = "NO";
-    LUT4 i4_4_lut (.A(cnt[8]), .B(cnt[7]), .C(cnt[5]), .D(n6_adj_1), 
-         .Z(n118)) /* synthesis lut_function=(A+(B+(C+(D)))) */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam i4_4_lut.init = 16'hfffe;
-    FD1S3IX cnt_25__i8 (.D(n37), .CK(osch_clk), .CD(n97), .Q(cnt[8])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i8.GSR = "ENABLED";
-    FD1S3IX cnt_25__i7 (.D(n38), .CK(osch_clk), .CD(n97), .Q(cnt[7])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i7.GSR = "ENABLED";
-    FD1S3IX cnt_25__i6 (.D(n39), .CK(osch_clk), .CD(n97), .Q(cnt[6])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i6.GSR = "ENABLED";
-    FD1S3IX cnt_25__i5 (.D(n40), .CK(osch_clk), .CD(n97), .Q(cnt[5])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i5.GSR = "ENABLED";
-    FD1S3IX cnt_25__i4 (.D(n41), .CK(osch_clk), .CD(n97), .Q(cnt[4])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i4.GSR = "ENABLED";
-    FD1S3IX cnt_25__i3 (.D(n42), .CK(osch_clk), .CD(n97), .Q(cnt[3])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i3.GSR = "ENABLED";
-    FD1S3IX cnt_25__i2 (.D(n43), .CK(osch_clk), .CD(n97), .Q(cnt[2])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i2.GSR = "ENABLED";
-    FD1S3IX cnt_25__i1 (.D(n44), .CK(osch_clk), .CD(n97), .Q(cnt[1])) /* synthesis syn_use_carry_chain=1 */ ;   // c:/cygwin64/home/robin/documents/migen_tinyfpga/blinky/blinky_lattice/blinky/tinyfpga_a2.v(28[9:21])
-    defparam cnt_25__i1.GSR = "ENABLED";
+    PFUMX i339 (.BLUT(n499), .ALUT(n500), .C0(user_led0_N_41), .Z(next_state[0]));
+    VLO i1 (.Z(GND_net));
     
 endmodule
 //

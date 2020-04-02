@@ -4,10 +4,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Mar 25 17:21:28 2020
+Wed Apr 01 10:30:01 2020
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f template_a2_impl.p2t
-template_a2_impl_map.ncd template_a2_impl.dir template_a2_impl.prf -gui
+template_a2_impl_map.ncd template_a2_impl.dir template_a2_impl.prf -gui -msgset
+C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lattice/blinky/promote.xml
 
 
 Preference file: template_a2_impl.prf.
@@ -15,7 +16,7 @@ Preference file: template_a2_impl.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            54.002       0            0.379        0            02           Completed
+5_1   *      0            54.675       0            0.379        0            02           Completed
 
 * : Design saved.
 

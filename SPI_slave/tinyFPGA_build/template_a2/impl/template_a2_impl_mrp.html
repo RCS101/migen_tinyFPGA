@@ -1,0 +1,315 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+             Lattice Mapping Report File for Design Module 'top'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-1200HC -t QFN32 -s 4 -oc Commercial
+     template_a2_impl.ngd -o template_a2_impl_map.ncd -pr template_a2_impl.prf
+     -mp template_a2_impl.mrp -lpf C:/cygwin64/home/robin/Documents/migen_tinyFP
+     GA/SPI_slave/tinyFPGA_build/template_a2/impl/template_a2_impl.lpf -lpf C:/c
+     ygwin64/home/robin/Documents/migen_tinyFPGA/SPI_slave/tinyFPGA_build/templa
+     te_a2/template_a2.lpf -c 0 -gui 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-1200HCQFN32
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  04/02/20  14:20:30
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     70 out of  1346 (5%)
+      PFU registers:           70 out of  1280 (5%)
+      PIO registers:            0 out of    66 (0%)
+   Number of SLICEs:        51 out of   640 (8%)
+      SLICEs as Logic/ROM:     51 out of   640 (8%)
+      SLICEs as RAM:            0 out of   480 (0%)
+      SLICEs as Carry:          7 out of   640 (1%)
+   Number of LUT4s:        102 out of  1280 (8%)
+      Number used as logic LUTs:         88
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       14
+      Number used as shift registers:     0
+   Number of PIO sites used: 5 + 4(JTAG) out of 22 (41%)
+   Number of block RAMs:  0 out of 7 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : Yes
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 1 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net osch_clk: 41 loads, 41 rising, 0 falling (Driver: OSCH )
+   Number of Clock Enables:  10
+
+     Net osch_clk_enable_1: 1 loads, 1 LSLICEs
+     Net bit_no0_next_value_ce4: 3 loads, 3 LSLICEs
+     Net led_data_f_next_value_ce1: 12 loads, 12 LSLICEs
+     Net osch_clk_enable_28: 13 loads, 13 LSLICEs
+     Net byte_no_f_next_value_ce3: 1 loads, 1 LSLICEs
+     Net osch_clk_enable_3: 1 loads, 1 LSLICEs
+     Net bit_no1_f_next_value_ce2: 2 loads, 2 LSLICEs
+     Net DOUT_obj_next_value_ce0: 1 loads, 1 LSLICEs
+     Net osch_clk_enable_9: 1 loads, 1 LSLICEs
+     Net osch_clk_enable_8: 1 loads, 1 LSLICEs
+   Number of LSRs:  5
+     Net n2199: 3 loads, 3 LSLICEs
+     Net n1523: 12 loads, 12 LSLICEs
+     Net n1511: 3 loads, 3 LSLICEs
+     Net n1517: 3 loads, 3 LSLICEs
+     Net n1550: 12 loads, 12 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net fsm_state_1: 13 loads
+     Net fsm_state_2: 13 loads
+     Net led_data_f_next_value_ce1: 13 loads
+     Net osch_clk_enable_28: 13 loads
+     Net ws2812b_state_1: 13 loads
+     Net fsm_state_0: 12 loads
+     Net n1523: 12 loads
+     Net n1550: 12 loads
+     Net ws2812b_state_0: 12 loads
+     Net user_cs_c: 11 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: OSCH 'OSCH' has FREQUENCY preference value set to 16.43 MHZ,
+     which is different from the actual value 15.65 MHZ. The FREQUENCY
+     preference is still within the 5.5% tolerence of the actual value.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| user_led0           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| Dout                | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| user_sclk           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+| user_mosi           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| user_cs             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block i2 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal GND_net undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal ws2812b_next_state_1__I_1_21/S1 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_21/S0 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_17/S1 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_17/S0 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_15/S1 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_15/S0 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_23/S1 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_23/S0 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_24/S0 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_24/CO undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_0/S1 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_0/S0 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_0/CI undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_19/S1 undriven or does not drive anything -
+     clipped.
+Signal ws2812b_next_state_1__I_1_19/S0 undriven or does not drive anything -
+     clipped.
+Block i1 was optimized away.
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OSCH
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     osch_clk
+  OSC Nominal Frequency (MHz):                      15.65
+
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: OSCH
+         Type: OSCH
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 39 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

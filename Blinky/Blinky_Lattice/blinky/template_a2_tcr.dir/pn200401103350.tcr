@@ -1,0 +1,11 @@
+#Start recording tcl command: 4/1/2020 10:26:21
+#Project Location: C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lattice/blinky; Project name: template_a2
+prj_project open "C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lattice/blinky/template_a2.ldf"
+prj_run Export -impl impl -task Jedecgen
+prj_run Export -impl impl -task Jedecgen
+prj_run Export -impl impl -task Jedecgen
+prj_run Export -impl impl -task Jedecgen
+prj_run Export -impl impl -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 4/1/2020 10:33:50

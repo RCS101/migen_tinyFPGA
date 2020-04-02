@@ -1,0 +1,221 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Thu Apr 02 14:20:30 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     top
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets osch_clk]
+            280 items scored, 280 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 6.451ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             bitmask_i0_i22  (from osch_clk +)
+   Destination:    FD1P3AX    SP             Dout_134  (to osch_clk +)
+
+   Delay:                  11.166ns  (41.4% logic, 58.6% route), 12 logic levels.
+
+ Constraint Details:
+
+     11.166ns data_path bitmask_i0_i22 to Dout_134 violates
+      5.000ns delay constraint less
+      0.285ns LCE_S requirement (totaling 4.715ns) by 6.451ns
+
+ Path Details: bitmask_i0_i22 to Dout_134
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              bitmask_i0_i22 (from osch_clk)
+Route         3   e 1.315                                  bitmask[22]
+LUT4        ---     0.493              B to Z              and_4_i23_2_lut
+Route         1   e 0.941                                  ws2812b_next_state_1__N_171[22]
+A1_TO_FCO   ---     0.827           D[2] to COUT           ws2812b_next_state_1__I_1_0
+Route         1   e 0.020                                  n1952
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_15
+Route         1   e 0.020                                  n1953
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_17
+Route         1   e 0.020                                  n1954
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_19
+Route         1   e 0.020                                  n1955
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_21
+Route         1   e 0.020                                  n1956
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_23
+Route         1   e 0.020                                  n1957
+FCI_TO_F    ---     0.598            CIN to S[2]           ws2812b_next_state_1__I_1_24
+Route         1   e 0.941                                  ws2812b_next_state_1__N_170
+LUT4        ---     0.493              A to Z              ws2812b_next_state_1__N_170_bdd_4_lut
+Route         2   e 1.141                                  n2172
+LUT4        ---     0.493              B to Z              i1_2_lut_rep_17
+Route         2   e 1.141                                  n2193
+LUT4        ---     0.493              D to Z              i1_4_lut_4_lut_4_lut
+Route         1   e 0.941                                  DOUT_obj_next_value_ce0
+                  --------
+                   11.166  (41.4% logic, 58.6% route), 12 logic levels.
+
+
+Error:  The following path violates requirements by 6.451ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             bitmask_i0_i22  (from osch_clk +)
+   Destination:    FD1P3AX    SP             ws2812b_state_i1  (to osch_clk +)
+
+   Delay:                  11.166ns  (41.4% logic, 58.6% route), 12 logic levels.
+
+ Constraint Details:
+
+     11.166ns data_path bitmask_i0_i22 to ws2812b_state_i1 violates
+      5.000ns delay constraint less
+      0.285ns LCE_S requirement (totaling 4.715ns) by 6.451ns
+
+ Path Details: bitmask_i0_i22 to ws2812b_state_i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              bitmask_i0_i22 (from osch_clk)
+Route         3   e 1.315                                  bitmask[22]
+LUT4        ---     0.493              B to Z              and_4_i23_2_lut
+Route         1   e 0.941                                  ws2812b_next_state_1__N_171[22]
+A1_TO_FCO   ---     0.827           D[2] to COUT           ws2812b_next_state_1__I_1_0
+Route         1   e 0.020                                  n1952
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_15
+Route         1   e 0.020                                  n1953
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_17
+Route         1   e 0.020                                  n1954
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_19
+Route         1   e 0.020                                  n1955
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_21
+Route         1   e 0.020                                  n1956
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_23
+Route         1   e 0.020                                  n1957
+FCI_TO_F    ---     0.598            CIN to S[2]           ws2812b_next_state_1__I_1_24
+Route         1   e 0.941                                  ws2812b_next_state_1__N_170
+LUT4        ---     0.493              A to Z              ws2812b_next_state_1__N_170_bdd_4_lut
+Route         2   e 1.141                                  n2172
+LUT4        ---     0.493              B to Z              i1_2_lut_rep_16_3_lut
+Route         2   e 1.141                                  n2192
+LUT4        ---     0.493              C to Z              i1_4_lut_rep_15_4_lut
+Route         1   e 0.941                                  osch_clk_enable_8
+                  --------
+                   11.166  (41.4% logic, 58.6% route), 12 logic levels.
+
+
+Error:  The following path violates requirements by 6.451ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3AX    CK             bitmask_i0_i23  (from osch_clk +)
+   Destination:    FD1P3AX    SP             Dout_134  (to osch_clk +)
+
+   Delay:                  11.166ns  (41.4% logic, 58.6% route), 12 logic levels.
+
+ Constraint Details:
+
+     11.166ns data_path bitmask_i0_i23 to Dout_134 violates
+      5.000ns delay constraint less
+      0.285ns LCE_S requirement (totaling 4.715ns) by 6.451ns
+
+ Path Details: bitmask_i0_i23 to Dout_134
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              bitmask_i0_i23 (from osch_clk)
+Route         3   e 1.315                                  bitmask[23]
+LUT4        ---     0.493              B to Z              and_4_i24_2_lut
+Route         1   e 0.941                                  ws2812b_next_state_1__N_171[23]
+A1_TO_FCO   ---     0.827           B[2] to COUT           ws2812b_next_state_1__I_1_0
+Route         1   e 0.020                                  n1952
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_15
+Route         1   e 0.020                                  n1953
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_17
+Route         1   e 0.020                                  n1954
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_19
+Route         1   e 0.020                                  n1955
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_21
+Route         1   e 0.020                                  n1956
+FCI_TO_FCO  ---     0.157            CIN to COUT           ws2812b_next_state_1__I_1_23
+Route         1   e 0.020                                  n1957
+FCI_TO_F    ---     0.598            CIN to S[2]           ws2812b_next_state_1__I_1_24
+Route         1   e 0.941                                  ws2812b_next_state_1__N_170
+LUT4        ---     0.493              A to Z              ws2812b_next_state_1__N_170_bdd_4_lut
+Route         2   e 1.141                                  n2172
+LUT4        ---     0.493              B to Z              i1_2_lut_rep_17
+Route         2   e 1.141                                  n2193
+LUT4        ---     0.493              D to Z              i1_4_lut_4_lut_4_lut
+Route         1   e 0.941                                  DOUT_obj_next_value_ce0
+                  --------
+                   11.166  (41.4% logic, 58.6% route), 12 logic levels.
+
+Warning: 11.451 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets osch_clk]                |     5.000 ns|    11.451 ns|    12 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+n2172                                   |       2|     254|     90.71%
+                                        |        |        |
+ws2812b_next_state_1__N_170             |       1|     254|     90.71%
+                                        |        |        |
+n1957                                   |       1|     240|     85.71%
+                                        |        |        |
+n1956                                   |       1|     208|     74.29%
+                                        |        |        |
+n1955                                   |       1|     168|     60.00%
+                                        |        |        |
+n2192                                   |       2|     127|     45.36%
+                                        |        |        |
+n2193                                   |       2|     127|     45.36%
+                                        |        |        |
+n1954                                   |       1|     120|     42.86%
+                                        |        |        |
+n1953                                   |       1|      72|     25.71%
+                                        |        |        |
+DOUT_obj_next_value_ce0                 |       1|      66|     23.57%
+                                        |        |        |
+osch_clk_enable_8                       |       1|      66|     23.57%
+                                        |        |        |
+DOUT_obj_next_value0                    |       1|      61|     21.79%
+                                        |        |        |
+n1476                                   |       1|      61|     21.79%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 280  Score: 1497640
+
+Constraints cover  1648 paths, 168 nets, and 558 connections (96.4% coverage)
+
+
+Peak memory: 57282560 bytes, TRCE: 2068480 bytes, DLYMAN: 163840 bytes
+CPU_TIME_REPORT: 0 secs 

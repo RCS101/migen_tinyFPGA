@@ -1,0 +1,4 @@
+#Start recording tcl command: 4/2/2020 11:37:46
+#Project Location: C:/cygwin64/home/robin/Documents/migen_tinyFPGA/TinyFPGA-A-Series/template_a2; Project name: template_a2
+prj_project open "C:/cygwin64/home/robin/Documents/migen_tinyFPGA/TinyFPGA-A-Series/template_a2/template_a2.ldf"
+#Stop recording: 4/2/2020 12:49:59

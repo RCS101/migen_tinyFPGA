@@ -1,0 +1,211 @@
+
+Loading design for application trce from file template_a2_impl_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200HC
+Package:     QFN32
+Performance: 4
+Loading device for application trce from file 'xo2c1200.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Preliminary    Version 1.42.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
+Thu Apr 02 09:53:22 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o template_a2_impl.tw1 -gui template_a2_impl_map.ncd template_a2_impl.prf 
+Design file:     template_a2_impl_map.ncd
+Preference file: template_a2_impl.prf
+Device,speed:    LCMXO2-1200HC,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "osch_clk" 16.432500 MHz ;
+            53 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 54.454ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              bit_no_139__i1  (from osch_clk +)
+   Destination:    FF         Data in        byte_ack_77  (to osch_clk +)
+
+   Delay:               6.119ns  (31.7% logic, 68.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      6.119ns physical path delay SLICE_0 to SLICE_5 meets
+     60.855ns delay constraint less
+      0.282ns CE_SET requirement (totaling 60.573ns) by 54.454ns
+
+ Physical Path Details:
+
+      Data path SLICE_0 to SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452    SLICE_0.CLK to     SLICE_0.Q1 SLICE_0 (from osch_clk)
+ROUTE         3   e 1.234     SLICE_0.Q1 to     SLICE_7.A1 bit_no_1
+CTOF_DEL    ---     0.495     SLICE_7.A1 to     SLICE_7.F1 SLICE_7
+ROUTE         5   e 1.234     SLICE_7.F1 to     SLICE_6.C0 byte_ack_f_next_value2_N_49
+CTOF_DEL    ---     0.495     SLICE_6.C0 to     SLICE_6.F0 SLICE_6
+ROUTE         1   e 0.480     SLICE_6.F0 to     SLICE_6.D1 n479
+CTOF_DEL    ---     0.495     SLICE_6.D1 to     SLICE_6.F1 SLICE_6
+ROUTE         1   e 1.234     SLICE_6.F1 to     SLICE_5.CE byte_ack_f_next_value_ce2 (to osch_clk)
+                  --------
+                    6.119   (31.7% logic, 68.3% route), 4 logic levels.
+
+Report:  156.226MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "osch_clk" 16.432500 MHz  |             |             |
+;                                       |   16.433 MHz|  156.226 MHz|   4  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: osch_clk   Source: OSCH.OSC   Loads: 6
+   Covered under: FREQUENCY NET "osch_clk" 16.432500 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 53 paths, 1 nets, and 67 connections (78.82% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
+Thu Apr 02 09:53:22 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o template_a2_impl.tw1 -gui template_a2_impl_map.ncd template_a2_impl.prf 
+Design file:     template_a2_impl_map.ncd
+Preference file: template_a2_impl.prf
+Device,speed:    LCMXO2-1200HC,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "osch_clk" 16.432500 MHz ;
+            53 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.441ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              state_i0  (from osch_clk +)
+   Destination:    FF         Data in        state_i0  (to osch_clk +)
+
+   Delay:               0.428ns  (53.3% logic, 46.7% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.428ns physical path delay SLICE_2 to SLICE_2 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.441ns
+
+ Physical Path Details:
+
+      Data path SLICE_2 to SLICE_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    SLICE_2.CLK to     SLICE_2.Q0 SLICE_2 (from osch_clk)
+ROUTE         7   e 0.199     SLICE_2.Q0 to     SLICE_2.M0 state_0
+MTOOFX_DEL  ---     0.095     SLICE_2.M0 to   SLICE_2.OFX0 SLICE_2
+ROUTE         1   e 0.001   SLICE_2.OFX0 to    SLICE_2.DI0 next_state_0 (to osch_clk)
+                  --------
+                    0.428   (53.3% logic, 46.7% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "osch_clk" 16.432500 MHz  |             |             |
+;                                       |     0.000 ns|     0.441 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: osch_clk   Source: OSCH.OSC   Loads: 6
+   Covered under: FREQUENCY NET "osch_clk" 16.432500 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 53 paths, 1 nets, and 67 connections (78.82% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

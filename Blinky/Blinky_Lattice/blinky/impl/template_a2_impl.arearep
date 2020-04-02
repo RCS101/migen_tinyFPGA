@@ -1,14 +1,15 @@
 ----------------------------------------------------------------------
 Report for cell top.TECH
-Register bits:  11 of 1346 (0.817%)
-I/O cells:      2
+Register bits:  6 of 1346 (0.446%)
+I/O cells:      3
                                   Cell usage:
                                cell     count   Res Usage(%)
-                              CCU2D         6          100.0
-                            FD1S3AX         1          100.0
-                            FD1S3IX        10          100.0
+                            FD1P3AX         3          100.0
+                            FD1P3IX         3          100.0
                                 GSR         1          100.0
-                               LUT4         6          100.0
-                                 OB         2          100.0
+                                 IB         2          100.0
+                               LUT4        19          100.0
+                                 OB         1          100.0
                                OSCH         1          100.0
-                              TOTAL        27
+                              PFUMX         1          100.0
+                              TOTAL        31

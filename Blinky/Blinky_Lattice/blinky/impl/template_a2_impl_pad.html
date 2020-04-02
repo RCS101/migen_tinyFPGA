@@ -14,20 +14,22 @@ Performance Grade:      4
 PACKAGE:          QFN32
 Package Status:                     Preliminary    Version 1.42
 
-Wed Mar 25 17:21:30 2020
+Wed Apr 01 10:30:02 2020
 
 Pinout by Port Name:
-+-----------+----------+--------------+-------+-----------+-----------+--------------------------------+
-| Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                     |
-+-----------+----------+--------------+-------+-----------+-----------+--------------------------------+
-| Dout      | 14/2     | LVCMOS33_OUT | PB11B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW  |
-| user_led0 | 13/2     | LVCMOS33_OUT | PB11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW  |
-+-----------+----------+--------------+-------+-----------+-----------+--------------------------------+
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+| Port Name | Pin/Bank | Buffer Type  | Site  | PG Enable | BC Enable | Properties                           |
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
+| user_cs   | 20/1     | LVCMOS33_IN  | PR5D  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
+| user_led0 | 13/2     | LVCMOS33_OUT | PB11A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| user_sclk | 14/2     | LVCMOS33_IN  | PB11B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
++-----------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
 Vccio by Bank:
 +------+-------+
 | Bank | Vccio |
 +------+-------+
+| 1    | 3.3V  |
 | 2    | 3.3V  |
 +------+-------+
 
@@ -51,10 +53,10 @@ Vccio by Bank:
 | 11/2     |     unused, PULL:DOWN |            |              | PB9A  | PCLKT2_0      |           |           |
 | 12/2     |     unused, PULL:DOWN |            |              | PB9B  | PCLKC2_0      |           |           |
 | 13/2     | user_led0             | LOCATED    | LVCMOS33_OUT | PB11A | PCLKT2_1      |           |           |
-| 14/2     | Dout                  | LOCATED    | LVCMOS33_OUT | PB11B | PCLKC2_1      |           |           |
+| 14/2     | user_sclk             | LOCATED    | LVCMOS33_IN  | PB11B | PCLKC2_1      |           |           |
 | 16/2     |     unused, PULL:DOWN |            |              | PB20C | SN            |           |           |
 | 17/2     |     unused, PULL:DOWN |            |              | PB20D | SI/SISPI      |           |           |
-| 20/1     |     unused, PULL:DOWN |            |              | PR5D  | PCLKC1_0/DQ0  |           |           |
+| 20/1     | user_cs               | LOCATED    | LVCMOS33_IN  | PR5D  | PCLKC1_0/DQ0  |           |           |
 | 21/1     |     unused, PULL:DOWN |            |              | PR5C  | PCLKT1_0/DQ0  |           |           |
 | 23/0     |     unused, PULL:DOWN |            |              | PT17D | DONE          |           |           |
 | 25/0     |     unused, PULL:DOWN |            |              | PT15D | PROGRAMN      |           |           |
@@ -168,8 +170,9 @@ Dedicated sysCONFIG Pins:
 List of All Pins' Locate Preferences Based on Final Placement After PAR 
 to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
 
-LOCATE  COMP  "Dout"  SITE  "14";
+LOCATE  COMP  "user_cs"  SITE  "20";
 LOCATE  COMP  "user_led0"  SITE  "13";
+LOCATE  COMP  "user_sclk"  SITE  "14";
 
 
 
@@ -181,7 +184,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Mar 25 17:21:30 2020
+Wed Apr 01 10:30:02 2020
 
 
 

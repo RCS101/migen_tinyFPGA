@@ -1,0 +1,13 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Apr 02 14:20:37 2020 *
+NOTE DESIGN NAME: top *
+NOTE DEVICE NAME: LCMXO2-1200HC-4QFN32 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS user_led0 : 13 : out *
+NOTE PINS Dout : 16 : out *
+NOTE PINS user_sclk : 14 : in *
+NOTE PINS user_mosi : 17 : in *
+NOTE PINS user_cs : 20 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

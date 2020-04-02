@@ -10,29 +10,30 @@ Command line:   map -a MachXO2 -p LCMXO2-1200HC -t QFN32 -s 4 -oc Commercial
      -mp template_a2_impl.mrp -lpf C:/cygwin64/home/robin/Documents/migen_tinyFP
      GA/Blinky/Blinky_Lattice/blinky/impl/template_a2_impl.lpf -lpf C:/cygwin64/
      home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lattice/blinky/template_a
-     2.lpf -c 0 -gui 
+     2.lpf -c 0 -gui -msgset C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Bli
+     nky/Blinky_Lattice/blinky/promote.xml 
 Target Vendor:  LATTICE
 Target Device:  LCMXO2-1200HCQFN32
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  03/25/20  17:21:27
+Mapped on:  04/01/20  10:30:00
 
 Design Summary
 --------------
 
-   Number of registers:     11 out of  1346 (1%)
-      PFU registers:           11 out of  1280 (1%)
+   Number of registers:      6 out of  1346 (0%)
+      PFU registers:            6 out of  1280 (0%)
       PIO registers:            0 out of    66 (0%)
-   Number of SLICEs:         9 out of   640 (1%)
-      SLICEs as Logic/ROM:      9 out of   640 (1%)
+   Number of SLICEs:        10 out of   640 (2%)
+      SLICEs as Logic/ROM:     10 out of   640 (2%)
       SLICEs as RAM:            0 out of   480 (0%)
-      SLICEs as Carry:          6 out of   640 (1%)
-   Number of LUT4s:         18 out of  1280 (1%)
-      Number used as logic LUTs:          6
+      SLICEs as Carry:          0 out of   640 (0%)
+   Number of LUT4s:         19 out of  1280 (1%)
+      Number used as logic LUTs:         19
       Number used as distributed RAM:     0
-      Number used as ripple logic:       12
+      Number used as ripple logic:        0
       Number used as shift registers:     0
-   Number of PIO sites used: 2 + 4(JTAG) out of 22 (27%)
+   Number of PIO sites used: 3 + 4(JTAG) out of 22 (32%)
    Number of block RAMs:  0 out of 7 (0%)
    Number of GSRs:        0 out of 1 (0%)
    EFB used :        No
@@ -58,46 +59,56 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net osch_clk: 7 loads, 7 rising, 0 falling (Driver: OSCH )
-   Number of Clock Enables:  0
+     Net osch_clk: 5 loads, 5 rising, 0 falling (Driver: OSCH )
 
                                     Page 1
 
 
 
 
-Design:  top                                           Date:  03/25/20  17:21:27
+Design:  top                                           Date:  04/01/20  10:30:00
 
 Design Summary (cont)
 ---------------------
-   Number of LSRs:  1
-     Net n97: 6 loads, 6 LSLICEs
+   Number of Clock Enables:  4
+     Net osch_clk_enable_6: 2 loads, 2 LSLICEs
+     Net osch_clk_enable_2: 1 loads, 1 LSLICEs
+     Net osch_clk_enable_3: 1 loads, 1 LSLICEs
+     Net osch_clk_enable_5: 1 loads, 1 LSLICEs
+   Number of LSRs:  0
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net n97: 6 loads
-     Net cnt_0: 3 loads
-     Net cnt_1: 3 loads
-     Net cnt_2: 3 loads
-     Net cnt_3: 3 loads
-     Net cnt_4: 3 loads
-     Net cnt_5: 2 loads
-     Net cnt_6: 2 loads
-     Net Dout_c: 2 loads
-     Net n118: 2 loads
+     Net user_cs_c: 9 loads
+     Net n497: 8 loads
+     Net n496: 7 loads
+     Net state_0: 5 loads
+     Net user_sclk_c: 5 loads
+     Net bit_no_0: 4 loads
+     Net n494: 4 loads
+     Net user_led0_N_41: 4 loads
+     Net bit_no_1: 3 loads
+     Net state_1: 3 loads
 
 
 
 
-   Number of warnings:  1
+   Number of warnings:  4
    Number of errors:    0
      
 
 Design Errors/Warnings
 ----------------------
 
+WARNING - map: C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lat
+     tice/blinky/template_a2.lpf(8): Semantic error in "IOBUF PORT "user_mosi"
+     IO_TYPE=LVCMOS33 ;": Port "user_mosi" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: input pad net 'user_mosi' has no legal load.
 WARNING - map: OSCH 'OSCH' has FREQUENCY preference value set to 16.43 MHZ,
      which is different from the actual value 15.65 MHZ. The FREQUENCY
      preference is still within the 5.5% tolerence of the actual value.
+WARNING - map: IO buffer missing for top level port user_mosi...logic will be
+     discarded.
 
 IO (PIO) Attributes
 -------------------
@@ -106,10 +117,22 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
+| user_sclk           | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
 | user_led0           | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| Dout                | OUTPUT    | LVCMOS33  |            |
+| user_cs             | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
+
+
+
+
+                                    Page 2
+
+
+
+
+Design:  top                                           Date:  04/01/20  10:30:00
 
 Removed logic
 -------------
@@ -118,21 +141,9 @@ Block i2 undriven or does not drive anything - clipped.
 Block GSR_INST undriven or does not drive anything - clipped.
 Signal GND_net undriven or does not drive anything - clipped.
 Signal VCC_net undriven or does not drive anything - clipped.
-Signal cnt_25_add_4_11/S1 undriven or does not drive anything - clipped.
-Signal cnt_25_add_4_11/CO undriven or does not drive anything - clipped.
-Signal cnt_25_add_4_1/S0 undriven or does not drive anything - clipped.
-Signal cnt_25_add_4_1/CI undriven or does not drive anything - clipped.
 Block i1 was optimized away.
 
      
-
-
-                                    Page 2
-
-
-
-
-Design:  top                                           Date:  03/25/20  17:21:27
 
 OSC Summary
 -----------
@@ -155,19 +166,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 38 MB
+   Peak Memory Usage: 39 MB
         
-
-
-
-
-
-
-
-
-
-
-
 
 
 

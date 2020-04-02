@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/2/2020 11:37:23
+#Project Location: C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lattice/blinky; Project name: template_a2
+prj_project open "C:/cygwin64/home/robin/Documents/migen_tinyFPGA/Blinky/Blinky_Lattice/blinky/template_a2.ldf"
+prj_project close
+#Stop recording: 4/2/2020 11:37:32

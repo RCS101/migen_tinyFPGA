@@ -11,7 +11,7 @@ Phase 2 edge = Data read on falling edge
 """
 class SPI_slave(Module):
     def __init__(self, platform):
-    #    self.led0 = led0 = platform.request("user_led0")
+        self.led0 = led0 = platform.request("user_led0")
     #    self.DOUT = DOUT = platform.request("Dout")
 
         # Input pins
@@ -20,11 +20,11 @@ class SPI_slave(Module):
         self.mosi = mosi = platform.request("user_mosi")#Signal()#
         self.cs = cs = platform.request("user_cs")#Signal()# =
         self.data = data = Signal(8) # 27 bit LED register
-        self.error = error = Signal()
-        self.byte_ack = byte_ack = Signal()
+        self.error = error = Signal(1)
+        self.byte_ack = byte_ack = Signal(1)
         ###
 
-        # self.comb +=
+        self.comb += self.led0.eq(self.byte_ack) # Toggle tinyFPGA led when a byte is acknowledged
         # we are clocked by sclk, every edge run through the FSM
 
         """
@@ -57,7 +57,7 @@ class SPI_slave(Module):
         ### START
         self.mosi_fsm.act("START",
             If(self.cs,
-                self.error.eq(1),
+                NextValue(self.error, self.error + 1),
                 NextState("IDLE")
             ).Elif(self.sclk,                #wait until sclk goes low, then move to DATA to read the bit. This is falling edge trigger.
                 NextState("DATA")
@@ -66,14 +66,14 @@ class SPI_slave(Module):
         ### DATA
         self.mosi_fsm.act("DATA",
             If(self.cs,
-                self.error.eq(1),
+                NextValue(self.error, self.error + 1),
                 NextState("IDLE")
             ).Elif(~self.sclk,
-                NextValue(self.data, Cat(self.data[1:8], self.mosi)), # Cat records the data as LSB - currently don't know how to make it MSB dumb
+                NextValue(self.data, Cat(self.data[1:8], self.mosi)), # Cat records the data as LSB - currently don't know how to make it MSB (Im dumb)
                 NextValue(bit_no, bit_no + 1),
                 If(bit_no == 7,
                     NextState("STOP"),
-                    self.byte_ack.eq(1)
+                    NextValue(self.byte_ack, self.byte_ack + 1)
                     ).Else(
                         NextState("HOLD")
                     )
@@ -82,7 +82,7 @@ class SPI_slave(Module):
         ### HOLD
         self.mosi_fsm.act("HOLD",
             If(self.cs,
-                self.error.eq(1),
+                NextValue(self.error, self.error + 1),
                 NextState("IDLE")
             ).Elif(self.sclk, # wait until the clock goes high again before moving to DATA
                 NextState("DATA")
@@ -91,11 +91,17 @@ class SPI_slave(Module):
         ### STOP
         self.mosi_fsm.act("STOP",
             ## If either chip is released or the byte is handled return to IDLE
-            If(self.cs,
-                NextState("IDLE")
-            ).Elif(~self.byte_ack,
-                NextState("IDLE")
-            )
+            NextValue(self.byte_ack, 0),
+            NextValue(self.data, 0),
+            NextState("IDLE")
+            # If(self.cs,
+            #     NextValue(self.byte_ack, 0),
+            #     NextValue(self.data, 0),
+            #     NextState("IDLE")
+            # )
+            # .Elif(~self.byte_ack,
+            #     NextState("IDLE")
+            # )
         )
 
 
@@ -133,7 +139,37 @@ def _spi_master(tx, dut):
 
     yield dut.sclk.eq(0)
     yield dut.mosi.eq(0)
+#    yield dut.cs.eq(1)
+
+    yield; yield; yield; yield; # 4 clocks
+    yield; yield; yield; yield; # 4 clocks
+
+#    yield dut.cs.eq(0)
+
+    bitmask = 0x01 # LSB - make this 0x80 for MSB
+    tx = 0x23
+    print("Data in: {}".format(hex(tx)))
+
+    for i in range(0, 8):
+        if (bitmask & tx) == bitmask:
+            yield dut.mosi.eq(1)
+        else:
+            yield dut.mosi.eq(0)
+
+        bitmask = (bitmask<<1) # flip shift direction for MSB
+
+        yield dut.sclk.eq(1)
+        yield; yield; yield; yield;
+        yield dut.sclk.eq(0)
+        yield; yield; yield; yield;
+
+    yield dut.sclk.eq(0)
+    yield dut.mosi.eq(0)
     yield dut.cs.eq(1)
+
+
+
+
     print("Transmit complete")
     yield; yield; yield; yield; # 4 clocks
     yield; yield; yield; yield; # 4 clocks
@@ -141,13 +177,11 @@ def _spi_master(tx, dut):
 # class TestBench(Module):
 #     def __init__(self):
 
+# Create our platform (fpga interface)
 plat = tinyPlatform.Platform()
 dut = SPI_slave(plat)
-run_simulation(dut, _spi_master(0x05, dut), vcd_name="SPI_slave.vcd")
+run_simulation(dut, _spi_master(0x45, dut), vcd_name="SPI_slave.vcd")
 
-# Create our platform (fpga interface)
-#plat = tinyPlatform.Platform()
-# Create our module and blink LEDs
-#module = SPI_slave(plat)
-# Build
-#plat.build(module)
+# Create our module and blink LEDs asnd build
+# module = SPI_slave(plat)
+# plat.build(module)
