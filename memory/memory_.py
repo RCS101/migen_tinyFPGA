@@ -10,12 +10,13 @@ class main(Module):
         """
 
         self.led0 = led0 = Signal(1) # platform.request("user_led0")
-
         self.dataIn = dataIn = Signal(8) # 8b data, read from memory
 
         self.bitmask = bitmask = Signal(8)
         self.bitmask.eq(0x01)
         self.cnt = cnt = Signal(8)
+
+#        self.comb += self.cnt.eq(self.led0)
 
         # declare memory, width, depth, init, name. 8 bit wide 255 blocks deeps
         self.mem_add = mem_add = Signal(8)
@@ -29,17 +30,39 @@ class main(Module):
 
                 If((self.dataIn & self.bitmask),
                     self.led0.eq(1)
-                ),Else(
+                ).Else(
                     self.led0.eq(0)
                 ),
 
-                self.bitmask.eq(self.bitmask<<1),
+                self.bitmask.eq((self.bitmask << 1)),
 
                 If(self.bitmask == 0x80,
                     self.bitmask.eq(0x01),
                     # Get next byte
-                ),
-
-                self.cnt.eq(self.cnt + 1)
+                    self.dataIn.eq(self.mem[self.cnt]),
+                    self.cnt.eq(self.cnt + 1)
+                )
             )
-        ]
+       ]
+
+
+
+def TestBench(dut):
+    #def __init__(self):
+    print("Begin")
+    var = 0
+    yield dut.bitmask.eq(1)
+    while var < 255 :
+        var =  yield dut.cnt
+        yield
+
+
+# Create our platform (fpga interface)
+#plat = tinyPlatform.Platform()
+
+dut = main()
+run_simulation(dut, TestBench(dut), vcd_name="memory.vcd")
+
+# Create our module and blink LEDs asnd build
+#module = main(plat)
+#plat.build(module)
