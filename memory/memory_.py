@@ -14,19 +14,16 @@ class main(Module):
 
         self.bitmask = bitmask = Signal(8)
         self.bitmask.eq(0x01)
-        self.cnt = cnt = Signal(8)
-
-#        self.comb += self.cnt.eq(self.led0)
 
         # declare memory, width, depth, init, name. 8 bit wide 255 blocks deeps
         self.mem_add = mem_add = Signal(8)
         self.specials.mem = Memory(8, 2**8, init=list(range(255)), name="memories")
         self.specials += self.mem
-        r_pt = self.mem.get_port(write_capable=False, has_re=True, mode=READ_FIRST)
+        self.r_pt = self.mem.get_port(write_capable=False)
 
         # clcok through each byte toggling LED
         self.sync += [
-            If(self.cnt < 255,
+            If(self.r_pt.adr< 255,
 
                 If((self.dataIn & self.bitmask),
                     self.led0.eq(1)
@@ -38,13 +35,12 @@ class main(Module):
 
                 If(self.bitmask == 0x80,
                     self.bitmask.eq(0x01),
-                    # Get next byte
-                    self.dataIn.eq(self.mem[self.cnt]),
-                    self.cnt.eq(self.cnt + 1)
+                    self.r_pt.adr.eq(self.r_pt.adr + 1)  # Increment the memory address. In Comb this will read from the next address to dataIn
                 )
             )
        ]
 
+        self.comb += self.dataIn.eq(self.r_pt.dat_r) # fetch the new cmd from memory
 
 
 def TestBench(dut):
@@ -53,7 +49,7 @@ def TestBench(dut):
     var = 0
     yield dut.bitmask.eq(1)
     while var < 255 :
-        var =  yield dut.cnt
+        var =  yield dut.r_pt.adr
         yield
 
 

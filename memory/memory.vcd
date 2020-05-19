@@ -1,267 +1,266 @@
 $var wire 1 ! led0 $end
 $var wire 8 " dataIn $end
 $var wire 8 # bitmask $end
-$var wire 8 $ cnt $end
-$var wire 8 % adr $end
-$var wire 8 & dat_r $end
-$var wire 1 ' re $end
-$var wire 8 ( memories_data_0 $end
-$var wire 8 ) memories_data_1 $end
-$var wire 8 * memories_data_2 $end
-$var wire 8 + memories_data_3 $end
-$var wire 8 , memories_data_4 $end
-$var wire 8 - memories_data_5 $end
-$var wire 8 . memories_data_6 $end
-$var wire 8 / memories_data_7 $end
-$var wire 8 0 memories_data_8 $end
-$var wire 8 1 memories_data_9 $end
-$var wire 8 2 memories_data_10 $end
-$var wire 8 3 memories_data_11 $end
-$var wire 8 4 memories_data_12 $end
-$var wire 8 5 memories_data_13 $end
-$var wire 8 6 memories_data_14 $end
-$var wire 8 7 memories_data_15 $end
-$var wire 8 8 memories_data_16 $end
-$var wire 8 9 memories_data_17 $end
-$var wire 8 : memories_data_18 $end
-$var wire 8 ; memories_data_19 $end
-$var wire 8 < memories_data_20 $end
-$var wire 8 = memories_data_21 $end
-$var wire 8 > memories_data_22 $end
-$var wire 8 ? memories_data_23 $end
-$var wire 8 @ memories_data_24 $end
-$var wire 8 A memories_data_25 $end
-$var wire 8 B memories_data_26 $end
-$var wire 8 C memories_data_27 $end
-$var wire 8 D memories_data_28 $end
-$var wire 8 E memories_data_29 $end
-$var wire 8 F memories_data_30 $end
-$var wire 8 G memories_data_31 $end
-$var wire 8 H memories_data_32 $end
-$var wire 8 I memories_data_33 $end
-$var wire 8 J memories_data_34 $end
-$var wire 8 K memories_data_35 $end
-$var wire 8 L memories_data_36 $end
-$var wire 8 M memories_data_37 $end
-$var wire 8 N memories_data_38 $end
-$var wire 8 O memories_data_39 $end
-$var wire 8 P memories_data_40 $end
-$var wire 8 Q memories_data_41 $end
-$var wire 8 R memories_data_42 $end
-$var wire 8 S memories_data_43 $end
-$var wire 8 T memories_data_44 $end
-$var wire 8 U memories_data_45 $end
-$var wire 8 V memories_data_46 $end
-$var wire 8 W memories_data_47 $end
-$var wire 8 X memories_data_48 $end
-$var wire 8 Y memories_data_49 $end
-$var wire 8 Z memories_data_50 $end
-$var wire 8 [ memories_data_51 $end
-$var wire 8 \ memories_data_52 $end
-$var wire 8 ] memories_data_53 $end
-$var wire 8 ^ memories_data_54 $end
-$var wire 8 _ memories_data_55 $end
-$var wire 8 ` memories_data_56 $end
-$var wire 8 a memories_data_57 $end
-$var wire 8 b memories_data_58 $end
-$var wire 8 c memories_data_59 $end
-$var wire 8 d memories_data_60 $end
-$var wire 8 e memories_data_61 $end
-$var wire 8 f memories_data_62 $end
-$var wire 8 g memories_data_63 $end
-$var wire 8 h memories_data_64 $end
-$var wire 8 i memories_data_65 $end
-$var wire 8 j memories_data_66 $end
-$var wire 8 k memories_data_67 $end
-$var wire 8 l memories_data_68 $end
-$var wire 8 m memories_data_69 $end
-$var wire 8 n memories_data_70 $end
-$var wire 8 o memories_data_71 $end
-$var wire 8 p memories_data_72 $end
-$var wire 8 q memories_data_73 $end
-$var wire 8 r memories_data_74 $end
-$var wire 8 s memories_data_75 $end
-$var wire 8 t memories_data_76 $end
-$var wire 8 u memories_data_77 $end
-$var wire 8 v memories_data_78 $end
-$var wire 8 w memories_data_79 $end
-$var wire 8 x memories_data_80 $end
-$var wire 8 y memories_data_81 $end
-$var wire 8 z memories_data_82 $end
-$var wire 8 { memories_data_83 $end
-$var wire 8 | memories_data_84 $end
-$var wire 8 } memories_data_85 $end
-$var wire 8 ~ memories_data_86 $end
-$var wire 8 "! memories_data_87 $end
-$var wire 8 "" memories_data_88 $end
-$var wire 8 "# memories_data_89 $end
-$var wire 8 "$ memories_data_90 $end
-$var wire 8 "% memories_data_91 $end
-$var wire 8 "& memories_data_92 $end
-$var wire 8 "' memories_data_93 $end
-$var wire 8 "( memories_data_94 $end
-$var wire 8 ") memories_data_95 $end
-$var wire 8 "* memories_data_96 $end
-$var wire 8 "+ memories_data_97 $end
-$var wire 8 ", memories_data_98 $end
-$var wire 8 "- memories_data_99 $end
-$var wire 8 ". memories_data_100 $end
-$var wire 8 "/ memories_data_101 $end
-$var wire 8 "0 memories_data_102 $end
-$var wire 8 "1 memories_data_103 $end
-$var wire 8 "2 memories_data_104 $end
-$var wire 8 "3 memories_data_105 $end
-$var wire 8 "4 memories_data_106 $end
-$var wire 8 "5 memories_data_107 $end
-$var wire 8 "6 memories_data_108 $end
-$var wire 8 "7 memories_data_109 $end
-$var wire 8 "8 memories_data_110 $end
-$var wire 8 "9 memories_data_111 $end
-$var wire 8 ": memories_data_112 $end
-$var wire 8 "; memories_data_113 $end
-$var wire 8 "< memories_data_114 $end
-$var wire 8 "= memories_data_115 $end
-$var wire 8 "> memories_data_116 $end
-$var wire 8 "? memories_data_117 $end
-$var wire 8 "@ memories_data_118 $end
-$var wire 8 "A memories_data_119 $end
-$var wire 8 "B memories_data_120 $end
-$var wire 8 "C memories_data_121 $end
-$var wire 8 "D memories_data_122 $end
-$var wire 8 "E memories_data_123 $end
-$var wire 8 "F memories_data_124 $end
-$var wire 8 "G memories_data_125 $end
-$var wire 8 "H memories_data_126 $end
-$var wire 8 "I memories_data_127 $end
-$var wire 8 "J memories_data_128 $end
-$var wire 8 "K memories_data_129 $end
-$var wire 8 "L memories_data_130 $end
-$var wire 8 "M memories_data_131 $end
-$var wire 8 "N memories_data_132 $end
-$var wire 8 "O memories_data_133 $end
-$var wire 8 "P memories_data_134 $end
-$var wire 8 "Q memories_data_135 $end
-$var wire 8 "R memories_data_136 $end
-$var wire 8 "S memories_data_137 $end
-$var wire 8 "T memories_data_138 $end
-$var wire 8 "U memories_data_139 $end
-$var wire 8 "V memories_data_140 $end
-$var wire 8 "W memories_data_141 $end
-$var wire 8 "X memories_data_142 $end
-$var wire 8 "Y memories_data_143 $end
-$var wire 8 "Z memories_data_144 $end
-$var wire 8 "[ memories_data_145 $end
-$var wire 8 "\ memories_data_146 $end
-$var wire 8 "] memories_data_147 $end
-$var wire 8 "^ memories_data_148 $end
-$var wire 8 "_ memories_data_149 $end
-$var wire 8 "` memories_data_150 $end
-$var wire 8 "a memories_data_151 $end
-$var wire 8 "b memories_data_152 $end
-$var wire 8 "c memories_data_153 $end
-$var wire 8 "d memories_data_154 $end
-$var wire 8 "e memories_data_155 $end
-$var wire 8 "f memories_data_156 $end
-$var wire 8 "g memories_data_157 $end
-$var wire 8 "h memories_data_158 $end
-$var wire 8 "i memories_data_159 $end
-$var wire 8 "j memories_data_160 $end
-$var wire 8 "k memories_data_161 $end
-$var wire 8 "l memories_data_162 $end
-$var wire 8 "m memories_data_163 $end
-$var wire 8 "n memories_data_164 $end
-$var wire 8 "o memories_data_165 $end
-$var wire 8 "p memories_data_166 $end
-$var wire 8 "q memories_data_167 $end
-$var wire 8 "r memories_data_168 $end
-$var wire 8 "s memories_data_169 $end
-$var wire 8 "t memories_data_170 $end
-$var wire 8 "u memories_data_171 $end
-$var wire 8 "v memories_data_172 $end
-$var wire 8 "w memories_data_173 $end
-$var wire 8 "x memories_data_174 $end
-$var wire 8 "y memories_data_175 $end
-$var wire 8 "z memories_data_176 $end
-$var wire 8 "{ memories_data_177 $end
-$var wire 8 "| memories_data_178 $end
-$var wire 8 "} memories_data_179 $end
-$var wire 8 "~ memories_data_180 $end
-$var wire 8 #! memories_data_181 $end
-$var wire 8 #" memories_data_182 $end
-$var wire 8 ## memories_data_183 $end
-$var wire 8 #$ memories_data_184 $end
-$var wire 8 #% memories_data_185 $end
-$var wire 8 #& memories_data_186 $end
-$var wire 8 #' memories_data_187 $end
-$var wire 8 #( memories_data_188 $end
-$var wire 8 #) memories_data_189 $end
-$var wire 8 #* memories_data_190 $end
-$var wire 8 #+ memories_data_191 $end
-$var wire 8 #, memories_data_192 $end
-$var wire 8 #- memories_data_193 $end
-$var wire 8 #. memories_data_194 $end
-$var wire 8 #/ memories_data_195 $end
-$var wire 8 #0 memories_data_196 $end
-$var wire 8 #1 memories_data_197 $end
-$var wire 8 #2 memories_data_198 $end
-$var wire 8 #3 memories_data_199 $end
-$var wire 8 #4 memories_data_200 $end
-$var wire 8 #5 memories_data_201 $end
-$var wire 8 #6 memories_data_202 $end
-$var wire 8 #7 memories_data_203 $end
-$var wire 8 #8 memories_data_204 $end
-$var wire 8 #9 memories_data_205 $end
-$var wire 8 #: memories_data_206 $end
-$var wire 8 #; memories_data_207 $end
-$var wire 8 #< memories_data_208 $end
-$var wire 8 #= memories_data_209 $end
-$var wire 8 #> memories_data_210 $end
-$var wire 8 #? memories_data_211 $end
-$var wire 8 #@ memories_data_212 $end
-$var wire 8 #A memories_data_213 $end
-$var wire 8 #B memories_data_214 $end
-$var wire 8 #C memories_data_215 $end
-$var wire 8 #D memories_data_216 $end
-$var wire 8 #E memories_data_217 $end
-$var wire 8 #F memories_data_218 $end
-$var wire 8 #G memories_data_219 $end
-$var wire 8 #H memories_data_220 $end
-$var wire 8 #I memories_data_221 $end
-$var wire 8 #J memories_data_222 $end
-$var wire 8 #K memories_data_223 $end
-$var wire 8 #L memories_data_224 $end
-$var wire 8 #M memories_data_225 $end
-$var wire 8 #N memories_data_226 $end
-$var wire 8 #O memories_data_227 $end
-$var wire 8 #P memories_data_228 $end
-$var wire 8 #Q memories_data_229 $end
-$var wire 8 #R memories_data_230 $end
-$var wire 8 #S memories_data_231 $end
-$var wire 8 #T memories_data_232 $end
-$var wire 8 #U memories_data_233 $end
-$var wire 8 #V memories_data_234 $end
-$var wire 8 #W memories_data_235 $end
-$var wire 8 #X memories_data_236 $end
-$var wire 8 #Y memories_data_237 $end
-$var wire 8 #Z memories_data_238 $end
-$var wire 8 #[ memories_data_239 $end
-$var wire 8 #\ memories_data_240 $end
-$var wire 8 #] memories_data_241 $end
-$var wire 8 #^ memories_data_242 $end
-$var wire 8 #_ memories_data_243 $end
-$var wire 8 #` memories_data_244 $end
-$var wire 8 #a memories_data_245 $end
-$var wire 8 #b memories_data_246 $end
-$var wire 8 #c memories_data_247 $end
-$var wire 8 #d memories_data_248 $end
-$var wire 8 #e memories_data_249 $end
-$var wire 8 #f memories_data_250 $end
-$var wire 8 #g memories_data_251 $end
-$var wire 8 #h memories_data_252 $end
-$var wire 8 #i memories_data_253 $end
-$var wire 8 #j memories_data_254 $end
-$var wire 8 #k memories_data_255 $end
-$var wire 1 #l sys_clk $end
+$var wire 8 $ adr $end
+$var wire 8 % dat_r $end
+$var wire 8 & memories_data_0 $end
+$var wire 8 ' memories_data_1 $end
+$var wire 8 ( memories_data_2 $end
+$var wire 8 ) memories_data_3 $end
+$var wire 8 * memories_data_4 $end
+$var wire 8 + memories_data_5 $end
+$var wire 8 , memories_data_6 $end
+$var wire 8 - memories_data_7 $end
+$var wire 8 . memories_data_8 $end
+$var wire 8 / memories_data_9 $end
+$var wire 8 0 memories_data_10 $end
+$var wire 8 1 memories_data_11 $end
+$var wire 8 2 memories_data_12 $end
+$var wire 8 3 memories_data_13 $end
+$var wire 8 4 memories_data_14 $end
+$var wire 8 5 memories_data_15 $end
+$var wire 8 6 memories_data_16 $end
+$var wire 8 7 memories_data_17 $end
+$var wire 8 8 memories_data_18 $end
+$var wire 8 9 memories_data_19 $end
+$var wire 8 : memories_data_20 $end
+$var wire 8 ; memories_data_21 $end
+$var wire 8 < memories_data_22 $end
+$var wire 8 = memories_data_23 $end
+$var wire 8 > memories_data_24 $end
+$var wire 8 ? memories_data_25 $end
+$var wire 8 @ memories_data_26 $end
+$var wire 8 A memories_data_27 $end
+$var wire 8 B memories_data_28 $end
+$var wire 8 C memories_data_29 $end
+$var wire 8 D memories_data_30 $end
+$var wire 8 E memories_data_31 $end
+$var wire 8 F memories_data_32 $end
+$var wire 8 G memories_data_33 $end
+$var wire 8 H memories_data_34 $end
+$var wire 8 I memories_data_35 $end
+$var wire 8 J memories_data_36 $end
+$var wire 8 K memories_data_37 $end
+$var wire 8 L memories_data_38 $end
+$var wire 8 M memories_data_39 $end
+$var wire 8 N memories_data_40 $end
+$var wire 8 O memories_data_41 $end
+$var wire 8 P memories_data_42 $end
+$var wire 8 Q memories_data_43 $end
+$var wire 8 R memories_data_44 $end
+$var wire 8 S memories_data_45 $end
+$var wire 8 T memories_data_46 $end
+$var wire 8 U memories_data_47 $end
+$var wire 8 V memories_data_48 $end
+$var wire 8 W memories_data_49 $end
+$var wire 8 X memories_data_50 $end
+$var wire 8 Y memories_data_51 $end
+$var wire 8 Z memories_data_52 $end
+$var wire 8 [ memories_data_53 $end
+$var wire 8 \ memories_data_54 $end
+$var wire 8 ] memories_data_55 $end
+$var wire 8 ^ memories_data_56 $end
+$var wire 8 _ memories_data_57 $end
+$var wire 8 ` memories_data_58 $end
+$var wire 8 a memories_data_59 $end
+$var wire 8 b memories_data_60 $end
+$var wire 8 c memories_data_61 $end
+$var wire 8 d memories_data_62 $end
+$var wire 8 e memories_data_63 $end
+$var wire 8 f memories_data_64 $end
+$var wire 8 g memories_data_65 $end
+$var wire 8 h memories_data_66 $end
+$var wire 8 i memories_data_67 $end
+$var wire 8 j memories_data_68 $end
+$var wire 8 k memories_data_69 $end
+$var wire 8 l memories_data_70 $end
+$var wire 8 m memories_data_71 $end
+$var wire 8 n memories_data_72 $end
+$var wire 8 o memories_data_73 $end
+$var wire 8 p memories_data_74 $end
+$var wire 8 q memories_data_75 $end
+$var wire 8 r memories_data_76 $end
+$var wire 8 s memories_data_77 $end
+$var wire 8 t memories_data_78 $end
+$var wire 8 u memories_data_79 $end
+$var wire 8 v memories_data_80 $end
+$var wire 8 w memories_data_81 $end
+$var wire 8 x memories_data_82 $end
+$var wire 8 y memories_data_83 $end
+$var wire 8 z memories_data_84 $end
+$var wire 8 { memories_data_85 $end
+$var wire 8 | memories_data_86 $end
+$var wire 8 } memories_data_87 $end
+$var wire 8 ~ memories_data_88 $end
+$var wire 8 "! memories_data_89 $end
+$var wire 8 "" memories_data_90 $end
+$var wire 8 "# memories_data_91 $end
+$var wire 8 "$ memories_data_92 $end
+$var wire 8 "% memories_data_93 $end
+$var wire 8 "& memories_data_94 $end
+$var wire 8 "' memories_data_95 $end
+$var wire 8 "( memories_data_96 $end
+$var wire 8 ") memories_data_97 $end
+$var wire 8 "* memories_data_98 $end
+$var wire 8 "+ memories_data_99 $end
+$var wire 8 ", memories_data_100 $end
+$var wire 8 "- memories_data_101 $end
+$var wire 8 ". memories_data_102 $end
+$var wire 8 "/ memories_data_103 $end
+$var wire 8 "0 memories_data_104 $end
+$var wire 8 "1 memories_data_105 $end
+$var wire 8 "2 memories_data_106 $end
+$var wire 8 "3 memories_data_107 $end
+$var wire 8 "4 memories_data_108 $end
+$var wire 8 "5 memories_data_109 $end
+$var wire 8 "6 memories_data_110 $end
+$var wire 8 "7 memories_data_111 $end
+$var wire 8 "8 memories_data_112 $end
+$var wire 8 "9 memories_data_113 $end
+$var wire 8 ": memories_data_114 $end
+$var wire 8 "; memories_data_115 $end
+$var wire 8 "< memories_data_116 $end
+$var wire 8 "= memories_data_117 $end
+$var wire 8 "> memories_data_118 $end
+$var wire 8 "? memories_data_119 $end
+$var wire 8 "@ memories_data_120 $end
+$var wire 8 "A memories_data_121 $end
+$var wire 8 "B memories_data_122 $end
+$var wire 8 "C memories_data_123 $end
+$var wire 8 "D memories_data_124 $end
+$var wire 8 "E memories_data_125 $end
+$var wire 8 "F memories_data_126 $end
+$var wire 8 "G memories_data_127 $end
+$var wire 8 "H memories_data_128 $end
+$var wire 8 "I memories_data_129 $end
+$var wire 8 "J memories_data_130 $end
+$var wire 8 "K memories_data_131 $end
+$var wire 8 "L memories_data_132 $end
+$var wire 8 "M memories_data_133 $end
+$var wire 8 "N memories_data_134 $end
+$var wire 8 "O memories_data_135 $end
+$var wire 8 "P memories_data_136 $end
+$var wire 8 "Q memories_data_137 $end
+$var wire 8 "R memories_data_138 $end
+$var wire 8 "S memories_data_139 $end
+$var wire 8 "T memories_data_140 $end
+$var wire 8 "U memories_data_141 $end
+$var wire 8 "V memories_data_142 $end
+$var wire 8 "W memories_data_143 $end
+$var wire 8 "X memories_data_144 $end
+$var wire 8 "Y memories_data_145 $end
+$var wire 8 "Z memories_data_146 $end
+$var wire 8 "[ memories_data_147 $end
+$var wire 8 "\ memories_data_148 $end
+$var wire 8 "] memories_data_149 $end
+$var wire 8 "^ memories_data_150 $end
+$var wire 8 "_ memories_data_151 $end
+$var wire 8 "` memories_data_152 $end
+$var wire 8 "a memories_data_153 $end
+$var wire 8 "b memories_data_154 $end
+$var wire 8 "c memories_data_155 $end
+$var wire 8 "d memories_data_156 $end
+$var wire 8 "e memories_data_157 $end
+$var wire 8 "f memories_data_158 $end
+$var wire 8 "g memories_data_159 $end
+$var wire 8 "h memories_data_160 $end
+$var wire 8 "i memories_data_161 $end
+$var wire 8 "j memories_data_162 $end
+$var wire 8 "k memories_data_163 $end
+$var wire 8 "l memories_data_164 $end
+$var wire 8 "m memories_data_165 $end
+$var wire 8 "n memories_data_166 $end
+$var wire 8 "o memories_data_167 $end
+$var wire 8 "p memories_data_168 $end
+$var wire 8 "q memories_data_169 $end
+$var wire 8 "r memories_data_170 $end
+$var wire 8 "s memories_data_171 $end
+$var wire 8 "t memories_data_172 $end
+$var wire 8 "u memories_data_173 $end
+$var wire 8 "v memories_data_174 $end
+$var wire 8 "w memories_data_175 $end
+$var wire 8 "x memories_data_176 $end
+$var wire 8 "y memories_data_177 $end
+$var wire 8 "z memories_data_178 $end
+$var wire 8 "{ memories_data_179 $end
+$var wire 8 "| memories_data_180 $end
+$var wire 8 "} memories_data_181 $end
+$var wire 8 "~ memories_data_182 $end
+$var wire 8 #! memories_data_183 $end
+$var wire 8 #" memories_data_184 $end
+$var wire 8 ## memories_data_185 $end
+$var wire 8 #$ memories_data_186 $end
+$var wire 8 #% memories_data_187 $end
+$var wire 8 #& memories_data_188 $end
+$var wire 8 #' memories_data_189 $end
+$var wire 8 #( memories_data_190 $end
+$var wire 8 #) memories_data_191 $end
+$var wire 8 #* memories_data_192 $end
+$var wire 8 #+ memories_data_193 $end
+$var wire 8 #, memories_data_194 $end
+$var wire 8 #- memories_data_195 $end
+$var wire 8 #. memories_data_196 $end
+$var wire 8 #/ memories_data_197 $end
+$var wire 8 #0 memories_data_198 $end
+$var wire 8 #1 memories_data_199 $end
+$var wire 8 #2 memories_data_200 $end
+$var wire 8 #3 memories_data_201 $end
+$var wire 8 #4 memories_data_202 $end
+$var wire 8 #5 memories_data_203 $end
+$var wire 8 #6 memories_data_204 $end
+$var wire 8 #7 memories_data_205 $end
+$var wire 8 #8 memories_data_206 $end
+$var wire 8 #9 memories_data_207 $end
+$var wire 8 #: memories_data_208 $end
+$var wire 8 #; memories_data_209 $end
+$var wire 8 #< memories_data_210 $end
+$var wire 8 #= memories_data_211 $end
+$var wire 8 #> memories_data_212 $end
+$var wire 8 #? memories_data_213 $end
+$var wire 8 #@ memories_data_214 $end
+$var wire 8 #A memories_data_215 $end
+$var wire 8 #B memories_data_216 $end
+$var wire 8 #C memories_data_217 $end
+$var wire 8 #D memories_data_218 $end
+$var wire 8 #E memories_data_219 $end
+$var wire 8 #F memories_data_220 $end
+$var wire 8 #G memories_data_221 $end
+$var wire 8 #H memories_data_222 $end
+$var wire 8 #I memories_data_223 $end
+$var wire 8 #J memories_data_224 $end
+$var wire 8 #K memories_data_225 $end
+$var wire 8 #L memories_data_226 $end
+$var wire 8 #M memories_data_227 $end
+$var wire 8 #N memories_data_228 $end
+$var wire 8 #O memories_data_229 $end
+$var wire 8 #P memories_data_230 $end
+$var wire 8 #Q memories_data_231 $end
+$var wire 8 #R memories_data_232 $end
+$var wire 8 #S memories_data_233 $end
+$var wire 8 #T memories_data_234 $end
+$var wire 8 #U memories_data_235 $end
+$var wire 8 #V memories_data_236 $end
+$var wire 8 #W memories_data_237 $end
+$var wire 8 #X memories_data_238 $end
+$var wire 8 #Y memories_data_239 $end
+$var wire 8 #Z memories_data_240 $end
+$var wire 8 #[ memories_data_241 $end
+$var wire 8 #\ memories_data_242 $end
+$var wire 8 #] memories_data_243 $end
+$var wire 8 #^ memories_data_244 $end
+$var wire 8 #_ memories_data_245 $end
+$var wire 8 #` memories_data_246 $end
+$var wire 8 #a memories_data_247 $end
+$var wire 8 #b memories_data_248 $end
+$var wire 8 #c memories_data_249 $end
+$var wire 8 #d memories_data_250 $end
+$var wire 8 #e memories_data_251 $end
+$var wire 8 #f memories_data_252 $end
+$var wire 8 #g memories_data_253 $end
+$var wire 8 #h memories_data_254 $end
+$var wire 8 #i memories_data_255 $end
+$var wire 8 #j adr_reg $end
+$var wire 1 #k sys_clk $end
 $dumpvars
 $end
 #0
@@ -271,12266 +270,12775 @@ b00000000 #
 b00000000 $
 b00000000 %
 b00000000 &
-0'
-b00000000 (
-b00000001 )
-b00000010 *
-b00000011 +
-b00000100 ,
-b00000101 -
-b00000110 .
-b00000111 /
-b00001000 0
-b00001001 1
-b00001010 2
-b00001011 3
-b00001100 4
-b00001101 5
-b00001110 6
-b00001111 7
-b00010000 8
-b00010001 9
-b00010010 :
-b00010011 ;
-b00010100 <
-b00010101 =
-b00010110 >
-b00010111 ?
-b00011000 @
-b00011001 A
-b00011010 B
-b00011011 C
-b00011100 D
-b00011101 E
-b00011110 F
-b00011111 G
-b00100000 H
-b00100001 I
-b00100010 J
-b00100011 K
-b00100100 L
-b00100101 M
-b00100110 N
-b00100111 O
-b00101000 P
-b00101001 Q
-b00101010 R
-b00101011 S
-b00101100 T
-b00101101 U
-b00101110 V
-b00101111 W
-b00110000 X
-b00110001 Y
-b00110010 Z
-b00110011 [
-b00110100 \
-b00110101 ]
-b00110110 ^
-b00110111 _
-b00111000 `
-b00111001 a
-b00111010 b
-b00111011 c
-b00111100 d
-b00111101 e
-b00111110 f
-b00111111 g
-b01000000 h
-b01000001 i
-b01000010 j
-b01000011 k
-b01000100 l
-b01000101 m
-b01000110 n
-b01000111 o
-b01001000 p
-b01001001 q
-b01001010 r
-b01001011 s
-b01001100 t
-b01001101 u
-b01001110 v
-b01001111 w
-b01010000 x
-b01010001 y
-b01010010 z
-b01010011 {
-b01010100 |
-b01010101 }
-b01010110 ~
-b01010111 "!
-b01011000 ""
-b01011001 "#
-b01011010 "$
-b01011011 "%
-b01011100 "&
-b01011101 "'
-b01011110 "(
-b01011111 ")
-b01100000 "*
-b01100001 "+
-b01100010 ",
-b01100011 "-
-b01100100 ".
-b01100101 "/
-b01100110 "0
-b01100111 "1
-b01101000 "2
-b01101001 "3
-b01101010 "4
-b01101011 "5
-b01101100 "6
-b01101101 "7
-b01101110 "8
-b01101111 "9
-b01110000 ":
-b01110001 ";
-b01110010 "<
-b01110011 "=
-b01110100 ">
-b01110101 "?
-b01110110 "@
-b01110111 "A
-b01111000 "B
-b01111001 "C
-b01111010 "D
-b01111011 "E
-b01111100 "F
-b01111101 "G
-b01111110 "H
-b01111111 "I
-b10000000 "J
-b10000001 "K
-b10000010 "L
-b10000011 "M
-b10000100 "N
-b10000101 "O
-b10000110 "P
-b10000111 "Q
-b10001000 "R
-b10001001 "S
-b10001010 "T
-b10001011 "U
-b10001100 "V
-b10001101 "W
-b10001110 "X
-b10001111 "Y
-b10010000 "Z
-b10010001 "[
-b10010010 "\
-b10010011 "]
-b10010100 "^
-b10010101 "_
-b10010110 "`
-b10010111 "a
-b10011000 "b
-b10011001 "c
-b10011010 "d
-b10011011 "e
-b10011100 "f
-b10011101 "g
-b10011110 "h
-b10011111 "i
-b10100000 "j
-b10100001 "k
-b10100010 "l
-b10100011 "m
-b10100100 "n
-b10100101 "o
-b10100110 "p
-b10100111 "q
-b10101000 "r
-b10101001 "s
-b10101010 "t
-b10101011 "u
-b10101100 "v
-b10101101 "w
-b10101110 "x
-b10101111 "y
-b10110000 "z
-b10110001 "{
-b10110010 "|
-b10110011 "}
-b10110100 "~
-b10110101 #!
-b10110110 #"
-b10110111 ##
-b10111000 #$
-b10111001 #%
-b10111010 #&
-b10111011 #'
-b10111100 #(
-b10111101 #)
-b10111110 #*
-b10111111 #+
-b11000000 #,
-b11000001 #-
-b11000010 #.
-b11000011 #/
-b11000100 #0
-b11000101 #1
-b11000110 #2
-b11000111 #3
-b11001000 #4
-b11001001 #5
-b11001010 #6
-b11001011 #7
-b11001100 #8
-b11001101 #9
-b11001110 #:
-b11001111 #;
-b11010000 #<
-b11010001 #=
-b11010010 #>
-b11010011 #?
-b11010100 #@
-b11010101 #A
-b11010110 #B
-b11010111 #C
-b11011000 #D
-b11011001 #E
-b11011010 #F
-b11011011 #G
-b11011100 #H
-b11011101 #I
-b11011110 #J
-b11011111 #K
-b11100000 #L
-b11100001 #M
-b11100010 #N
-b11100011 #O
-b11100100 #P
-b11100101 #Q
-b11100110 #R
-b11100111 #S
-b11101000 #T
-b11101001 #U
-b11101010 #V
-b11101011 #W
-b11101100 #X
-b11101101 #Y
-b11101110 #Z
-b11101111 #[
-b11110000 #\
-b11110001 #]
-b11110010 #^
-b11110011 #_
-b11110100 #`
-b11110101 #a
-b11110110 #b
-b11110111 #c
-b11111000 #d
-b11111001 #e
-b11111010 #f
-b11111011 #g
-b11111100 #h
-b11111101 #i
-b11111110 #j
-b00000000 #k
-0#l
+b00000001 '
+b00000010 (
+b00000011 )
+b00000100 *
+b00000101 +
+b00000110 ,
+b00000111 -
+b00001000 .
+b00001001 /
+b00001010 0
+b00001011 1
+b00001100 2
+b00001101 3
+b00001110 4
+b00001111 5
+b00010000 6
+b00010001 7
+b00010010 8
+b00010011 9
+b00010100 :
+b00010101 ;
+b00010110 <
+b00010111 =
+b00011000 >
+b00011001 ?
+b00011010 @
+b00011011 A
+b00011100 B
+b00011101 C
+b00011110 D
+b00011111 E
+b00100000 F
+b00100001 G
+b00100010 H
+b00100011 I
+b00100100 J
+b00100101 K
+b00100110 L
+b00100111 M
+b00101000 N
+b00101001 O
+b00101010 P
+b00101011 Q
+b00101100 R
+b00101101 S
+b00101110 T
+b00101111 U
+b00110000 V
+b00110001 W
+b00110010 X
+b00110011 Y
+b00110100 Z
+b00110101 [
+b00110110 \
+b00110111 ]
+b00111000 ^
+b00111001 _
+b00111010 `
+b00111011 a
+b00111100 b
+b00111101 c
+b00111110 d
+b00111111 e
+b01000000 f
+b01000001 g
+b01000010 h
+b01000011 i
+b01000100 j
+b01000101 k
+b01000110 l
+b01000111 m
+b01001000 n
+b01001001 o
+b01001010 p
+b01001011 q
+b01001100 r
+b01001101 s
+b01001110 t
+b01001111 u
+b01010000 v
+b01010001 w
+b01010010 x
+b01010011 y
+b01010100 z
+b01010101 {
+b01010110 |
+b01010111 }
+b01011000 ~
+b01011001 "!
+b01011010 ""
+b01011011 "#
+b01011100 "$
+b01011101 "%
+b01011110 "&
+b01011111 "'
+b01100000 "(
+b01100001 ")
+b01100010 "*
+b01100011 "+
+b01100100 ",
+b01100101 "-
+b01100110 ".
+b01100111 "/
+b01101000 "0
+b01101001 "1
+b01101010 "2
+b01101011 "3
+b01101100 "4
+b01101101 "5
+b01101110 "6
+b01101111 "7
+b01110000 "8
+b01110001 "9
+b01110010 ":
+b01110011 ";
+b01110100 "<
+b01110101 "=
+b01110110 ">
+b01110111 "?
+b01111000 "@
+b01111001 "A
+b01111010 "B
+b01111011 "C
+b01111100 "D
+b01111101 "E
+b01111110 "F
+b01111111 "G
+b10000000 "H
+b10000001 "I
+b10000010 "J
+b10000011 "K
+b10000100 "L
+b10000101 "M
+b10000110 "N
+b10000111 "O
+b10001000 "P
+b10001001 "Q
+b10001010 "R
+b10001011 "S
+b10001100 "T
+b10001101 "U
+b10001110 "V
+b10001111 "W
+b10010000 "X
+b10010001 "Y
+b10010010 "Z
+b10010011 "[
+b10010100 "\
+b10010101 "]
+b10010110 "^
+b10010111 "_
+b10011000 "`
+b10011001 "a
+b10011010 "b
+b10011011 "c
+b10011100 "d
+b10011101 "e
+b10011110 "f
+b10011111 "g
+b10100000 "h
+b10100001 "i
+b10100010 "j
+b10100011 "k
+b10100100 "l
+b10100101 "m
+b10100110 "n
+b10100111 "o
+b10101000 "p
+b10101001 "q
+b10101010 "r
+b10101011 "s
+b10101100 "t
+b10101101 "u
+b10101110 "v
+b10101111 "w
+b10110000 "x
+b10110001 "y
+b10110010 "z
+b10110011 "{
+b10110100 "|
+b10110101 "}
+b10110110 "~
+b10110111 #!
+b10111000 #"
+b10111001 ##
+b10111010 #$
+b10111011 #%
+b10111100 #&
+b10111101 #'
+b10111110 #(
+b10111111 #)
+b11000000 #*
+b11000001 #+
+b11000010 #,
+b11000011 #-
+b11000100 #.
+b11000101 #/
+b11000110 #0
+b11000111 #1
+b11001000 #2
+b11001001 #3
+b11001010 #4
+b11001011 #5
+b11001100 #6
+b11001101 #7
+b11001110 #8
+b11001111 #9
+b11010000 #:
+b11010001 #;
+b11010010 #<
+b11010011 #=
+b11010100 #>
+b11010101 #?
+b11010110 #@
+b11010111 #A
+b11011000 #B
+b11011001 #C
+b11011010 #D
+b11011011 #E
+b11011100 #F
+b11011101 #G
+b11011110 #H
+b11011111 #I
+b11100000 #J
+b11100001 #K
+b11100010 #L
+b11100011 #M
+b11100100 #N
+b11100101 #O
+b11100110 #P
+b11100111 #Q
+b11101000 #R
+b11101001 #S
+b11101010 #T
+b11101011 #U
+b11101100 #V
+b11101101 #W
+b11101110 #X
+b11101111 #Y
+b11110000 #Z
+b11110001 #[
+b11110010 #\
+b11110011 #]
+b11110100 #^
+b11110101 #_
+b11110110 #`
+b11110111 #a
+b11111000 #b
+b11111001 #c
+b11111010 #d
+b11111011 #e
+b11111100 #f
+b11111101 #g
+b11111110 #h
+b00000000 #i
+b00000000 #j
+0#k
 #5
-1#l
+1#k
 b00000001 #
 #10
-0#l
+0#k
 #15
-1#l
+1#k
 b00000010 #
 #20
-0#l
+0#k
 #25
-1#l
+1#k
 b00000100 #
 #30
-0#l
+0#k
 #35
-1#l
+1#k
 b00001000 #
 #40
-0#l
+0#k
 #45
-1#l
+1#k
 b00010000 #
 #50
-0#l
+0#k
 #55
-1#l
+1#k
 b00100000 #
 #60
-0#l
+0#k
 #65
-1#l
+1#k
 b01000000 #
 #70
-0#l
+0#k
 #75
-1#l
+1#k
 b10000000 #
 #80
-0#l
+0#k
 #85
+1#k
 b00000001 $
-1#l
 b00000001 #
 #90
-0#l
+0#k
 #95
-1#l
+1#k
+b00000001 "
 b00000010 #
+b00000001 #j
+b00000001 %
 #100
-0#l
+0#k
 #105
-1#l
+1#k
 b00000100 #
 #110
-0#l
+0#k
 #115
-1#l
+1#k
 b00001000 #
 #120
-0#l
+0#k
 #125
-1#l
+1#k
 b00010000 #
 #130
-0#l
+0#k
 #135
-1#l
+1#k
 b00100000 #
 #140
-0#l
+0#k
 #145
-1#l
+1#k
 b01000000 #
 #150
-0#l
+0#k
 #155
-1#l
+1#k
 b10000000 #
 #160
-0#l
+0#k
 #165
+1#k
 b00000010 $
-1#l
-b00000001 "
 b00000001 #
 #170
-0#l
+0#k
 #175
+1#k
 1!
-1#l
+b00000010 "
 b00000010 #
+b00000010 %
+b00000010 #j
 #180
-0#l
+0#k
 #185
-0!
-1#l
+1#k
 b00000100 #
 #190
-0#l
+0#k
 #195
-1#l
+1#k
+0!
 b00001000 #
 #200
-0#l
+0#k
 #205
-1#l
+1#k
 b00010000 #
 #210
-0#l
+0#k
 #215
-1#l
+1#k
 b00100000 #
 #220
-0#l
+0#k
 #225
-1#l
+1#k
 b01000000 #
 #230
-0#l
+0#k
 #235
-1#l
+1#k
 b10000000 #
 #240
-0#l
+0#k
 #245
+1#k
 b00000011 $
-1#l
-b00000010 "
 b00000001 #
 #250
-0#l
+0#k
 #255
-1#l
+1#k
+b00000011 "
 b00000010 #
+b00000011 #j
+b00000011 %
 #260
-0#l
+0#k
 #265
+1#k
 1!
-1#l
 b00000100 #
 #270
-0#l
+0#k
 #275
+1#k
 0!
-1#l
 b00001000 #
 #280
-0#l
+0#k
 #285
-1#l
+1#k
 b00010000 #
 #290
-0#l
+0#k
 #295
-1#l
+1#k
 b00100000 #
 #300
-0#l
+0#k
 #305
-1#l
+1#k
 b01000000 #
 #310
-0#l
+0#k
 #315
-1#l
+1#k
 b10000000 #
 #320
-0#l
+0#k
 #325
+1#k
 b00000100 $
-1#l
-b00000011 "
 b00000001 #
 #330
-0#l
+0#k
 #335
+1#k
 1!
-1#l
+b00000100 "
 b00000010 #
+b00000100 %
+b00000100 #j
 #340
-0#l
+0#k
 #345
-1#l
+1#k
+0!
 b00000100 #
 #350
-0#l
+0#k
 #355
-0!
-1#l
+1#k
+1!
 b00001000 #
 #360
-0#l
+0#k
 #365
-1#l
+1#k
+0!
 b00010000 #
 #370
-0#l
+0#k
 #375
-1#l
+1#k
 b00100000 #
 #380
-0#l
+0#k
 #385
-1#l
+1#k
 b01000000 #
 #390
-0#l
+0#k
 #395
-1#l
+1#k
 b10000000 #
 #400
-0#l
+0#k
 #405
+1#k
 b00000101 $
-1#l
-b00000100 "
 b00000001 #
 #410
-0#l
+0#k
 #415
-1#l
+1#k
+b00000101 "
 b00000010 #
+b00000101 #j
+b00000101 %
 #420
-0#l
+0#k
 #425
-1#l
+1#k
 b00000100 #
 #430
-0#l
+0#k
 #435
+1#k
 1!
-1#l
 b00001000 #
 #440
-0#l
+0#k
 #445
+1#k
 0!
-1#l
 b00010000 #
 #450
-0#l
+0#k
 #455
-1#l
+1#k
 b00100000 #
 #460
-0#l
+0#k
 #465
-1#l
+1#k
 b01000000 #
 #470
-0#l
+0#k
 #475
-1#l
+1#k
 b10000000 #
 #480
-0#l
+0#k
 #485
+1#k
 b00000110 $
-1#l
-b00000101 "
 b00000001 #
 #490
-0#l
+0#k
 #495
+1#k
 1!
-1#l
+b00000110 "
 b00000010 #
+b00000110 %
+b00000110 #j
 #500
-0#l
+0#k
 #505
-0!
-1#l
+1#k
 b00000100 #
 #510
-0#l
+0#k
 #515
-1!
-1#l
+1#k
 b00001000 #
 #520
-0#l
+0#k
 #525
+1#k
 0!
-1#l
 b00010000 #
 #530
-0#l
+0#k
 #535
-1#l
+1#k
 b00100000 #
 #540
-0#l
+0#k
 #545
-1#l
+1#k
 b01000000 #
 #550
-0#l
+0#k
 #555
-1#l
+1#k
 b10000000 #
 #560
-0#l
+0#k
 #565
+1#k
 b00000111 $
-1#l
-b00000110 "
 b00000001 #
 #570
-0#l
+0#k
 #575
-1#l
+1#k
+b00000111 "
 b00000010 #
+b00000111 #j
+b00000111 %
 #580
-0#l
+0#k
 #585
+1#k
 1!
-1#l
 b00000100 #
 #590
-0#l
+0#k
 #595
-1#l
+1#k
 b00001000 #
 #600
-0#l
+0#k
 #605
+1#k
 0!
-1#l
 b00010000 #
 #610
-0#l
+0#k
 #615
-1#l
+1#k
 b00100000 #
 #620
-0#l
+0#k
 #625
-1#l
+1#k
 b01000000 #
 #630
-0#l
+0#k
 #635
-1#l
+1#k
 b10000000 #
 #640
-0#l
+0#k
 #645
+1#k
 b00001000 $
-1#l
-b00000111 "
 b00000001 #
 #650
-0#l
+0#k
 #655
+1#k
 1!
-1#l
+b00001000 "
 b00000010 #
+b00001000 %
+b00001000 #j
 #660
-0#l
+0#k
 #665
-1#l
+1#k
+0!
 b00000100 #
 #670
-0#l
+0#k
 #675
-1#l
+1#k
 b00001000 #
 #680
-0#l
+0#k
 #685
-0!
-1#l
+1#k
+1!
 b00010000 #
 #690
-0#l
+0#k
 #695
-1#l
+1#k
+0!
 b00100000 #
 #700
-0#l
+0#k
 #705
-1#l
+1#k
 b01000000 #
 #710
-0#l
+0#k
 #715
-1#l
+1#k
 b10000000 #
 #720
-0#l
+0#k
 #725
+1#k
 b00001001 $
-1#l
-b00001000 "
 b00000001 #
 #730
-0#l
+0#k
 #735
-1#l
+1#k
+b00001001 "
 b00000010 #
+b00001001 #j
+b00001001 %
 #740
-0#l
+0#k
 #745
-1#l
+1#k
 b00000100 #
 #750
-0#l
+0#k
 #755
-1#l
+1#k
 b00001000 #
 #760
-0#l
+0#k
 #765
+1#k
 1!
-1#l
 b00010000 #
 #770
-0#l
+0#k
 #775
+1#k
 0!
-1#l
 b00100000 #
 #780
-0#l
+0#k
 #785
-1#l
+1#k
 b01000000 #
 #790
-0#l
+0#k
 #795
-1#l
+1#k
 b10000000 #
 #800
-0#l
+0#k
 #805
+1#k
 b00001010 $
-1#l
-b00001001 "
 b00000001 #
 #810
-0#l
+0#k
 #815
+1#k
 1!
-1#l
+b00001010 "
 b00000010 #
+b00001010 %
+b00001010 #j
 #820
-0#l
+0#k
 #825
-0!
-1#l
+1#k
 b00000100 #
 #830
-0#l
+0#k
 #835
-1#l
+1#k
+0!
 b00001000 #
 #840
-0#l
+0#k
 #845
+1#k
 1!
-1#l
 b00010000 #
 #850
-0#l
+0#k
 #855
+1#k
 0!
-1#l
 b00100000 #
 #860
-0#l
+0#k
 #865
-1#l
+1#k
 b01000000 #
 #870
-0#l
+0#k
 #875
-1#l
+1#k
 b10000000 #
 #880
-0#l
+0#k
 #885
+1#k
 b00001011 $
-1#l
-b00001010 "
 b00000001 #
 #890
-0#l
+0#k
 #895
-1#l
+1#k
+b00001011 "
 b00000010 #
+b00001011 #j
+b00001011 %
 #900
-0#l
+0#k
 #905
+1#k
 1!
-1#l
 b00000100 #
 #910
-0#l
+0#k
 #915
+1#k
 0!
-1#l
 b00001000 #
 #920
-0#l
+0#k
 #925
+1#k
 1!
-1#l
 b00010000 #
 #930
-0#l
+0#k
 #935
+1#k
 0!
-1#l
 b00100000 #
 #940
-0#l
+0#k
 #945
-1#l
+1#k
 b01000000 #
 #950
-0#l
+0#k
 #955
-1#l
+1#k
 b10000000 #
 #960
-0#l
+0#k
 #965
+1#k
 b00001100 $
-1#l
-b00001011 "
 b00000001 #
 #970
-0#l
+0#k
 #975
+1#k
 1!
-1#l
+b00001100 "
 b00000010 #
+b00001100 %
+b00001100 #j
 #980
-0#l
+0#k
 #985
-1#l
+1#k
+0!
 b00000100 #
 #990
-0#l
+0#k
 #995
-0!
-1#l
+1#k
+1!
 b00001000 #
 #1000
-0#l
+0#k
 #1005
-1!
-1#l
+1#k
 b00010000 #
 #1010
-0#l
+0#k
 #1015
+1#k
 0!
-1#l
 b00100000 #
 #1020
-0#l
+0#k
 #1025
-1#l
+1#k
 b01000000 #
 #1030
-0#l
+0#k
 #1035
-1#l
+1#k
 b10000000 #
 #1040
-0#l
+0#k
 #1045
+1#k
 b00001101 $
-1#l
-b00001100 "
 b00000001 #
 #1050
-0#l
+0#k
 #1055
-1#l
+1#k
+b00001101 "
 b00000010 #
+b00001101 #j
+b00001101 %
 #1060
-0#l
+0#k
 #1065
-1#l
+1#k
 b00000100 #
 #1070
-0#l
+0#k
 #1075
+1#k
 1!
-1#l
 b00001000 #
 #1080
-0#l
+0#k
 #1085
-1#l
+1#k
 b00010000 #
 #1090
-0#l
+0#k
 #1095
+1#k
 0!
-1#l
 b00100000 #
 #1100
-0#l
+0#k
 #1105
-1#l
+1#k
 b01000000 #
 #1110
-0#l
+0#k
 #1115
-1#l
+1#k
 b10000000 #
 #1120
-0#l
+0#k
 #1125
+1#k
 b00001110 $
-1#l
-b00001101 "
 b00000001 #
 #1130
-0#l
+0#k
 #1135
+1#k
 1!
-1#l
+b00001110 "
 b00000010 #
+b00001110 %
+b00001110 #j
 #1140
-0#l
+0#k
 #1145
-0!
-1#l
+1#k
 b00000100 #
 #1150
-0#l
+0#k
 #1155
-1!
-1#l
+1#k
 b00001000 #
 #1160
-0#l
+0#k
 #1165
-1#l
+1#k
 b00010000 #
 #1170
-0#l
+0#k
 #1175
+1#k
 0!
-1#l
 b00100000 #
 #1180
-0#l
+0#k
 #1185
-1#l
+1#k
 b01000000 #
 #1190
-0#l
+0#k
 #1195
-1#l
+1#k
 b10000000 #
 #1200
-0#l
+0#k
 #1205
+1#k
 b00001111 $
-1#l
-b00001110 "
 b00000001 #
 #1210
-0#l
+0#k
 #1215
-1#l
+1#k
+b00001111 "
 b00000010 #
+b00001111 #j
+b00001111 %
 #1220
-0#l
+0#k
 #1225
+1#k
 1!
-1#l
 b00000100 #
 #1230
-0#l
+0#k
 #1235
-1#l
+1#k
 b00001000 #
 #1240
-0#l
+0#k
 #1245
-1#l
+1#k
 b00010000 #
 #1250
-0#l
+0#k
 #1255
+1#k
 0!
-1#l
 b00100000 #
 #1260
-0#l
+0#k
 #1265
-1#l
+1#k
 b01000000 #
 #1270
-0#l
+0#k
 #1275
-1#l
+1#k
 b10000000 #
 #1280
-0#l
+0#k
 #1285
+1#k
 b00010000 $
-1#l
-b00001111 "
 b00000001 #
 #1290
-0#l
+0#k
 #1295
+1#k
 1!
-1#l
+b00010000 "
 b00000010 #
+b00010000 %
+b00010000 #j
 #1300
-0#l
+0#k
 #1305
-1#l
+1#k
+0!
 b00000100 #
 #1310
-0#l
+0#k
 #1315
-1#l
+1#k
 b00001000 #
 #1320
-0#l
+0#k
 #1325
-1#l
+1#k
 b00010000 #
 #1330
-0#l
+0#k
 #1335
-0!
-1#l
+1#k
+1!
 b00100000 #
 #1340
-0#l
+0#k
 #1345
-1#l
+1#k
+0!
 b01000000 #
 #1350
-0#l
+0#k
 #1355
-1#l
+1#k
 b10000000 #
 #1360
-0#l
+0#k
 #1365
+1#k
 b00010001 $
-1#l
-b00010000 "
 b00000001 #
 #1370
-0#l
+0#k
 #1375
-1#l
+1#k
+b00010001 "
 b00000010 #
+b00010001 #j
+b00010001 %
 #1380
-0#l
+0#k
 #1385
-1#l
+1#k
 b00000100 #
 #1390
-0#l
+0#k
 #1395
-1#l
+1#k
 b00001000 #
 #1400
-0#l
+0#k
 #1405
-1#l
+1#k
 b00010000 #
 #1410
-0#l
+0#k
 #1415
+1#k
 1!
-1#l
 b00100000 #
 #1420
-0#l
+0#k
 #1425
+1#k
 0!
-1#l
 b01000000 #
 #1430
-0#l
+0#k
 #1435
-1#l
+1#k
 b10000000 #
 #1440
-0#l
+0#k
 #1445
+1#k
 b00010010 $
-1#l
-b00010001 "
 b00000001 #
 #1450
-0#l
+0#k
 #1455
+1#k
 1!
-1#l
+b00010010 "
 b00000010 #
+b00010010 %
+b00010010 #j
 #1460
-0#l
+0#k
 #1465
-0!
-1#l
+1#k
 b00000100 #
 #1470
-0#l
+0#k
 #1475
-1#l
+1#k
+0!
 b00001000 #
 #1480
-0#l
+0#k
 #1485
-1#l
+1#k
 b00010000 #
 #1490
-0#l
+0#k
 #1495
+1#k
 1!
-1#l
 b00100000 #
 #1500
-0#l
+0#k
 #1505
+1#k
 0!
-1#l
 b01000000 #
 #1510
-0#l
+0#k
 #1515
-1#l
+1#k
 b10000000 #
 #1520
-0#l
+0#k
 #1525
+1#k
 b00010011 $
-1#l
-b00010010 "
 b00000001 #
 #1530
-0#l
+0#k
 #1535
-1#l
+1#k
+b00010011 "
 b00000010 #
+b00010011 #j
+b00010011 %
 #1540
-0#l
+0#k
 #1545
+1#k
 1!
-1#l
 b00000100 #
 #1550
-0#l
+0#k
 #1555
+1#k
 0!
-1#l
 b00001000 #
 #1560
-0#l
+0#k
 #1565
-1#l
+1#k
 b00010000 #
 #1570
-0#l
+0#k
 #1575
+1#k
 1!
-1#l
 b00100000 #
 #1580
-0#l
+0#k
 #1585
+1#k
 0!
-1#l
 b01000000 #
 #1590
-0#l
+0#k
 #1595
-1#l
+1#k
 b10000000 #
 #1600
-0#l
+0#k
 #1605
+1#k
 b00010100 $
-1#l
-b00010011 "
 b00000001 #
 #1610
-0#l
+0#k
 #1615
+1#k
 1!
-1#l
+b00010100 "
 b00000010 #
+b00010100 %
+b00010100 #j
 #1620
-0#l
+0#k
 #1625
-1#l
+1#k
+0!
 b00000100 #
 #1630
-0#l
+0#k
 #1635
-0!
-1#l
+1#k
+1!
 b00001000 #
 #1640
-0#l
+0#k
 #1645
-1#l
+1#k
+0!
 b00010000 #
 #1650
-0#l
+0#k
 #1655
+1#k
 1!
-1#l
 b00100000 #
 #1660
-0#l
+0#k
 #1665
+1#k
 0!
-1#l
 b01000000 #
 #1670
-0#l
+0#k
 #1675
-1#l
+1#k
 b10000000 #
 #1680
-0#l
+0#k
 #1685
+1#k
 b00010101 $
-1#l
-b00010100 "
 b00000001 #
 #1690
-0#l
+0#k
 #1695
-1#l
+1#k
+b00010101 "
 b00000010 #
+b00010101 #j
+b00010101 %
 #1700
-0#l
+0#k
 #1705
-1#l
+1#k
 b00000100 #
 #1710
-0#l
+0#k
 #1715
+1#k
 1!
-1#l
 b00001000 #
 #1720
-0#l
+0#k
 #1725
+1#k
 0!
-1#l
 b00010000 #
 #1730
-0#l
+0#k
 #1735
+1#k
 1!
-1#l
 b00100000 #
 #1740
-0#l
+0#k
 #1745
+1#k
 0!
-1#l
 b01000000 #
 #1750
-0#l
+0#k
 #1755
-1#l
+1#k
 b10000000 #
 #1760
-0#l
+0#k
 #1765
+1#k
 b00010110 $
-1#l
-b00010101 "
 b00000001 #
 #1770
-0#l
+0#k
 #1775
+1#k
 1!
-1#l
+b00010110 "
 b00000010 #
+b00010110 %
+b00010110 #j
 #1780
-0#l
+0#k
 #1785
-0!
-1#l
+1#k
 b00000100 #
 #1790
-0#l
+0#k
 #1795
-1!
-1#l
+1#k
 b00001000 #
 #1800
-0#l
+0#k
 #1805
+1#k
 0!
-1#l
 b00010000 #
 #1810
-0#l
+0#k
 #1815
+1#k
 1!
-1#l
 b00100000 #
 #1820
-0#l
+0#k
 #1825
+1#k
 0!
-1#l
 b01000000 #
 #1830
-0#l
+0#k
 #1835
-1#l
+1#k
 b10000000 #
 #1840
-0#l
+0#k
 #1845
+1#k
 b00010111 $
-1#l
-b00010110 "
 b00000001 #
 #1850
-0#l
+0#k
 #1855
-1#l
+1#k
+b00010111 "
 b00000010 #
+b00010111 #j
+b00010111 %
 #1860
-0#l
+0#k
 #1865
+1#k
 1!
-1#l
 b00000100 #
 #1870
-0#l
+0#k
 #1875
-1#l
+1#k
 b00001000 #
 #1880
-0#l
+0#k
 #1885
+1#k
 0!
-1#l
 b00010000 #
 #1890
-0#l
+0#k
 #1895
+1#k
 1!
-1#l
 b00100000 #
 #1900
-0#l
+0#k
 #1905
+1#k
 0!
-1#l
 b01000000 #
 #1910
-0#l
+0#k
 #1915
-1#l
+1#k
 b10000000 #
 #1920
-0#l
+0#k
 #1925
+1#k
 b00011000 $
-1#l
-b00010111 "
 b00000001 #
 #1930
-0#l
+0#k
 #1935
+1#k
 1!
-1#l
+b00011000 "
 b00000010 #
+b00011000 %
+b00011000 #j
 #1940
-0#l
+0#k
 #1945
-1#l
+1#k
+0!
 b00000100 #
 #1950
-0#l
+0#k
 #1955
-1#l
+1#k
 b00001000 #
 #1960
-0#l
+0#k
 #1965
-0!
-1#l
+1#k
+1!
 b00010000 #
 #1970
-0#l
+0#k
 #1975
-1!
-1#l
+1#k
 b00100000 #
 #1980
-0#l
+0#k
 #1985
+1#k
 0!
-1#l
 b01000000 #
 #1990
-0#l
+0#k
 #1995
-1#l
+1#k
 b10000000 #
 #2000
-0#l
+0#k
 #2005
+1#k
 b00011001 $
-1#l
-b00011000 "
 b00000001 #
 #2010
-0#l
+0#k
 #2015
-1#l
+1#k
+b00011001 "
 b00000010 #
+b00011001 #j
+b00011001 %
 #2020
-0#l
+0#k
 #2025
-1#l
+1#k
 b00000100 #
 #2030
-0#l
+0#k
 #2035
-1#l
+1#k
 b00001000 #
 #2040
-0#l
+0#k
 #2045
+1#k
 1!
-1#l
 b00010000 #
 #2050
-0#l
+0#k
 #2055
-1#l
+1#k
 b00100000 #
 #2060
-0#l
+0#k
 #2065
+1#k
 0!
-1#l
 b01000000 #
 #2070
-0#l
+0#k
 #2075
-1#l
+1#k
 b10000000 #
 #2080
-0#l
+0#k
 #2085
+1#k
 b00011010 $
-1#l
-b00011001 "
 b00000001 #
 #2090
-0#l
+0#k
 #2095
+1#k
 1!
-1#l
+b00011010 "
 b00000010 #
+b00011010 %
+b00011010 #j
 #2100
-0#l
+0#k
 #2105
-0!
-1#l
+1#k
 b00000100 #
 #2110
-0#l
+0#k
 #2115
-1#l
+1#k
+0!
 b00001000 #
 #2120
-0#l
+0#k
 #2125
+1#k
 1!
-1#l
 b00010000 #
 #2130
-0#l
+0#k
 #2135
-1#l
+1#k
 b00100000 #
 #2140
-0#l
+0#k
 #2145
+1#k
 0!
-1#l
 b01000000 #
 #2150
-0#l
+0#k
 #2155
-1#l
+1#k
 b10000000 #
 #2160
-0#l
+0#k
 #2165
+1#k
 b00011011 $
-1#l
-b00011010 "
 b00000001 #
 #2170
-0#l
+0#k
 #2175
-1#l
+1#k
+b00011011 "
 b00000010 #
+b00011011 #j
+b00011011 %
 #2180
-0#l
+0#k
 #2185
+1#k
 1!
-1#l
 b00000100 #
 #2190
-0#l
+0#k
 #2195
+1#k
 0!
-1#l
 b00001000 #
 #2200
-0#l
+0#k
 #2205
+1#k
 1!
-1#l
 b00010000 #
 #2210
-0#l
+0#k
 #2215
-1#l
+1#k
 b00100000 #
 #2220
-0#l
+0#k
 #2225
+1#k
 0!
-1#l
 b01000000 #
 #2230
-0#l
+0#k
 #2235
-1#l
+1#k
 b10000000 #
 #2240
-0#l
+0#k
 #2245
+1#k
 b00011100 $
-1#l
-b00011011 "
 b00000001 #
 #2250
-0#l
+0#k
 #2255
+1#k
 1!
-1#l
+b00011100 "
 b00000010 #
+b00011100 %
+b00011100 #j
 #2260
-0#l
+0#k
 #2265
-1#l
+1#k
+0!
 b00000100 #
 #2270
-0#l
+0#k
 #2275
-0!
-1#l
+1#k
+1!
 b00001000 #
 #2280
-0#l
+0#k
 #2285
-1!
-1#l
+1#k
 b00010000 #
 #2290
-0#l
+0#k
 #2295
-1#l
+1#k
 b00100000 #
 #2300
-0#l
+0#k
 #2305
+1#k
 0!
-1#l
 b01000000 #
 #2310
-0#l
+0#k
 #2315
-1#l
+1#k
 b10000000 #
 #2320
-0#l
+0#k
 #2325
+1#k
 b00011101 $
-1#l
-b00011100 "
 b00000001 #
 #2330
-0#l
+0#k
 #2335
-1#l
+1#k
+b00011101 "
 b00000010 #
+b00011101 #j
+b00011101 %
 #2340
-0#l
+0#k
 #2345
-1#l
+1#k
 b00000100 #
 #2350
-0#l
+0#k
 #2355
+1#k
 1!
-1#l
 b00001000 #
 #2360
-0#l
+0#k
 #2365
-1#l
+1#k
 b00010000 #
 #2370
-0#l
+0#k
 #2375
-1#l
+1#k
 b00100000 #
 #2380
-0#l
+0#k
 #2385
+1#k
 0!
-1#l
 b01000000 #
 #2390
-0#l
+0#k
 #2395
-1#l
+1#k
 b10000000 #
 #2400
-0#l
+0#k
 #2405
+1#k
 b00011110 $
-1#l
-b00011101 "
 b00000001 #
 #2410
-0#l
+0#k
 #2415
+1#k
 1!
-1#l
+b00011110 "
 b00000010 #
+b00011110 %
+b00011110 #j
 #2420
-0#l
+0#k
 #2425
-0!
-1#l
+1#k
 b00000100 #
 #2430
-0#l
+0#k
 #2435
-1!
-1#l
+1#k
 b00001000 #
 #2440
-0#l
+0#k
 #2445
-1#l
+1#k
 b00010000 #
 #2450
-0#l
+0#k
 #2455
-1#l
+1#k
 b00100000 #
 #2460
-0#l
+0#k
 #2465
+1#k
 0!
-1#l
 b01000000 #
 #2470
-0#l
+0#k
 #2475
-1#l
+1#k
 b10000000 #
 #2480
-0#l
+0#k
 #2485
+1#k
 b00011111 $
-1#l
-b00011110 "
 b00000001 #
 #2490
-0#l
+0#k
 #2495
-1#l
+1#k
+b00011111 "
 b00000010 #
+b00011111 #j
+b00011111 %
 #2500
-0#l
+0#k
 #2505
+1#k
 1!
-1#l
 b00000100 #
 #2510
-0#l
+0#k
 #2515
-1#l
+1#k
 b00001000 #
 #2520
-0#l
+0#k
 #2525
-1#l
+1#k
 b00010000 #
 #2530
-0#l
+0#k
 #2535
-1#l
+1#k
 b00100000 #
 #2540
-0#l
+0#k
 #2545
+1#k
 0!
-1#l
 b01000000 #
 #2550
-0#l
+0#k
 #2555
-1#l
+1#k
 b10000000 #
 #2560
-0#l
+0#k
 #2565
+1#k
 b00100000 $
-1#l
-b00011111 "
 b00000001 #
 #2570
-0#l
+0#k
 #2575
+1#k
 1!
-1#l
+b00100000 "
 b00000010 #
+b00100000 %
+b00100000 #j
 #2580
-0#l
+0#k
 #2585
-1#l
+1#k
+0!
 b00000100 #
 #2590
-0#l
+0#k
 #2595
-1#l
+1#k
 b00001000 #
 #2600
-0#l
+0#k
 #2605
-1#l
+1#k
 b00010000 #
 #2610
-0#l
+0#k
 #2615
-1#l
+1#k
 b00100000 #
 #2620
-0#l
+0#k
 #2625
-0!
-1#l
+1#k
+1!
 b01000000 #
 #2630
-0#l
+0#k
 #2635
-1#l
+1#k
+0!
 b10000000 #
 #2640
-0#l
+0#k
 #2645
+1#k
 b00100001 $
-1#l
-b00100000 "
 b00000001 #
 #2650
-0#l
+0#k
 #2655
-1#l
+1#k
+b00100001 "
 b00000010 #
+b00100001 #j
+b00100001 %
 #2660
-0#l
+0#k
 #2665
-1#l
+1#k
 b00000100 #
 #2670
-0#l
+0#k
 #2675
-1#l
+1#k
 b00001000 #
 #2680
-0#l
+0#k
 #2685
-1#l
+1#k
 b00010000 #
 #2690
-0#l
+0#k
 #2695
-1#l
+1#k
 b00100000 #
 #2700
-0#l
+0#k
 #2705
+1#k
 1!
-1#l
 b01000000 #
 #2710
-0#l
+0#k
 #2715
+1#k
 0!
-1#l
 b10000000 #
 #2720
-0#l
+0#k
 #2725
+1#k
 b00100010 $
-1#l
-b00100001 "
 b00000001 #
 #2730
-0#l
+0#k
 #2735
+1#k
 1!
-1#l
+b00100010 "
 b00000010 #
+b00100010 %
+b00100010 #j
 #2740
-0#l
+0#k
 #2745
-0!
-1#l
+1#k
 b00000100 #
 #2750
-0#l
+0#k
 #2755
-1#l
+1#k
+0!
 b00001000 #
 #2760
-0#l
+0#k
 #2765
-1#l
+1#k
 b00010000 #
 #2770
-0#l
+0#k
 #2775
-1#l
+1#k
 b00100000 #
 #2780
-0#l
+0#k
 #2785
+1#k
 1!
-1#l
 b01000000 #
 #2790
-0#l
+0#k
 #2795
+1#k
 0!
-1#l
 b10000000 #
 #2800
-0#l
+0#k
 #2805
+1#k
 b00100011 $
-1#l
-b00100010 "
 b00000001 #
 #2810
-0#l
+0#k
 #2815
-1#l
+1#k
+b00100011 "
 b00000010 #
+b00100011 #j
+b00100011 %
 #2820
-0#l
+0#k
 #2825
+1#k
 1!
-1#l
 b00000100 #
 #2830
-0#l
+0#k
 #2835
+1#k
 0!
-1#l
 b00001000 #
 #2840
-0#l
+0#k
 #2845
-1#l
+1#k
 b00010000 #
 #2850
-0#l
+0#k
 #2855
-1#l
+1#k
 b00100000 #
 #2860
-0#l
+0#k
 #2865
+1#k
 1!
-1#l
 b01000000 #
 #2870
-0#l
+0#k
 #2875
+1#k
 0!
-1#l
 b10000000 #
 #2880
-0#l
+0#k
 #2885
+1#k
 b00100100 $
-1#l
-b00100011 "
 b00000001 #
 #2890
-0#l
+0#k
 #2895
+1#k
 1!
-1#l
+b00100100 "
 b00000010 #
+b00100100 %
+b00100100 #j
 #2900
-0#l
+0#k
 #2905
-1#l
+1#k
+0!
 b00000100 #
 #2910
-0#l
+0#k
 #2915
-0!
-1#l
+1#k
+1!
 b00001000 #
 #2920
-0#l
+0#k
 #2925
-1#l
+1#k
+0!
 b00010000 #
 #2930
-0#l
+0#k
 #2935
-1#l
+1#k
 b00100000 #
 #2940
-0#l
+0#k
 #2945
+1#k
 1!
-1#l
 b01000000 #
 #2950
-0#l
+0#k
 #2955
+1#k
 0!
-1#l
 b10000000 #
 #2960
-0#l
+0#k
 #2965
+1#k
 b00100101 $
-1#l
-b00100100 "
 b00000001 #
 #2970
-0#l
+0#k
 #2975
-1#l
+1#k
+b00100101 "
 b00000010 #
+b00100101 #j
+b00100101 %
 #2980
-0#l
+0#k
 #2985
-1#l
+1#k
 b00000100 #
 #2990
-0#l
+0#k
 #2995
+1#k
 1!
-1#l
 b00001000 #
 #3000
-0#l
+0#k
 #3005
+1#k
 0!
-1#l
 b00010000 #
 #3010
-0#l
+0#k
 #3015
-1#l
+1#k
 b00100000 #
 #3020
-0#l
+0#k
 #3025
+1#k
 1!
-1#l
 b01000000 #
 #3030
-0#l
+0#k
 #3035
+1#k
 0!
-1#l
 b10000000 #
 #3040
-0#l
+0#k
 #3045
+1#k
 b00100110 $
-1#l
-b00100101 "
 b00000001 #
 #3050
-0#l
+0#k
 #3055
+1#k
 1!
-1#l
+b00100110 "
 b00000010 #
+b00100110 %
+b00100110 #j
 #3060
-0#l
+0#k
 #3065
-0!
-1#l
+1#k
 b00000100 #
 #3070
-0#l
+0#k
 #3075
-1!
-1#l
+1#k
 b00001000 #
 #3080
-0#l
+0#k
 #3085
+1#k
 0!
-1#l
 b00010000 #
 #3090
-0#l
+0#k
 #3095
-1#l
+1#k
 b00100000 #
 #3100
-0#l
+0#k
 #3105
+1#k
 1!
-1#l
 b01000000 #
 #3110
-0#l
+0#k
 #3115
+1#k
 0!
-1#l
 b10000000 #
 #3120
-0#l
+0#k
 #3125
+1#k
 b00100111 $
-1#l
-b00100110 "
 b00000001 #
 #3130
-0#l
+0#k
 #3135
-1#l
+1#k
+b00100111 "
 b00000010 #
+b00100111 #j
+b00100111 %
 #3140
-0#l
+0#k
 #3145
+1#k
 1!
-1#l
 b00000100 #
 #3150
-0#l
+0#k
 #3155
-1#l
+1#k
 b00001000 #
 #3160
-0#l
+0#k
 #3165
+1#k
 0!
-1#l
 b00010000 #
 #3170
-0#l
+0#k
 #3175
-1#l
+1#k
 b00100000 #
 #3180
-0#l
+0#k
 #3185
+1#k
 1!
-1#l
 b01000000 #
 #3190
-0#l
+0#k
 #3195
+1#k
 0!
-1#l
 b10000000 #
 #3200
-0#l
+0#k
 #3205
+1#k
 b00101000 $
-1#l
-b00100111 "
 b00000001 #
 #3210
-0#l
+0#k
 #3215
+1#k
 1!
-1#l
+b00101000 "
 b00000010 #
+b00101000 %
+b00101000 #j
 #3220
-0#l
+0#k
 #3225
-1#l
+1#k
+0!
 b00000100 #
 #3230
-0#l
+0#k
 #3235
-1#l
+1#k
 b00001000 #
 #3240
-0#l
+0#k
 #3245
-0!
-1#l
+1#k
+1!
 b00010000 #
 #3250
-0#l
+0#k
 #3255
-1#l
+1#k
+0!
 b00100000 #
 #3260
-0#l
+0#k
 #3265
+1#k
 1!
-1#l
 b01000000 #
 #3270
-0#l
+0#k
 #3275
+1#k
 0!
-1#l
 b10000000 #
 #3280
-0#l
+0#k
 #3285
+1#k
 b00101001 $
-1#l
-b00101000 "
 b00000001 #
 #3290
-0#l
+0#k
 #3295
-1#l
+1#k
+b00101001 "
 b00000010 #
+b00101001 #j
+b00101001 %
 #3300
-0#l
+0#k
 #3305
-1#l
+1#k
 b00000100 #
 #3310
-0#l
+0#k
 #3315
-1#l
+1#k
 b00001000 #
 #3320
-0#l
+0#k
 #3325
+1#k
 1!
-1#l
 b00010000 #
 #3330
-0#l
+0#k
 #3335
+1#k
 0!
-1#l
 b00100000 #
 #3340
-0#l
+0#k
 #3345
+1#k
 1!
-1#l
 b01000000 #
 #3350
-0#l
+0#k
 #3355
+1#k
 0!
-1#l
 b10000000 #
 #3360
-0#l
+0#k
 #3365
+1#k
 b00101010 $
-1#l
-b00101001 "
 b00000001 #
 #3370
-0#l
+0#k
 #3375
+1#k
 1!
-1#l
+b00101010 "
 b00000010 #
+b00101010 %
+b00101010 #j
 #3380
-0#l
+0#k
 #3385
-0!
-1#l
+1#k
 b00000100 #
 #3390
-0#l
+0#k
 #3395
-1#l
+1#k
+0!
 b00001000 #
 #3400
-0#l
+0#k
 #3405
+1#k
 1!
-1#l
 b00010000 #
 #3410
-0#l
+0#k
 #3415
+1#k
 0!
-1#l
 b00100000 #
 #3420
-0#l
+0#k
 #3425
+1#k
 1!
-1#l
 b01000000 #
 #3430
-0#l
+0#k
 #3435
+1#k
 0!
-1#l
 b10000000 #
 #3440
-0#l
+0#k
 #3445
+1#k
 b00101011 $
-1#l
-b00101010 "
 b00000001 #
 #3450
-0#l
+0#k
 #3455
-1#l
+1#k
+b00101011 "
 b00000010 #
+b00101011 #j
+b00101011 %
 #3460
-0#l
+0#k
 #3465
+1#k
 1!
-1#l
 b00000100 #
 #3470
-0#l
+0#k
 #3475
+1#k
 0!
-1#l
 b00001000 #
 #3480
-0#l
+0#k
 #3485
+1#k
 1!
-1#l
 b00010000 #
 #3490
-0#l
+0#k
 #3495
+1#k
 0!
-1#l
 b00100000 #
 #3500
-0#l
+0#k
 #3505
+1#k
 1!
-1#l
 b01000000 #
 #3510
-0#l
+0#k
 #3515
+1#k
 0!
-1#l
 b10000000 #
 #3520
-0#l
+0#k
 #3525
+1#k
 b00101100 $
-1#l
-b00101011 "
 b00000001 #
 #3530
-0#l
+0#k
 #3535
+1#k
 1!
-1#l
+b00101100 "
 b00000010 #
+b00101100 %
+b00101100 #j
 #3540
-0#l
+0#k
 #3545
-1#l
+1#k
+0!
 b00000100 #
 #3550
-0#l
+0#k
 #3555
-0!
-1#l
+1#k
+1!
 b00001000 #
 #3560
-0#l
+0#k
 #3565
-1!
-1#l
+1#k
 b00010000 #
 #3570
-0#l
+0#k
 #3575
+1#k
 0!
-1#l
 b00100000 #
 #3580
-0#l
+0#k
 #3585
+1#k
 1!
-1#l
 b01000000 #
 #3590
-0#l
+0#k
 #3595
+1#k
 0!
-1#l
 b10000000 #
 #3600
-0#l
+0#k
 #3605
+1#k
 b00101101 $
-1#l
-b00101100 "
 b00000001 #
 #3610
-0#l
+0#k
 #3615
-1#l
+1#k
+b00101101 "
 b00000010 #
+b00101101 #j
+b00101101 %
 #3620
-0#l
+0#k
 #3625
-1#l
+1#k
 b00000100 #
 #3630
-0#l
+0#k
 #3635
+1#k
 1!
-1#l
 b00001000 #
 #3640
-0#l
+0#k
 #3645
-1#l
+1#k
 b00010000 #
 #3650
-0#l
+0#k
 #3655
+1#k
 0!
-1#l
 b00100000 #
 #3660
-0#l
+0#k
 #3665
+1#k
 1!
-1#l
 b01000000 #
 #3670
-0#l
+0#k
 #3675
+1#k
 0!
-1#l
 b10000000 #
 #3680
-0#l
+0#k
 #3685
+1#k
 b00101110 $
-1#l
-b00101101 "
 b00000001 #
 #3690
-0#l
+0#k
 #3695
+1#k
 1!
-1#l
+b00101110 "
 b00000010 #
+b00101110 %
+b00101110 #j
 #3700
-0#l
+0#k
 #3705
-0!
-1#l
+1#k
 b00000100 #
 #3710
-0#l
+0#k
 #3715
-1!
-1#l
+1#k
 b00001000 #
 #3720
-0#l
+0#k
 #3725
-1#l
+1#k
 b00010000 #
 #3730
-0#l
+0#k
 #3735
+1#k
 0!
-1#l
 b00100000 #
 #3740
-0#l
+0#k
 #3745
+1#k
 1!
-1#l
 b01000000 #
 #3750
-0#l
+0#k
 #3755
+1#k
 0!
-1#l
 b10000000 #
 #3760
-0#l
+0#k
 #3765
+1#k
 b00101111 $
-1#l
-b00101110 "
 b00000001 #
 #3770
-0#l
+0#k
 #3775
-1#l
+1#k
+b00101111 "
 b00000010 #
+b00101111 #j
+b00101111 %
 #3780
-0#l
+0#k
 #3785
+1#k
 1!
-1#l
 b00000100 #
 #3790
-0#l
+0#k
 #3795
-1#l
+1#k
 b00001000 #
 #3800
-0#l
+0#k
 #3805
-1#l
+1#k
 b00010000 #
 #3810
-0#l
+0#k
 #3815
+1#k
 0!
-1#l
 b00100000 #
 #3820
-0#l
+0#k
 #3825
+1#k
 1!
-1#l
 b01000000 #
 #3830
-0#l
+0#k
 #3835
+1#k
 0!
-1#l
 b10000000 #
 #3840
-0#l
+0#k
 #3845
+1#k
 b00110000 $
-1#l
-b00101111 "
 b00000001 #
 #3850
-0#l
+0#k
 #3855
+1#k
 1!
-1#l
+b00110000 "
 b00000010 #
+b00110000 %
+b00110000 #j
 #3860
-0#l
+0#k
 #3865
-1#l
+1#k
+0!
 b00000100 #
 #3870
-0#l
+0#k
 #3875
-1#l
+1#k
 b00001000 #
 #3880
-0#l
+0#k
 #3885
-1#l
+1#k
 b00010000 #
 #3890
-0#l
+0#k
 #3895
-0!
-1#l
+1#k
+1!
 b00100000 #
 #3900
-0#l
+0#k
 #3905
-1!
-1#l
+1#k
 b01000000 #
 #3910
-0#l
+0#k
 #3915
+1#k
 0!
-1#l
 b10000000 #
 #3920
-0#l
+0#k
 #3925
+1#k
 b00110001 $
-1#l
-b00110000 "
 b00000001 #
 #3930
-0#l
+0#k
 #3935
-1#l
+1#k
+b00110001 "
 b00000010 #
+b00110001 #j
+b00110001 %
 #3940
-0#l
+0#k
 #3945
-1#l
+1#k
 b00000100 #
 #3950
-0#l
+0#k
 #3955
-1#l
+1#k
 b00001000 #
 #3960
-0#l
+0#k
 #3965
-1#l
+1#k
 b00010000 #
 #3970
-0#l
+0#k
 #3975
+1#k
 1!
-1#l
 b00100000 #
 #3980
-0#l
+0#k
 #3985
-1#l
+1#k
 b01000000 #
 #3990
-0#l
+0#k
 #3995
+1#k
 0!
-1#l
 b10000000 #
 #4000
-0#l
+0#k
 #4005
+1#k
 b00110010 $
-1#l
-b00110001 "
 b00000001 #
 #4010
-0#l
+0#k
 #4015
+1#k
 1!
-1#l
+b00110010 "
 b00000010 #
+b00110010 %
+b00110010 #j
 #4020
-0#l
+0#k
 #4025
-0!
-1#l
+1#k
 b00000100 #
 #4030
-0#l
+0#k
 #4035
-1#l
+1#k
+0!
 b00001000 #
 #4040
-0#l
+0#k
 #4045
-1#l
+1#k
 b00010000 #
 #4050
-0#l
+0#k
 #4055
+1#k
 1!
-1#l
 b00100000 #
 #4060
-0#l
+0#k
 #4065
-1#l
+1#k
 b01000000 #
 #4070
-0#l
+0#k
 #4075
+1#k
 0!
-1#l
 b10000000 #
 #4080
-0#l
+0#k
 #4085
+1#k
 b00110011 $
-1#l
-b00110010 "
 b00000001 #
 #4090
-0#l
+0#k
 #4095
-1#l
+1#k
+b00110011 "
 b00000010 #
+b00110011 #j
+b00110011 %
 #4100
-0#l
+0#k
 #4105
+1#k
 1!
-1#l
 b00000100 #
 #4110
-0#l
+0#k
 #4115
+1#k
 0!
-1#l
 b00001000 #
 #4120
-0#l
+0#k
 #4125
-1#l
+1#k
 b00010000 #
 #4130
-0#l
+0#k
 #4135
+1#k
 1!
-1#l
 b00100000 #
 #4140
-0#l
+0#k
 #4145
-1#l
+1#k
 b01000000 #
 #4150
-0#l
+0#k
 #4155
+1#k
 0!
-1#l
 b10000000 #
 #4160
-0#l
+0#k
 #4165
+1#k
 b00110100 $
-1#l
-b00110011 "
 b00000001 #
 #4170
-0#l
+0#k
 #4175
+1#k
 1!
-1#l
+b00110100 "
 b00000010 #
+b00110100 %
+b00110100 #j
 #4180
-0#l
+0#k
 #4185
-1#l
+1#k
+0!
 b00000100 #
 #4190
-0#l
+0#k
 #4195
-0!
-1#l
+1#k
+1!
 b00001000 #
 #4200
-0#l
+0#k
 #4205
-1#l
+1#k
+0!
 b00010000 #
 #4210
-0#l
+0#k
 #4215
+1#k
 1!
-1#l
 b00100000 #
 #4220
-0#l
+0#k
 #4225
-1#l
+1#k
 b01000000 #
 #4230
-0#l
+0#k
 #4235
+1#k
 0!
-1#l
 b10000000 #
 #4240
-0#l
+0#k
 #4245
+1#k
 b00110101 $
-1#l
-b00110100 "
 b00000001 #
 #4250
-0#l
+0#k
 #4255
-1#l
+1#k
+b00110101 "
 b00000010 #
+b00110101 #j
+b00110101 %
 #4260
-0#l
+0#k
 #4265
-1#l
+1#k
 b00000100 #
 #4270
-0#l
+0#k
 #4275
+1#k
 1!
-1#l
 b00001000 #
 #4280
-0#l
+0#k
 #4285
+1#k
 0!
-1#l
 b00010000 #
 #4290
-0#l
+0#k
 #4295
+1#k
 1!
-1#l
 b00100000 #
 #4300
-0#l
+0#k
 #4305
-1#l
+1#k
 b01000000 #
 #4310
-0#l
+0#k
 #4315
+1#k
 0!
-1#l
 b10000000 #
 #4320
-0#l
+0#k
 #4325
+1#k
 b00110110 $
-1#l
-b00110101 "
 b00000001 #
 #4330
-0#l
+0#k
 #4335
+1#k
 1!
-1#l
+b00110110 "
 b00000010 #
+b00110110 %
+b00110110 #j
 #4340
-0#l
+0#k
 #4345
-0!
-1#l
+1#k
 b00000100 #
 #4350
-0#l
+0#k
 #4355
-1!
-1#l
+1#k
 b00001000 #
 #4360
-0#l
+0#k
 #4365
+1#k
 0!
-1#l
 b00010000 #
 #4370
-0#l
+0#k
 #4375
+1#k
 1!
-1#l
 b00100000 #
 #4380
-0#l
+0#k
 #4385
-1#l
+1#k
 b01000000 #
 #4390
-0#l
+0#k
 #4395
+1#k
 0!
-1#l
 b10000000 #
 #4400
-0#l
+0#k
 #4405
+1#k
 b00110111 $
-1#l
-b00110110 "
 b00000001 #
 #4410
-0#l
+0#k
 #4415
-1#l
+1#k
+b00110111 "
 b00000010 #
+b00110111 #j
+b00110111 %
 #4420
-0#l
+0#k
 #4425
+1#k
 1!
-1#l
 b00000100 #
 #4430
-0#l
+0#k
 #4435
-1#l
+1#k
 b00001000 #
 #4440
-0#l
+0#k
 #4445
+1#k
 0!
-1#l
 b00010000 #
 #4450
-0#l
+0#k
 #4455
+1#k
 1!
-1#l
 b00100000 #
 #4460
-0#l
+0#k
 #4465
-1#l
+1#k
 b01000000 #
 #4470
-0#l
+0#k
 #4475
+1#k
 0!
-1#l
 b10000000 #
 #4480
-0#l
+0#k
 #4485
+1#k
 b00111000 $
-1#l
-b00110111 "
 b00000001 #
 #4490
-0#l
+0#k
 #4495
+1#k
 1!
-1#l
+b00111000 "
 b00000010 #
+b00111000 %
+b00111000 #j
 #4500
-0#l
+0#k
 #4505
-1#l
+1#k
+0!
 b00000100 #
 #4510
-0#l
+0#k
 #4515
-1#l
+1#k
 b00001000 #
 #4520
-0#l
+0#k
 #4525
-0!
-1#l
+1#k
+1!
 b00010000 #
 #4530
-0#l
+0#k
 #4535
-1!
-1#l
+1#k
 b00100000 #
 #4540
-0#l
+0#k
 #4545
-1#l
+1#k
 b01000000 #
 #4550
-0#l
+0#k
 #4555
+1#k
 0!
-1#l
 b10000000 #
 #4560
-0#l
+0#k
 #4565
+1#k
 b00111001 $
-1#l
-b00111000 "
 b00000001 #
 #4570
-0#l
+0#k
 #4575
-1#l
+1#k
+b00111001 "
 b00000010 #
+b00111001 #j
+b00111001 %
 #4580
-0#l
+0#k
 #4585
-1#l
+1#k
 b00000100 #
 #4590
-0#l
+0#k
 #4595
-1#l
+1#k
 b00001000 #
 #4600
-0#l
+0#k
 #4605
+1#k
 1!
-1#l
 b00010000 #
 #4610
-0#l
+0#k
 #4615
-1#l
+1#k
 b00100000 #
 #4620
-0#l
+0#k
 #4625
-1#l
+1#k
 b01000000 #
 #4630
-0#l
+0#k
 #4635
+1#k
 0!
-1#l
 b10000000 #
 #4640
-0#l
+0#k
 #4645
+1#k
 b00111010 $
-1#l
-b00111001 "
 b00000001 #
 #4650
-0#l
+0#k
 #4655
+1#k
 1!
-1#l
+b00111010 "
 b00000010 #
+b00111010 %
+b00111010 #j
 #4660
-0#l
+0#k
 #4665
-0!
-1#l
+1#k
 b00000100 #
 #4670
-0#l
+0#k
 #4675
-1#l
+1#k
+0!
 b00001000 #
 #4680
-0#l
+0#k
 #4685
+1#k
 1!
-1#l
 b00010000 #
 #4690
-0#l
+0#k
 #4695
-1#l
+1#k
 b00100000 #
 #4700
-0#l
+0#k
 #4705
-1#l
+1#k
 b01000000 #
 #4710
-0#l
+0#k
 #4715
+1#k
 0!
-1#l
 b10000000 #
 #4720
-0#l
+0#k
 #4725
+1#k
 b00111011 $
-1#l
-b00111010 "
 b00000001 #
 #4730
-0#l
+0#k
 #4735
-1#l
+1#k
+b00111011 "
 b00000010 #
+b00111011 #j
+b00111011 %
 #4740
-0#l
+0#k
 #4745
+1#k
 1!
-1#l
 b00000100 #
 #4750
-0#l
+0#k
 #4755
+1#k
 0!
-1#l
 b00001000 #
 #4760
-0#l
+0#k
 #4765
+1#k
 1!
-1#l
 b00010000 #
 #4770
-0#l
+0#k
 #4775
-1#l
+1#k
 b00100000 #
 #4780
-0#l
+0#k
 #4785
-1#l
+1#k
 b01000000 #
 #4790
-0#l
+0#k
 #4795
+1#k
 0!
-1#l
 b10000000 #
 #4800
-0#l
+0#k
 #4805
+1#k
 b00111100 $
-1#l
-b00111011 "
 b00000001 #
 #4810
-0#l
+0#k
 #4815
+1#k
 1!
-1#l
+b00111100 "
 b00000010 #
+b00111100 %
+b00111100 #j
 #4820
-0#l
+0#k
 #4825
-1#l
+1#k
+0!
 b00000100 #
 #4830
-0#l
+0#k
 #4835
-0!
-1#l
+1#k
+1!
 b00001000 #
 #4840
-0#l
+0#k
 #4845
-1!
-1#l
+1#k
 b00010000 #
 #4850
-0#l
+0#k
 #4855
-1#l
+1#k
 b00100000 #
 #4860
-0#l
+0#k
 #4865
-1#l
+1#k
 b01000000 #
 #4870
-0#l
+0#k
 #4875
+1#k
 0!
-1#l
 b10000000 #
 #4880
-0#l
+0#k
 #4885
+1#k
 b00111101 $
-1#l
-b00111100 "
 b00000001 #
 #4890
-0#l
+0#k
 #4895
-1#l
+1#k
+b00111101 "
 b00000010 #
+b00111101 #j
+b00111101 %
 #4900
-0#l
+0#k
 #4905
-1#l
+1#k
 b00000100 #
 #4910
-0#l
+0#k
 #4915
+1#k
 1!
-1#l
 b00001000 #
 #4920
-0#l
+0#k
 #4925
-1#l
+1#k
 b00010000 #
 #4930
-0#l
+0#k
 #4935
-1#l
+1#k
 b00100000 #
 #4940
-0#l
+0#k
 #4945
-1#l
+1#k
 b01000000 #
 #4950
-0#l
+0#k
 #4955
+1#k
 0!
-1#l
 b10000000 #
 #4960
-0#l
+0#k
 #4965
+1#k
 b00111110 $
-1#l
-b00111101 "
 b00000001 #
 #4970
-0#l
+0#k
 #4975
+1#k
 1!
-1#l
+b00111110 "
 b00000010 #
+b00111110 %
+b00111110 #j
 #4980
-0#l
+0#k
 #4985
-0!
-1#l
+1#k
 b00000100 #
 #4990
-0#l
+0#k
 #4995
-1!
-1#l
+1#k
 b00001000 #
 #5000
-0#l
+0#k
 #5005
-1#l
+1#k
 b00010000 #
 #5010
-0#l
+0#k
 #5015
-1#l
+1#k
 b00100000 #
 #5020
-0#l
+0#k
 #5025
-1#l
+1#k
 b01000000 #
 #5030
-0#l
+0#k
 #5035
+1#k
 0!
-1#l
 b10000000 #
 #5040
-0#l
+0#k
 #5045
+1#k
 b00111111 $
-1#l
-b00111110 "
 b00000001 #
 #5050
-0#l
+0#k
 #5055
-1#l
+1#k
+b00111111 "
 b00000010 #
+b00111111 #j
+b00111111 %
 #5060
-0#l
+0#k
 #5065
+1#k
 1!
-1#l
 b00000100 #
 #5070
-0#l
+0#k
 #5075
-1#l
+1#k
 b00001000 #
 #5080
-0#l
+0#k
 #5085
-1#l
+1#k
 b00010000 #
 #5090
-0#l
+0#k
 #5095
-1#l
+1#k
 b00100000 #
 #5100
-0#l
+0#k
 #5105
-1#l
+1#k
 b01000000 #
 #5110
-0#l
+0#k
 #5115
+1#k
 0!
-1#l
 b10000000 #
 #5120
-0#l
+0#k
 #5125
+1#k
 b01000000 $
-1#l
-b00111111 "
 b00000001 #
 #5130
-0#l
+0#k
 #5135
+1#k
 1!
-1#l
+b01000000 "
 b00000010 #
+b01000000 %
+b01000000 #j
 #5140
-0#l
+0#k
 #5145
-1#l
+1#k
+0!
 b00000100 #
 #5150
-0#l
+0#k
 #5155
-1#l
+1#k
 b00001000 #
 #5160
-0#l
+0#k
 #5165
-1#l
+1#k
 b00010000 #
 #5170
-0#l
+0#k
 #5175
-1#l
+1#k
 b00100000 #
 #5180
-0#l
+0#k
 #5185
-1#l
+1#k
 b01000000 #
 #5190
-0#l
+0#k
 #5195
-0!
-1#l
+1#k
+1!
 b10000000 #
 #5200
-0#l
+0#k
 #5205
+1#k
+0!
 b01000001 $
-1#l
-b01000000 "
 b00000001 #
 #5210
-0#l
+0#k
 #5215
-1#l
+1#k
+b01000001 "
 b00000010 #
+b01000001 #j
+b01000001 %
 #5220
-0#l
+0#k
 #5225
-1#l
+1#k
 b00000100 #
 #5230
-0#l
+0#k
 #5235
-1#l
+1#k
 b00001000 #
 #5240
-0#l
+0#k
 #5245
-1#l
+1#k
 b00010000 #
 #5250
-0#l
+0#k
 #5255
-1#l
+1#k
 b00100000 #
 #5260
-0#l
+0#k
 #5265
-1#l
+1#k
 b01000000 #
 #5270
-0#l
+0#k
 #5275
+1#k
 1!
-1#l
 b10000000 #
 #5280
-0#l
+0#k
 #5285
+1#k
 0!
-1#l
-b01000001 "
-b00000001 #
 b01000010 $
+b00000001 #
 #5290
-0#l
+0#k
 #5295
+1#k
 1!
-1#l
+b01000010 "
 b00000010 #
+b01000010 %
+b01000010 #j
 #5300
-0#l
+0#k
 #5305
-0!
-1#l
+1#k
 b00000100 #
 #5310
-0#l
+0#k
 #5315
-1#l
+1#k
+0!
 b00001000 #
 #5320
-0#l
+0#k
 #5325
-1#l
+1#k
 b00010000 #
 #5330
-0#l
+0#k
 #5335
-1#l
+1#k
 b00100000 #
 #5340
-0#l
+0#k
 #5345
-1#l
+1#k
 b01000000 #
 #5350
-0#l
+0#k
 #5355
+1#k
 1!
-1#l
 b10000000 #
 #5360
-0#l
+0#k
 #5365
+1#k
 0!
-1#l
-b01000010 "
-b00000001 #
 b01000011 $
+b00000001 #
 #5370
-0#l
+0#k
 #5375
-1#l
+1#k
+b01000011 "
 b00000010 #
+b01000011 #j
+b01000011 %
 #5380
-0#l
+0#k
 #5385
+1#k
 1!
-1#l
 b00000100 #
 #5390
-0#l
+0#k
 #5395
+1#k
 0!
-1#l
 b00001000 #
 #5400
-0#l
+0#k
 #5405
-1#l
+1#k
 b00010000 #
 #5410
-0#l
+0#k
 #5415
-1#l
+1#k
 b00100000 #
 #5420
-0#l
+0#k
 #5425
-1#l
+1#k
 b01000000 #
 #5430
-0#l
+0#k
 #5435
+1#k
 1!
-1#l
 b10000000 #
 #5440
-0#l
+0#k
 #5445
+1#k
 0!
-1#l
-b01000011 "
-b00000001 #
 b01000100 $
+b00000001 #
 #5450
-0#l
+0#k
 #5455
+1#k
 1!
-1#l
+b01000100 "
 b00000010 #
+b01000100 %
+b01000100 #j
 #5460
-0#l
+0#k
 #5465
-1#l
+1#k
+0!
 b00000100 #
 #5470
-0#l
+0#k
 #5475
-0!
-1#l
+1#k
+1!
 b00001000 #
 #5480
-0#l
+0#k
 #5485
-1#l
+1#k
+0!
 b00010000 #
 #5490
-0#l
+0#k
 #5495
-1#l
+1#k
 b00100000 #
 #5500
-0#l
+0#k
 #5505
-1#l
+1#k
 b01000000 #
 #5510
-0#l
+0#k
 #5515
+1#k
 1!
-1#l
 b10000000 #
 #5520
-0#l
+0#k
 #5525
+1#k
 0!
-1#l
-b01000100 "
-b00000001 #
 b01000101 $
+b00000001 #
 #5530
-0#l
+0#k
 #5535
-1#l
+1#k
+b01000101 "
 b00000010 #
+b01000101 #j
+b01000101 %
 #5540
-0#l
+0#k
 #5545
-1#l
+1#k
 b00000100 #
 #5550
-0#l
+0#k
 #5555
+1#k
 1!
-1#l
 b00001000 #
 #5560
-0#l
+0#k
 #5565
+1#k
 0!
-1#l
 b00010000 #
 #5570
-0#l
+0#k
 #5575
-1#l
+1#k
 b00100000 #
 #5580
-0#l
+0#k
 #5585
-1#l
+1#k
 b01000000 #
 #5590
-0#l
+0#k
 #5595
+1#k
 1!
-1#l
 b10000000 #
 #5600
-0#l
+0#k
 #5605
+1#k
 0!
-1#l
-b01000101 "
-b00000001 #
 b01000110 $
+b00000001 #
 #5610
-0#l
+0#k
 #5615
+1#k
 1!
-1#l
+b01000110 "
 b00000010 #
+b01000110 %
+b01000110 #j
 #5620
-0#l
+0#k
 #5625
-0!
-1#l
+1#k
 b00000100 #
 #5630
-0#l
+0#k
 #5635
-1!
-1#l
+1#k
 b00001000 #
 #5640
-0#l
+0#k
 #5645
+1#k
 0!
-1#l
 b00010000 #
 #5650
-0#l
+0#k
 #5655
-1#l
+1#k
 b00100000 #
 #5660
-0#l
+0#k
 #5665
-1#l
+1#k
 b01000000 #
 #5670
-0#l
+0#k
 #5675
+1#k
 1!
-1#l
 b10000000 #
 #5680
-0#l
+0#k
 #5685
+1#k
 0!
-1#l
-b01000110 "
-b00000001 #
 b01000111 $
+b00000001 #
 #5690
-0#l
+0#k
 #5695
-1#l
+1#k
+b01000111 "
 b00000010 #
+b01000111 #j
+b01000111 %
 #5700
-0#l
+0#k
 #5705
+1#k
 1!
-1#l
 b00000100 #
 #5710
-0#l
+0#k
 #5715
-1#l
+1#k
 b00001000 #
 #5720
-0#l
+0#k
 #5725
+1#k
 0!
-1#l
 b00010000 #
 #5730
-0#l
+0#k
 #5735
-1#l
+1#k
 b00100000 #
 #5740
-0#l
+0#k
 #5745
-1#l
+1#k
 b01000000 #
 #5750
-0#l
+0#k
 #5755
+1#k
 1!
-1#l
 b10000000 #
 #5760
-0#l
+0#k
 #5765
+1#k
 0!
-1#l
-b01000111 "
-b00000001 #
 b01001000 $
+b00000001 #
 #5770
-0#l
+0#k
 #5775
+1#k
 1!
-1#l
+b01001000 "
 b00000010 #
+b01001000 %
+b01001000 #j
 #5780
-0#l
+0#k
 #5785
-1#l
+1#k
+0!
 b00000100 #
 #5790
-0#l
+0#k
 #5795
-1#l
+1#k
 b00001000 #
 #5800
-0#l
+0#k
 #5805
-0!
-1#l
+1#k
+1!
 b00010000 #
 #5810
-0#l
+0#k
 #5815
-1#l
+1#k
+0!
 b00100000 #
 #5820
-0#l
+0#k
 #5825
-1#l
+1#k
 b01000000 #
 #5830
-0#l
+0#k
 #5835
+1#k
 1!
-1#l
 b10000000 #
 #5840
-0#l
+0#k
 #5845
+1#k
 0!
-1#l
-b01001000 "
-b00000001 #
 b01001001 $
+b00000001 #
 #5850
-0#l
+0#k
 #5855
-1#l
+1#k
+b01001001 "
 b00000010 #
+b01001001 #j
+b01001001 %
 #5860
-0#l
+0#k
 #5865
-1#l
+1#k
 b00000100 #
 #5870
-0#l
+0#k
 #5875
-1#l
+1#k
 b00001000 #
 #5880
-0#l
+0#k
 #5885
+1#k
 1!
-1#l
 b00010000 #
 #5890
-0#l
+0#k
 #5895
+1#k
 0!
-1#l
 b00100000 #
 #5900
-0#l
+0#k
 #5905
-1#l
+1#k
 b01000000 #
 #5910
-0#l
+0#k
 #5915
+1#k
 1!
-1#l
 b10000000 #
 #5920
-0#l
+0#k
 #5925
+1#k
 0!
-1#l
-b01001001 "
-b00000001 #
 b01001010 $
+b00000001 #
 #5930
-0#l
+0#k
 #5935
+1#k
 1!
-1#l
+b01001010 "
 b00000010 #
+b01001010 %
+b01001010 #j
 #5940
-0#l
+0#k
 #5945
-0!
-1#l
+1#k
 b00000100 #
 #5950
-0#l
+0#k
 #5955
-1#l
+1#k
+0!
 b00001000 #
 #5960
-0#l
+0#k
 #5965
+1#k
 1!
-1#l
 b00010000 #
 #5970
-0#l
+0#k
 #5975
+1#k
 0!
-1#l
 b00100000 #
 #5980
-0#l
+0#k
 #5985
-1#l
+1#k
 b01000000 #
 #5990
-0#l
+0#k
 #5995
+1#k
 1!
-1#l
 b10000000 #
 #6000
-0#l
+0#k
 #6005
+1#k
 0!
-1#l
-b01001010 "
-b00000001 #
 b01001011 $
+b00000001 #
 #6010
-0#l
+0#k
 #6015
-1#l
+1#k
+b01001011 "
 b00000010 #
+b01001011 #j
+b01001011 %
 #6020
-0#l
+0#k
 #6025
+1#k
 1!
-1#l
 b00000100 #
 #6030
-0#l
+0#k
 #6035
+1#k
 0!
-1#l
 b00001000 #
 #6040
-0#l
+0#k
 #6045
+1#k
 1!
-1#l
 b00010000 #
 #6050
-0#l
+0#k
 #6055
+1#k
 0!
-1#l
 b00100000 #
 #6060
-0#l
+0#k
 #6065
-1#l
+1#k
 b01000000 #
 #6070
-0#l
+0#k
 #6075
+1#k
 1!
-1#l
 b10000000 #
 #6080
-0#l
+0#k
 #6085
+1#k
 0!
-1#l
-b01001011 "
-b00000001 #
 b01001100 $
+b00000001 #
 #6090
-0#l
+0#k
 #6095
+1#k
 1!
-1#l
+b01001100 "
 b00000010 #
+b01001100 %
+b01001100 #j
 #6100
-0#l
+0#k
 #6105
-1#l
+1#k
+0!
 b00000100 #
 #6110
-0#l
+0#k
 #6115
-0!
-1#l
+1#k
+1!
 b00001000 #
 #6120
-0#l
+0#k
 #6125
-1!
-1#l
+1#k
 b00010000 #
 #6130
-0#l
+0#k
 #6135
+1#k
 0!
-1#l
 b00100000 #
 #6140
-0#l
+0#k
 #6145
-1#l
+1#k
 b01000000 #
 #6150
-0#l
+0#k
 #6155
+1#k
 1!
-1#l
 b10000000 #
 #6160
-0#l
+0#k
 #6165
+1#k
 0!
-1#l
-b01001100 "
-b00000001 #
 b01001101 $
+b00000001 #
 #6170
-0#l
+0#k
 #6175
-1#l
+1#k
+b01001101 "
 b00000010 #
+b01001101 #j
+b01001101 %
 #6180
-0#l
+0#k
 #6185
-1#l
+1#k
 b00000100 #
 #6190
-0#l
+0#k
 #6195
+1#k
 1!
-1#l
 b00001000 #
 #6200
-0#l
+0#k
 #6205
-1#l
+1#k
 b00010000 #
 #6210
-0#l
+0#k
 #6215
+1#k
 0!
-1#l
 b00100000 #
 #6220
-0#l
+0#k
 #6225
-1#l
+1#k
 b01000000 #
 #6230
-0#l
+0#k
 #6235
+1#k
 1!
-1#l
 b10000000 #
 #6240
-0#l
+0#k
 #6245
+1#k
 0!
-1#l
-b01001101 "
-b00000001 #
 b01001110 $
+b00000001 #
 #6250
-0#l
+0#k
 #6255
+1#k
 1!
-1#l
+b01001110 "
 b00000010 #
+b01001110 %
+b01001110 #j
 #6260
-0#l
+0#k
 #6265
-0!
-1#l
+1#k
 b00000100 #
 #6270
-0#l
+0#k
 #6275
-1!
-1#l
+1#k
 b00001000 #
 #6280
-0#l
+0#k
 #6285
-1#l
+1#k
 b00010000 #
 #6290
-0#l
+0#k
 #6295
+1#k
 0!
-1#l
 b00100000 #
 #6300
-0#l
+0#k
 #6305
-1#l
+1#k
 b01000000 #
 #6310
-0#l
+0#k
 #6315
+1#k
 1!
-1#l
 b10000000 #
 #6320
-0#l
+0#k
 #6325
+1#k
 0!
-1#l
-b01001110 "
-b00000001 #
 b01001111 $
+b00000001 #
 #6330
-0#l
+0#k
 #6335
-1#l
+1#k
+b01001111 "
 b00000010 #
+b01001111 #j
+b01001111 %
 #6340
-0#l
+0#k
 #6345
+1#k
 1!
-1#l
 b00000100 #
 #6350
-0#l
+0#k
 #6355
-1#l
+1#k
 b00001000 #
 #6360
-0#l
+0#k
 #6365
-1#l
+1#k
 b00010000 #
 #6370
-0#l
+0#k
 #6375
+1#k
 0!
-1#l
 b00100000 #
 #6380
-0#l
+0#k
 #6385
-1#l
+1#k
 b01000000 #
 #6390
-0#l
+0#k
 #6395
+1#k
 1!
-1#l
 b10000000 #
 #6400
-0#l
+0#k
 #6405
+1#k
 0!
-1#l
-b01001111 "
-b00000001 #
 b01010000 $
+b00000001 #
 #6410
-0#l
+0#k
 #6415
+1#k
 1!
-1#l
+b01010000 "
 b00000010 #
+b01010000 %
+b01010000 #j
 #6420
-0#l
+0#k
 #6425
-1#l
+1#k
+0!
 b00000100 #
 #6430
-0#l
+0#k
 #6435
-1#l
+1#k
 b00001000 #
 #6440
-0#l
+0#k
 #6445
-1#l
+1#k
 b00010000 #
 #6450
-0#l
+0#k
 #6455
-0!
-1#l
+1#k
+1!
 b00100000 #
 #6460
-0#l
+0#k
 #6465
-1#l
+1#k
+0!
 b01000000 #
 #6470
-0#l
+0#k
 #6475
+1#k
 1!
-1#l
 b10000000 #
 #6480
-0#l
+0#k
 #6485
+1#k
 0!
-1#l
-b01010000 "
-b00000001 #
 b01010001 $
+b00000001 #
 #6490
-0#l
+0#k
 #6495
-1#l
+1#k
+b01010001 "
 b00000010 #
+b01010001 #j
+b01010001 %
 #6500
-0#l
+0#k
 #6505
-1#l
+1#k
 b00000100 #
 #6510
-0#l
+0#k
 #6515
-1#l
+1#k
 b00001000 #
 #6520
-0#l
+0#k
 #6525
-1#l
+1#k
 b00010000 #
 #6530
-0#l
+0#k
 #6535
+1#k
 1!
-1#l
 b00100000 #
 #6540
-0#l
+0#k
 #6545
+1#k
 0!
-1#l
 b01000000 #
 #6550
-0#l
+0#k
 #6555
+1#k
 1!
-1#l
 b10000000 #
 #6560
-0#l
+0#k
 #6565
+1#k
 0!
-1#l
-b01010001 "
-b00000001 #
 b01010010 $
+b00000001 #
 #6570
-0#l
+0#k
 #6575
+1#k
 1!
-1#l
+b01010010 "
 b00000010 #
+b01010010 %
+b01010010 #j
 #6580
-0#l
+0#k
 #6585
-0!
-1#l
+1#k
 b00000100 #
 #6590
-0#l
+0#k
 #6595
-1#l
+1#k
+0!
 b00001000 #
 #6600
-0#l
+0#k
 #6605
-1#l
+1#k
 b00010000 #
 #6610
-0#l
+0#k
 #6615
+1#k
 1!
-1#l
 b00100000 #
 #6620
-0#l
+0#k
 #6625
+1#k
 0!
-1#l
 b01000000 #
 #6630
-0#l
+0#k
 #6635
+1#k
 1!
-1#l
 b10000000 #
 #6640
-0#l
+0#k
 #6645
+1#k
 0!
-1#l
-b01010010 "
-b00000001 #
 b01010011 $
+b00000001 #
 #6650
-0#l
+0#k
 #6655
-1#l
+1#k
+b01010011 "
 b00000010 #
+b01010011 #j
+b01010011 %
 #6660
-0#l
+0#k
 #6665
+1#k
 1!
-1#l
 b00000100 #
 #6670
-0#l
+0#k
 #6675
+1#k
 0!
-1#l
 b00001000 #
 #6680
-0#l
+0#k
 #6685
-1#l
+1#k
 b00010000 #
 #6690
-0#l
+0#k
 #6695
+1#k
 1!
-1#l
 b00100000 #
 #6700
-0#l
+0#k
 #6705
+1#k
 0!
-1#l
 b01000000 #
 #6710
-0#l
+0#k
 #6715
+1#k
 1!
-1#l
 b10000000 #
 #6720
-0#l
+0#k
 #6725
+1#k
 0!
-1#l
-b01010011 "
-b00000001 #
 b01010100 $
+b00000001 #
 #6730
-0#l
+0#k
 #6735
+1#k
 1!
-1#l
+b01010100 "
 b00000010 #
+b01010100 %
+b01010100 #j
 #6740
-0#l
+0#k
 #6745
-1#l
+1#k
+0!
 b00000100 #
 #6750
-0#l
+0#k
 #6755
-0!
-1#l
+1#k
+1!
 b00001000 #
 #6760
-0#l
+0#k
 #6765
-1#l
+1#k
+0!
 b00010000 #
 #6770
-0#l
+0#k
 #6775
+1#k
 1!
-1#l
 b00100000 #
 #6780
-0#l
+0#k
 #6785
+1#k
 0!
-1#l
 b01000000 #
 #6790
-0#l
+0#k
 #6795
+1#k
 1!
-1#l
 b10000000 #
 #6800
-0#l
+0#k
 #6805
+1#k
 0!
-1#l
-b01010100 "
-b00000001 #
 b01010101 $
+b00000001 #
 #6810
-0#l
+0#k
 #6815
-1#l
+1#k
+b01010101 "
 b00000010 #
+b01010101 #j
+b01010101 %
 #6820
-0#l
+0#k
 #6825
-1#l
+1#k
 b00000100 #
 #6830
-0#l
+0#k
 #6835
+1#k
 1!
-1#l
 b00001000 #
 #6840
-0#l
+0#k
 #6845
+1#k
 0!
-1#l
 b00010000 #
 #6850
-0#l
+0#k
 #6855
+1#k
 1!
-1#l
 b00100000 #
 #6860
-0#l
+0#k
 #6865
+1#k
 0!
-1#l
 b01000000 #
 #6870
-0#l
+0#k
 #6875
+1#k
 1!
-1#l
 b10000000 #
 #6880
-0#l
+0#k
 #6885
+1#k
 0!
-1#l
-b01010101 "
-b00000001 #
 b01010110 $
+b00000001 #
 #6890
-0#l
+0#k
 #6895
+1#k
 1!
-1#l
+b01010110 "
 b00000010 #
+b01010110 %
+b01010110 #j
 #6900
-0#l
+0#k
 #6905
-0!
-1#l
+1#k
 b00000100 #
 #6910
-0#l
+0#k
 #6915
-1!
-1#l
+1#k
 b00001000 #
 #6920
-0#l
+0#k
 #6925
+1#k
 0!
-1#l
 b00010000 #
 #6930
-0#l
+0#k
 #6935
+1#k
 1!
-1#l
 b00100000 #
 #6940
-0#l
+0#k
 #6945
+1#k
 0!
-1#l
 b01000000 #
 #6950
-0#l
+0#k
 #6955
+1#k
 1!
-1#l
 b10000000 #
 #6960
-0#l
+0#k
 #6965
+1#k
 0!
-1#l
-b01010110 "
-b00000001 #
 b01010111 $
+b00000001 #
 #6970
-0#l
+0#k
 #6975
-1#l
+1#k
+b01010111 "
 b00000010 #
+b01010111 #j
+b01010111 %
 #6980
-0#l
+0#k
 #6985
+1#k
 1!
-1#l
 b00000100 #
 #6990
-0#l
+0#k
 #6995
-1#l
+1#k
 b00001000 #
 #7000
-0#l
+0#k
 #7005
+1#k
 0!
-1#l
 b00010000 #
 #7010
-0#l
+0#k
 #7015
+1#k
 1!
-1#l
 b00100000 #
 #7020
-0#l
+0#k
 #7025
+1#k
 0!
-1#l
 b01000000 #
 #7030
-0#l
+0#k
 #7035
+1#k
 1!
-1#l
 b10000000 #
 #7040
-0#l
+0#k
 #7045
+1#k
 0!
-1#l
-b01010111 "
-b00000001 #
 b01011000 $
+b00000001 #
 #7050
-0#l
+0#k
 #7055
+1#k
 1!
-1#l
+b01011000 "
 b00000010 #
+b01011000 %
+b01011000 #j
 #7060
-0#l
+0#k
 #7065
-1#l
+1#k
+0!
 b00000100 #
 #7070
-0#l
+0#k
 #7075
-1#l
+1#k
 b00001000 #
 #7080
-0#l
+0#k
 #7085
-0!
-1#l
+1#k
+1!
 b00010000 #
 #7090
-0#l
+0#k
 #7095
-1!
-1#l
+1#k
 b00100000 #
 #7100
-0#l
+0#k
 #7105
+1#k
 0!
-1#l
 b01000000 #
 #7110
-0#l
+0#k
 #7115
+1#k
 1!
-1#l
 b10000000 #
 #7120
-0#l
+0#k
 #7125
+1#k
 0!
-1#l
-b01011000 "
-b00000001 #
 b01011001 $
+b00000001 #
 #7130
-0#l
+0#k
 #7135
-1#l
+1#k
+b01011001 "
 b00000010 #
+b01011001 #j
+b01011001 %
 #7140
-0#l
+0#k
 #7145
-1#l
+1#k
 b00000100 #
 #7150
-0#l
+0#k
 #7155
-1#l
+1#k
 b00001000 #
 #7160
-0#l
+0#k
 #7165
+1#k
 1!
-1#l
 b00010000 #
 #7170
-0#l
+0#k
 #7175
-1#l
+1#k
 b00100000 #
 #7180
-0#l
+0#k
 #7185
+1#k
 0!
-1#l
 b01000000 #
 #7190
-0#l
+0#k
 #7195
+1#k
 1!
-1#l
 b10000000 #
 #7200
-0#l
+0#k
 #7205
+1#k
 0!
-1#l
-b01011001 "
-b00000001 #
 b01011010 $
+b00000001 #
 #7210
-0#l
+0#k
 #7215
+1#k
 1!
-1#l
+b01011010 "
 b00000010 #
+b01011010 %
+b01011010 #j
 #7220
-0#l
+0#k
 #7225
-0!
-1#l
+1#k
 b00000100 #
 #7230
-0#l
+0#k
 #7235
-1#l
+1#k
+0!
 b00001000 #
 #7240
-0#l
+0#k
 #7245
+1#k
 1!
-1#l
 b00010000 #
 #7250
-0#l
+0#k
 #7255
-1#l
+1#k
 b00100000 #
 #7260
-0#l
+0#k
 #7265
+1#k
 0!
-1#l
 b01000000 #
 #7270
-0#l
+0#k
 #7275
+1#k
 1!
-1#l
 b10000000 #
 #7280
-0#l
+0#k
 #7285
+1#k
 0!
-1#l
-b01011010 "
-b00000001 #
 b01011011 $
+b00000001 #
 #7290
-0#l
+0#k
 #7295
-1#l
+1#k
+b01011011 "
 b00000010 #
+b01011011 #j
+b01011011 %
 #7300
-0#l
+0#k
 #7305
+1#k
 1!
-1#l
 b00000100 #
 #7310
-0#l
+0#k
 #7315
+1#k
 0!
-1#l
 b00001000 #
 #7320
-0#l
+0#k
 #7325
+1#k
 1!
-1#l
 b00010000 #
 #7330
-0#l
+0#k
 #7335
-1#l
+1#k
 b00100000 #
 #7340
-0#l
+0#k
 #7345
+1#k
 0!
-1#l
 b01000000 #
 #7350
-0#l
+0#k
 #7355
+1#k
 1!
-1#l
 b10000000 #
 #7360
-0#l
+0#k
 #7365
+1#k
 0!
-1#l
-b01011011 "
-b00000001 #
 b01011100 $
+b00000001 #
 #7370
-0#l
+0#k
 #7375
+1#k
 1!
-1#l
+b01011100 "
 b00000010 #
+b01011100 %
+b01011100 #j
 #7380
-0#l
+0#k
 #7385
-1#l
+1#k
+0!
 b00000100 #
 #7390
-0#l
+0#k
 #7395
-0!
-1#l
+1#k
+1!
 b00001000 #
 #7400
-0#l
+0#k
 #7405
-1!
-1#l
+1#k
 b00010000 #
 #7410
-0#l
+0#k
 #7415
-1#l
+1#k
 b00100000 #
 #7420
-0#l
+0#k
 #7425
+1#k
 0!
-1#l
 b01000000 #
 #7430
-0#l
+0#k
 #7435
+1#k
 1!
-1#l
 b10000000 #
 #7440
-0#l
+0#k
 #7445
+1#k
 0!
-1#l
-b01011100 "
-b00000001 #
 b01011101 $
+b00000001 #
 #7450
-0#l
+0#k
 #7455
-1#l
+1#k
+b01011101 "
 b00000010 #
+b01011101 #j
+b01011101 %
 #7460
-0#l
+0#k
 #7465
-1#l
+1#k
 b00000100 #
 #7470
-0#l
+0#k
 #7475
+1#k
 1!
-1#l
 b00001000 #
 #7480
-0#l
+0#k
 #7485
-1#l
+1#k
 b00010000 #
 #7490
-0#l
+0#k
 #7495
-1#l
+1#k
 b00100000 #
 #7500
-0#l
+0#k
 #7505
+1#k
 0!
-1#l
 b01000000 #
 #7510
-0#l
+0#k
 #7515
+1#k
 1!
-1#l
 b10000000 #
 #7520
-0#l
+0#k
 #7525
+1#k
 0!
-1#l
-b01011101 "
-b00000001 #
 b01011110 $
+b00000001 #
 #7530
-0#l
+0#k
 #7535
+1#k
 1!
-1#l
+b01011110 "
 b00000010 #
+b01011110 %
+b01011110 #j
 #7540
-0#l
+0#k
 #7545
-0!
-1#l
+1#k
 b00000100 #
 #7550
-0#l
+0#k
 #7555
-1!
-1#l
+1#k
 b00001000 #
 #7560
-0#l
+0#k
 #7565
-1#l
+1#k
 b00010000 #
 #7570
-0#l
+0#k
 #7575
-1#l
+1#k
 b00100000 #
 #7580
-0#l
+0#k
 #7585
+1#k
 0!
-1#l
 b01000000 #
 #7590
-0#l
+0#k
 #7595
+1#k
 1!
-1#l
 b10000000 #
 #7600
-0#l
+0#k
 #7605
+1#k
 0!
-1#l
-b01011110 "
-b00000001 #
 b01011111 $
+b00000001 #
 #7610
-0#l
+0#k
 #7615
-1#l
+1#k
+b01011111 "
 b00000010 #
+b01011111 #j
+b01011111 %
 #7620
-0#l
+0#k
 #7625
+1#k
 1!
-1#l
 b00000100 #
 #7630
-0#l
+0#k
 #7635
-1#l
+1#k
 b00001000 #
 #7640
-0#l
+0#k
 #7645
-1#l
+1#k
 b00010000 #
 #7650
-0#l
+0#k
 #7655
-1#l
+1#k
 b00100000 #
 #7660
-0#l
+0#k
 #7665
+1#k
 0!
-1#l
 b01000000 #
 #7670
-0#l
+0#k
 #7675
+1#k
 1!
-1#l
 b10000000 #
 #7680
-0#l
+0#k
 #7685
+1#k
 0!
-1#l
-b01011111 "
-b00000001 #
 b01100000 $
+b00000001 #
 #7690
-0#l
+0#k
 #7695
+1#k
 1!
-1#l
+b01100000 "
 b00000010 #
+b01100000 %
+b01100000 #j
 #7700
-0#l
+0#k
 #7705
-1#l
+1#k
+0!
 b00000100 #
 #7710
-0#l
+0#k
 #7715
-1#l
+1#k
 b00001000 #
 #7720
-0#l
+0#k
 #7725
-1#l
+1#k
 b00010000 #
 #7730
-0#l
+0#k
 #7735
-1#l
+1#k
 b00100000 #
 #7740
-0#l
+0#k
 #7745
-0!
-1#l
+1#k
+1!
 b01000000 #
 #7750
-0#l
+0#k
 #7755
-1!
-1#l
+1#k
 b10000000 #
 #7760
-0#l
+0#k
 #7765
+1#k
 0!
-1#l
-b01100000 "
-b00000001 #
 b01100001 $
+b00000001 #
 #7770
-0#l
+0#k
 #7775
-1#l
+1#k
+b01100001 "
 b00000010 #
+b01100001 #j
+b01100001 %
 #7780
-0#l
+0#k
 #7785
-1#l
+1#k
 b00000100 #
 #7790
-0#l
+0#k
 #7795
-1#l
+1#k
 b00001000 #
 #7800
-0#l
+0#k
 #7805
-1#l
+1#k
 b00010000 #
 #7810
-0#l
+0#k
 #7815
-1#l
+1#k
 b00100000 #
 #7820
-0#l
+0#k
 #7825
+1#k
 1!
-1#l
 b01000000 #
 #7830
-0#l
+0#k
 #7835
-1#l
+1#k
 b10000000 #
 #7840
-0#l
+0#k
 #7845
+1#k
 0!
-1#l
-b01100001 "
-b00000001 #
 b01100010 $
+b00000001 #
 #7850
-0#l
+0#k
 #7855
+1#k
 1!
-1#l
+b01100010 "
 b00000010 #
+b01100010 %
+b01100010 #j
 #7860
-0#l
+0#k
 #7865
-0!
-1#l
+1#k
 b00000100 #
 #7870
-0#l
+0#k
 #7875
-1#l
+1#k
+0!
 b00001000 #
 #7880
-0#l
+0#k
 #7885
-1#l
+1#k
 b00010000 #
 #7890
-0#l
+0#k
 #7895
-1#l
+1#k
 b00100000 #
 #7900
-0#l
+0#k
 #7905
+1#k
 1!
-1#l
 b01000000 #
 #7910
-0#l
+0#k
 #7915
-1#l
+1#k
 b10000000 #
 #7920
-0#l
+0#k
 #7925
+1#k
 0!
-1#l
-b01100010 "
-b00000001 #
 b01100011 $
+b00000001 #
 #7930
-0#l
+0#k
 #7935
-1#l
+1#k
+b01100011 "
 b00000010 #
+b01100011 #j
+b01100011 %
 #7940
-0#l
+0#k
 #7945
+1#k
 1!
-1#l
 b00000100 #
 #7950
-0#l
+0#k
 #7955
+1#k
 0!
-1#l
 b00001000 #
 #7960
-0#l
+0#k
 #7965
-1#l
+1#k
 b00010000 #
 #7970
-0#l
+0#k
 #7975
-1#l
+1#k
 b00100000 #
 #7980
-0#l
+0#k
 #7985
+1#k
 1!
-1#l
 b01000000 #
 #7990
-0#l
+0#k
 #7995
-1#l
+1#k
 b10000000 #
 #8000
-0#l
+0#k
 #8005
+1#k
 0!
-1#l
-b01100011 "
-b00000001 #
 b01100100 $
+b00000001 #
 #8010
-0#l
+0#k
 #8015
+1#k
 1!
-1#l
+b01100100 "
 b00000010 #
+b01100100 %
+b01100100 #j
 #8020
-0#l
+0#k
 #8025
-1#l
+1#k
+0!
 b00000100 #
 #8030
-0#l
+0#k
 #8035
-0!
-1#l
+1#k
+1!
 b00001000 #
 #8040
-0#l
+0#k
 #8045
-1#l
+1#k
+0!
 b00010000 #
 #8050
-0#l
+0#k
 #8055
-1#l
+1#k
 b00100000 #
 #8060
-0#l
+0#k
 #8065
+1#k
 1!
-1#l
 b01000000 #
 #8070
-0#l
+0#k
 #8075
-1#l
+1#k
 b10000000 #
 #8080
-0#l
+0#k
 #8085
+1#k
 0!
-1#l
-b01100100 "
-b00000001 #
 b01100101 $
+b00000001 #
 #8090
-0#l
+0#k
 #8095
-1#l
+1#k
+b01100101 "
 b00000010 #
+b01100101 #j
+b01100101 %
 #8100
-0#l
+0#k
 #8105
-1#l
+1#k
 b00000100 #
 #8110
-0#l
+0#k
 #8115
+1#k
 1!
-1#l
 b00001000 #
 #8120
-0#l
+0#k
 #8125
+1#k
 0!
-1#l
 b00010000 #
 #8130
-0#l
+0#k
 #8135
-1#l
+1#k
 b00100000 #
 #8140
-0#l
+0#k
 #8145
+1#k
 1!
-1#l
 b01000000 #
 #8150
-0#l
+0#k
 #8155
-1#l
+1#k
 b10000000 #
 #8160
-0#l
+0#k
 #8165
+1#k
 0!
-1#l
-b01100101 "
-b00000001 #
 b01100110 $
+b00000001 #
 #8170
-0#l
+0#k
 #8175
+1#k
 1!
-1#l
+b01100110 "
 b00000010 #
+b01100110 %
+b01100110 #j
 #8180
-0#l
+0#k
 #8185
-0!
-1#l
+1#k
 b00000100 #
 #8190
-0#l
+0#k
 #8195
-1!
-1#l
+1#k
 b00001000 #
 #8200
-0#l
+0#k
 #8205
+1#k
 0!
-1#l
 b00010000 #
 #8210
-0#l
+0#k
 #8215
-1#l
+1#k
 b00100000 #
 #8220
-0#l
+0#k
 #8225
+1#k
 1!
-1#l
 b01000000 #
 #8230
-0#l
+0#k
 #8235
-1#l
+1#k
 b10000000 #
 #8240
-0#l
+0#k
 #8245
+1#k
 0!
-1#l
-b01100110 "
-b00000001 #
 b01100111 $
+b00000001 #
 #8250
-0#l
+0#k
 #8255
-1#l
+1#k
+b01100111 "
 b00000010 #
+b01100111 #j
+b01100111 %
 #8260
-0#l
+0#k
 #8265
+1#k
 1!
-1#l
 b00000100 #
 #8270
-0#l
+0#k
 #8275
-1#l
+1#k
 b00001000 #
 #8280
-0#l
+0#k
 #8285
+1#k
 0!
-1#l
 b00010000 #
 #8290
-0#l
+0#k
 #8295
-1#l
+1#k
 b00100000 #
 #8300
-0#l
+0#k
 #8305
+1#k
 1!
-1#l
 b01000000 #
 #8310
-0#l
+0#k
 #8315
-1#l
+1#k
 b10000000 #
 #8320
-0#l
+0#k
 #8325
+1#k
 0!
-1#l
-b01100111 "
-b00000001 #
 b01101000 $
+b00000001 #
 #8330
-0#l
+0#k
 #8335
+1#k
 1!
-1#l
+b01101000 "
 b00000010 #
+b01101000 %
+b01101000 #j
 #8340
-0#l
+0#k
 #8345
-1#l
+1#k
+0!
 b00000100 #
 #8350
-0#l
+0#k
 #8355
-1#l
+1#k
 b00001000 #
 #8360
-0#l
+0#k
 #8365
-0!
-1#l
+1#k
+1!
 b00010000 #
 #8370
-0#l
+0#k
 #8375
-1#l
+1#k
+0!
 b00100000 #
 #8380
-0#l
+0#k
 #8385
+1#k
 1!
-1#l
 b01000000 #
 #8390
-0#l
+0#k
 #8395
-1#l
+1#k
 b10000000 #
 #8400
-0#l
+0#k
 #8405
+1#k
 0!
-1#l
-b01101000 "
-b00000001 #
 b01101001 $
+b00000001 #
 #8410
-0#l
+0#k
 #8415
-1#l
+1#k
+b01101001 "
 b00000010 #
+b01101001 #j
+b01101001 %
 #8420
-0#l
+0#k
 #8425
-1#l
+1#k
 b00000100 #
 #8430
-0#l
+0#k
 #8435
-1#l
+1#k
 b00001000 #
 #8440
-0#l
+0#k
 #8445
+1#k
 1!
-1#l
 b00010000 #
 #8450
-0#l
+0#k
 #8455
+1#k
 0!
-1#l
 b00100000 #
 #8460
-0#l
+0#k
 #8465
+1#k
 1!
-1#l
 b01000000 #
 #8470
-0#l
+0#k
 #8475
-1#l
+1#k
 b10000000 #
 #8480
-0#l
+0#k
 #8485
+1#k
 0!
-1#l
-b01101001 "
-b00000001 #
 b01101010 $
+b00000001 #
 #8490
-0#l
+0#k
 #8495
+1#k
 1!
-1#l
+b01101010 "
 b00000010 #
+b01101010 %
+b01101010 #j
 #8500
-0#l
+0#k
 #8505
-0!
-1#l
+1#k
 b00000100 #
 #8510
-0#l
+0#k
 #8515
-1#l
+1#k
+0!
 b00001000 #
 #8520
-0#l
+0#k
 #8525
+1#k
 1!
-1#l
 b00010000 #
 #8530
-0#l
+0#k
 #8535
+1#k
 0!
-1#l
 b00100000 #
 #8540
-0#l
+0#k
 #8545
+1#k
 1!
-1#l
 b01000000 #
 #8550
-0#l
+0#k
 #8555
-1#l
+1#k
 b10000000 #
 #8560
-0#l
+0#k
 #8565
+1#k
 0!
-1#l
-b01101010 "
-b00000001 #
 b01101011 $
+b00000001 #
 #8570
-0#l
+0#k
 #8575
-1#l
+1#k
+b01101011 "
 b00000010 #
+b01101011 #j
+b01101011 %
 #8580
-0#l
+0#k
 #8585
+1#k
 1!
-1#l
 b00000100 #
 #8590
-0#l
+0#k
 #8595
+1#k
 0!
-1#l
 b00001000 #
 #8600
-0#l
+0#k
 #8605
+1#k
 1!
-1#l
 b00010000 #
 #8610
-0#l
+0#k
 #8615
+1#k
 0!
-1#l
 b00100000 #
 #8620
-0#l
+0#k
 #8625
+1#k
 1!
-1#l
 b01000000 #
 #8630
-0#l
+0#k
 #8635
-1#l
+1#k
 b10000000 #
 #8640
-0#l
+0#k
 #8645
+1#k
 0!
-1#l
-b01101011 "
-b00000001 #
 b01101100 $
+b00000001 #
 #8650
-0#l
+0#k
 #8655
+1#k
 1!
-1#l
+b01101100 "
 b00000010 #
+b01101100 %
+b01101100 #j
 #8660
-0#l
+0#k
 #8665
-1#l
+1#k
+0!
 b00000100 #
 #8670
-0#l
+0#k
 #8675
-0!
-1#l
+1#k
+1!
 b00001000 #
 #8680
-0#l
+0#k
 #8685
-1!
-1#l
+1#k
 b00010000 #
 #8690
-0#l
+0#k
 #8695
+1#k
 0!
-1#l
 b00100000 #
 #8700
-0#l
+0#k
 #8705
+1#k
 1!
-1#l
 b01000000 #
 #8710
-0#l
+0#k
 #8715
-1#l
+1#k
 b10000000 #
 #8720
-0#l
+0#k
 #8725
+1#k
 0!
-1#l
-b01101100 "
-b00000001 #
 b01101101 $
+b00000001 #
 #8730
-0#l
+0#k
 #8735
-1#l
+1#k
+b01101101 "
 b00000010 #
+b01101101 #j
+b01101101 %
 #8740
-0#l
+0#k
 #8745
-1#l
+1#k
 b00000100 #
 #8750
-0#l
+0#k
 #8755
+1#k
 1!
-1#l
 b00001000 #
 #8760
-0#l
+0#k
 #8765
-1#l
+1#k
 b00010000 #
 #8770
-0#l
+0#k
 #8775
+1#k
 0!
-1#l
 b00100000 #
 #8780
-0#l
+0#k
 #8785
+1#k
 1!
-1#l
 b01000000 #
 #8790
-0#l
+0#k
 #8795
-1#l
+1#k
 b10000000 #
 #8800
-0#l
+0#k
 #8805
+1#k
 0!
-1#l
-b01101101 "
-b00000001 #
 b01101110 $
+b00000001 #
 #8810
-0#l
+0#k
 #8815
+1#k
 1!
-1#l
+b01101110 "
 b00000010 #
+b01101110 %
+b01101110 #j
 #8820
-0#l
+0#k
 #8825
-0!
-1#l
+1#k
 b00000100 #
 #8830
-0#l
+0#k
 #8835
-1!
-1#l
+1#k
 b00001000 #
 #8840
-0#l
+0#k
 #8845
-1#l
+1#k
 b00010000 #
 #8850
-0#l
+0#k
 #8855
+1#k
 0!
-1#l
 b00100000 #
 #8860
-0#l
+0#k
 #8865
+1#k
 1!
-1#l
 b01000000 #
 #8870
-0#l
+0#k
 #8875
-1#l
+1#k
 b10000000 #
 #8880
-0#l
+0#k
 #8885
+1#k
 0!
-1#l
-b01101110 "
-b00000001 #
 b01101111 $
+b00000001 #
 #8890
-0#l
+0#k
 #8895
-1#l
+1#k
+b01101111 "
 b00000010 #
+b01101111 #j
+b01101111 %
 #8900
-0#l
+0#k
 #8905
+1#k
 1!
-1#l
 b00000100 #
 #8910
-0#l
+0#k
 #8915
-1#l
+1#k
 b00001000 #
 #8920
-0#l
+0#k
 #8925
-1#l
+1#k
 b00010000 #
 #8930
-0#l
+0#k
 #8935
+1#k
 0!
-1#l
 b00100000 #
 #8940
-0#l
+0#k
 #8945
+1#k
 1!
-1#l
 b01000000 #
 #8950
-0#l
+0#k
 #8955
-1#l
+1#k
 b10000000 #
 #8960
-0#l
+0#k
 #8965
+1#k
 0!
-1#l
-b01101111 "
-b00000001 #
 b01110000 $
+b00000001 #
 #8970
-0#l
+0#k
 #8975
+1#k
 1!
-1#l
+b01110000 "
 b00000010 #
+b01110000 %
+b01110000 #j
 #8980
-0#l
+0#k
 #8985
-1#l
+1#k
+0!
 b00000100 #
 #8990
-0#l
+0#k
 #8995
-1#l
+1#k
 b00001000 #
 #9000
-0#l
+0#k
 #9005
-1#l
+1#k
 b00010000 #
 #9010
-0#l
+0#k
 #9015
-0!
-1#l
+1#k
+1!
 b00100000 #
 #9020
-0#l
+0#k
 #9025
-1!
-1#l
+1#k
 b01000000 #
 #9030
-0#l
+0#k
 #9035
-1#l
+1#k
 b10000000 #
 #9040
-0#l
+0#k
 #9045
+1#k
 0!
-1#l
-b01110000 "
-b00000001 #
 b01110001 $
+b00000001 #
 #9050
-0#l
+0#k
 #9055
-1#l
+1#k
+b01110001 "
 b00000010 #
+b01110001 #j
+b01110001 %
 #9060
-0#l
+0#k
 #9065
-1#l
+1#k
 b00000100 #
 #9070
-0#l
+0#k
 #9075
-1#l
+1#k
 b00001000 #
 #9080
-0#l
+0#k
 #9085
-1#l
+1#k
 b00010000 #
 #9090
-0#l
+0#k
 #9095
+1#k
 1!
-1#l
 b00100000 #
 #9100
-0#l
+0#k
 #9105
-1#l
+1#k
 b01000000 #
 #9110
-0#l
+0#k
 #9115
-1#l
+1#k
 b10000000 #
 #9120
-0#l
+0#k
 #9125
+1#k
 0!
-1#l
-b01110001 "
-b00000001 #
 b01110010 $
+b00000001 #
 #9130
-0#l
+0#k
 #9135
+1#k
 1!
-1#l
+b01110010 "
 b00000010 #
+b01110010 %
+b01110010 #j
 #9140
-0#l
+0#k
 #9145
-0!
-1#l
+1#k
 b00000100 #
 #9150
-0#l
+0#k
 #9155
-1#l
+1#k
+0!
 b00001000 #
 #9160
-0#l
+0#k
 #9165
-1#l
+1#k
 b00010000 #
 #9170
-0#l
+0#k
 #9175
+1#k
 1!
-1#l
 b00100000 #
 #9180
-0#l
+0#k
 #9185
-1#l
+1#k
 b01000000 #
 #9190
-0#l
+0#k
 #9195
-1#l
+1#k
 b10000000 #
 #9200
-0#l
+0#k
 #9205
+1#k
 0!
-1#l
-b01110010 "
-b00000001 #
 b01110011 $
+b00000001 #
 #9210
-0#l
+0#k
 #9215
-1#l
+1#k
+b01110011 "
 b00000010 #
+b01110011 #j
+b01110011 %
 #9220
-0#l
+0#k
 #9225
+1#k
 1!
-1#l
 b00000100 #
 #9230
-0#l
+0#k
 #9235
+1#k
 0!
-1#l
 b00001000 #
 #9240
-0#l
+0#k
 #9245
-1#l
+1#k
 b00010000 #
 #9250
-0#l
+0#k
 #9255
+1#k
 1!
-1#l
 b00100000 #
 #9260
-0#l
+0#k
 #9265
-1#l
+1#k
 b01000000 #
 #9270
-0#l
+0#k
 #9275
-1#l
+1#k
 b10000000 #
 #9280
-0#l
+0#k
 #9285
+1#k
 0!
-1#l
-b01110011 "
-b00000001 #
 b01110100 $
+b00000001 #
 #9290
-0#l
+0#k
 #9295
+1#k
 1!
-1#l
+b01110100 "
 b00000010 #
+b01110100 %
+b01110100 #j
 #9300
-0#l
+0#k
 #9305
-1#l
+1#k
+0!
 b00000100 #
 #9310
-0#l
+0#k
 #9315
-0!
-1#l
+1#k
+1!
 b00001000 #
 #9320
-0#l
+0#k
 #9325
-1#l
+1#k
+0!
 b00010000 #
 #9330
-0#l
+0#k
 #9335
+1#k
 1!
-1#l
 b00100000 #
 #9340
-0#l
+0#k
 #9345
-1#l
+1#k
 b01000000 #
 #9350
-0#l
+0#k
 #9355
-1#l
+1#k
 b10000000 #
 #9360
-0#l
+0#k
 #9365
+1#k
 0!
-1#l
-b01110100 "
-b00000001 #
 b01110101 $
+b00000001 #
 #9370
-0#l
+0#k
 #9375
-1#l
+1#k
+b01110101 "
 b00000010 #
+b01110101 #j
+b01110101 %
 #9380
-0#l
+0#k
 #9385
-1#l
+1#k
 b00000100 #
 #9390
-0#l
+0#k
 #9395
+1#k
 1!
-1#l
 b00001000 #
 #9400
-0#l
+0#k
 #9405
+1#k
 0!
-1#l
 b00010000 #
 #9410
-0#l
+0#k
 #9415
+1#k
 1!
-1#l
 b00100000 #
 #9420
-0#l
+0#k
 #9425
-1#l
+1#k
 b01000000 #
 #9430
-0#l
+0#k
 #9435
-1#l
+1#k
 b10000000 #
 #9440
-0#l
+0#k
 #9445
+1#k
 0!
-1#l
-b01110101 "
-b00000001 #
 b01110110 $
+b00000001 #
 #9450
-0#l
+0#k
 #9455
+1#k
 1!
-1#l
+b01110110 "
 b00000010 #
+b01110110 %
+b01110110 #j
 #9460
-0#l
+0#k
 #9465
-0!
-1#l
+1#k
 b00000100 #
 #9470
-0#l
+0#k
 #9475
-1!
-1#l
+1#k
 b00001000 #
 #9480
-0#l
+0#k
 #9485
+1#k
 0!
-1#l
 b00010000 #
 #9490
-0#l
+0#k
 #9495
+1#k
 1!
-1#l
 b00100000 #
 #9500
-0#l
+0#k
 #9505
-1#l
+1#k
 b01000000 #
 #9510
-0#l
+0#k
 #9515
-1#l
+1#k
 b10000000 #
 #9520
-0#l
+0#k
 #9525
+1#k
 0!
-1#l
-b01110110 "
-b00000001 #
 b01110111 $
+b00000001 #
 #9530
-0#l
+0#k
 #9535
-1#l
+1#k
+b01110111 "
 b00000010 #
+b01110111 #j
+b01110111 %
 #9540
-0#l
+0#k
 #9545
+1#k
 1!
-1#l
 b00000100 #
 #9550
-0#l
+0#k
 #9555
-1#l
+1#k
 b00001000 #
 #9560
-0#l
+0#k
 #9565
+1#k
 0!
-1#l
 b00010000 #
 #9570
-0#l
+0#k
 #9575
+1#k
 1!
-1#l
 b00100000 #
 #9580
-0#l
+0#k
 #9585
-1#l
+1#k
 b01000000 #
 #9590
-0#l
+0#k
 #9595
-1#l
+1#k
 b10000000 #
 #9600
-0#l
+0#k
 #9605
+1#k
 0!
-1#l
-b01110111 "
-b00000001 #
 b01111000 $
+b00000001 #
 #9610
-0#l
+0#k
 #9615
+1#k
 1!
-1#l
+b01111000 "
 b00000010 #
+b01111000 %
+b01111000 #j
 #9620
-0#l
+0#k
 #9625
-1#l
+1#k
+0!
 b00000100 #
 #9630
-0#l
+0#k
 #9635
-1#l
+1#k
 b00001000 #
 #9640
-0#l
+0#k
 #9645
-0!
-1#l
+1#k
+1!
 b00010000 #
 #9650
-0#l
+0#k
 #9655
-1!
-1#l
+1#k
 b00100000 #
 #9660
-0#l
+0#k
 #9665
-1#l
+1#k
 b01000000 #
 #9670
-0#l
+0#k
 #9675
-1#l
+1#k
 b10000000 #
 #9680
-0#l
+0#k
 #9685
+1#k
 0!
-1#l
-b01111000 "
-b00000001 #
 b01111001 $
+b00000001 #
 #9690
-0#l
+0#k
 #9695
-1#l
+1#k
+b01111001 "
 b00000010 #
+b01111001 #j
+b01111001 %
 #9700
-0#l
+0#k
 #9705
-1#l
+1#k
 b00000100 #
 #9710
-0#l
+0#k
 #9715
-1#l
+1#k
 b00001000 #
 #9720
-0#l
+0#k
 #9725
+1#k
 1!
-1#l
 b00010000 #
 #9730
-0#l
+0#k
 #9735
-1#l
+1#k
 b00100000 #
 #9740
-0#l
+0#k
 #9745
-1#l
+1#k
 b01000000 #
 #9750
-0#l
+0#k
 #9755
-1#l
+1#k
 b10000000 #
 #9760
-0#l
+0#k
 #9765
+1#k
 0!
-1#l
-b01111001 "
-b00000001 #
 b01111010 $
+b00000001 #
 #9770
-0#l
+0#k
 #9775
+1#k
 1!
-1#l
+b01111010 "
 b00000010 #
+b01111010 %
+b01111010 #j
 #9780
-0#l
+0#k
 #9785
-0!
-1#l
+1#k
 b00000100 #
 #9790
-0#l
+0#k
 #9795
-1#l
+1#k
+0!
 b00001000 #
 #9800
-0#l
+0#k
 #9805
+1#k
 1!
-1#l
 b00010000 #
 #9810
-0#l
+0#k
 #9815
-1#l
+1#k
 b00100000 #
 #9820
-0#l
+0#k
 #9825
-1#l
+1#k
 b01000000 #
 #9830
-0#l
+0#k
 #9835
-1#l
+1#k
 b10000000 #
 #9840
-0#l
+0#k
 #9845
+1#k
 0!
-1#l
-b01111010 "
-b00000001 #
 b01111011 $
+b00000001 #
 #9850
-0#l
+0#k
 #9855
-1#l
+1#k
+b01111011 "
 b00000010 #
+b01111011 #j
+b01111011 %
 #9860
-0#l
+0#k
 #9865
+1#k
 1!
-1#l
 b00000100 #
 #9870
-0#l
+0#k
 #9875
+1#k
 0!
-1#l
 b00001000 #
 #9880
-0#l
+0#k
 #9885
+1#k
 1!
-1#l
 b00010000 #
 #9890
-0#l
+0#k
 #9895
-1#l
+1#k
 b00100000 #
 #9900
-0#l
+0#k
 #9905
-1#l
+1#k
 b01000000 #
 #9910
-0#l
+0#k
 #9915
-1#l
+1#k
 b10000000 #
 #9920
-0#l
+0#k
 #9925
+1#k
 0!
-1#l
-b01111011 "
-b00000001 #
 b01111100 $
+b00000001 #
 #9930
-0#l
+0#k
 #9935
+1#k
 1!
-1#l
+b01111100 "
 b00000010 #
+b01111100 %
+b01111100 #j
 #9940
-0#l
+0#k
 #9945
-1#l
+1#k
+0!
 b00000100 #
 #9950
-0#l
+0#k
 #9955
-0!
-1#l
+1#k
+1!
 b00001000 #
 #9960
-0#l
+0#k
 #9965
-1!
-1#l
+1#k
 b00010000 #
 #9970
-0#l
+0#k
 #9975
-1#l
+1#k
 b00100000 #
 #9980
-0#l
+0#k
 #9985
-1#l
+1#k
 b01000000 #
 #9990
-0#l
+0#k
 #9995
-1#l
+1#k
 b10000000 #
 #10000
-0#l
+0#k
 #10005
+1#k
 0!
-1#l
-b01111100 "
-b00000001 #
 b01111101 $
+b00000001 #
 #10010
-0#l
+0#k
 #10015
-1#l
+1#k
+b01111101 "
 b00000010 #
+b01111101 #j
+b01111101 %
 #10020
-0#l
+0#k
 #10025
-1#l
+1#k
 b00000100 #
 #10030
-0#l
+0#k
 #10035
+1#k
 1!
-1#l
 b00001000 #
 #10040
-0#l
+0#k
 #10045
-1#l
+1#k
 b00010000 #
 #10050
-0#l
+0#k
 #10055
-1#l
+1#k
 b00100000 #
 #10060
-0#l
+0#k
 #10065
-1#l
+1#k
 b01000000 #
 #10070
-0#l
+0#k
 #10075
-1#l
+1#k
 b10000000 #
 #10080
-0#l
+0#k
 #10085
+1#k
 0!
-1#l
-b01111101 "
-b00000001 #
 b01111110 $
+b00000001 #
 #10090
-0#l
+0#k
 #10095
+1#k
 1!
-1#l
+b01111110 "
 b00000010 #
+b01111110 %
+b01111110 #j
 #10100
-0#l
+0#k
 #10105
-0!
-1#l
+1#k
 b00000100 #
 #10110
-0#l
+0#k
 #10115
-1!
-1#l
+1#k
 b00001000 #
 #10120
-0#l
+0#k
 #10125
-1#l
+1#k
 b00010000 #
 #10130
-0#l
+0#k
 #10135
-1#l
+1#k
 b00100000 #
 #10140
-0#l
+0#k
 #10145
-1#l
+1#k
 b01000000 #
 #10150
-0#l
+0#k
 #10155
-1#l
+1#k
 b10000000 #
 #10160
-0#l
+0#k
 #10165
+1#k
 0!
-1#l
-b01111110 "
-b00000001 #
 b01111111 $
+b00000001 #
 #10170
-0#l
+0#k
 #10175
-1#l
+1#k
+b01111111 "
 b00000010 #
+b01111111 #j
+b01111111 %
 #10180
-0#l
+0#k
 #10185
+1#k
 1!
-1#l
 b00000100 #
 #10190
-0#l
+0#k
 #10195
-1#l
+1#k
 b00001000 #
 #10200
-0#l
+0#k
 #10205
-1#l
+1#k
 b00010000 #
 #10210
-0#l
+0#k
 #10215
-1#l
+1#k
 b00100000 #
 #10220
-0#l
+0#k
 #10225
-1#l
+1#k
 b01000000 #
 #10230
-0#l
+0#k
 #10235
-1#l
+1#k
 b10000000 #
 #10240
-0#l
+0#k
 #10245
+1#k
 0!
-1#l
-b01111111 "
-b00000001 #
 b10000000 $
+b00000001 #
 #10250
-0#l
+0#k
 #10255
+1#k
 1!
-1#l
+b10000000 "
 b00000010 #
+b10000000 %
+b10000000 #j
 #10260
-0#l
+0#k
 #10265
-1#l
+1#k
+0!
 b00000100 #
 #10270
-0#l
+0#k
 #10275
-1#l
+1#k
 b00001000 #
 #10280
-0#l
+0#k
 #10285
-1#l
+1#k
 b00010000 #
 #10290
-0#l
+0#k
 #10295
-1#l
+1#k
 b00100000 #
 #10300
-0#l
+0#k
 #10305
-1#l
+1#k
 b01000000 #
 #10310
-0#l
+0#k
 #10315
-1#l
+1#k
 b10000000 #
 #10320
-0#l
+0#k
 #10325
-0!
-1#l
-b10000000 "
-b00000001 #
+1#k
+1!
 b10000001 $
+b00000001 #
 #10330
-0#l
+0#k
 #10335
-1#l
+1#k
+0!
+b10000001 "
 b00000010 #
+b10000001 %
+b10000001 #j
 #10340
-0#l
+0#k
 #10345
-1#l
+1#k
 b00000100 #
 #10350
-0#l
+0#k
 #10355
-1#l
+1#k
 b00001000 #
 #10360
-0#l
+0#k
 #10365
-1#l
+1#k
 b00010000 #
 #10370
-0#l
+0#k
 #10375
-1#l
+1#k
 b00100000 #
 #10380
-0#l
+0#k
 #10385
-1#l
+1#k
 b01000000 #
 #10390
-0#l
+0#k
 #10395
-1#l
+1#k
 b10000000 #
 #10400
-0#l
+0#k
 #10405
+1#k
 1!
-1#l
-b10000001 "
-b00000001 #
 b10000010 $
+b00000001 #
 #10410
-0#l
+0#k
 #10415
-1#l
+1#k
+b10000010 "
 b00000010 #
+b10000010 #j
+b10000010 %
 #10420
-0#l
+0#k
 #10425
-0!
-1#l
+1#k
 b00000100 #
 #10430
-0#l
+0#k
 #10435
-1#l
+1#k
+0!
 b00001000 #
 #10440
-0#l
+0#k
 #10445
-1#l
+1#k
 b00010000 #
 #10450
-0#l
+0#k
 #10455
-1#l
+1#k
 b00100000 #
 #10460
-0#l
+0#k
 #10465
-1#l
+1#k
 b01000000 #
 #10470
-0#l
+0#k
 #10475
-1#l
+1#k
 b10000000 #
 #10480
-0#l
+0#k
 #10485
+1#k
 1!
-1#l
-b10000010 "
-b00000001 #
 b10000011 $
+b00000001 #
 #10490
-0#l
+0#k
 #10495
+1#k
 0!
-1#l
+b10000011 "
 b00000010 #
+b10000011 %
+b10000011 #j
 #10500
-0#l
+0#k
 #10505
+1#k
 1!
-1#l
 b00000100 #
 #10510
-0#l
+0#k
 #10515
+1#k
 0!
-1#l
 b00001000 #
 #10520
-0#l
+0#k
 #10525
-1#l
+1#k
 b00010000 #
 #10530
-0#l
+0#k
 #10535
-1#l
+1#k
 b00100000 #
 #10540
-0#l
+0#k
 #10545
-1#l
+1#k
 b01000000 #
 #10550
-0#l
+0#k
 #10555
-1#l
+1#k
 b10000000 #
 #10560
-0#l
+0#k
 #10565
+1#k
 1!
-1#l
-b10000011 "
-b00000001 #
 b10000100 $
+b00000001 #
 #10570
-0#l
+0#k
 #10575
-1#l
+1#k
+b10000100 "
 b00000010 #
+b10000100 #j
+b10000100 %
 #10580
-0#l
+0#k
 #10585
-1#l
+1#k
+0!
 b00000100 #
 #10590
-0#l
+0#k
 #10595
-0!
-1#l
+1#k
+1!
 b00001000 #
 #10600
-0#l
+0#k
 #10605
-1#l
+1#k
+0!
 b00010000 #
 #10610
-0#l
+0#k
 #10615
-1#l
+1#k
 b00100000 #
 #10620
-0#l
+0#k
 #10625
-1#l
+1#k
 b01000000 #
 #10630
-0#l
+0#k
 #10635
-1#l
+1#k
 b10000000 #
 #10640
-0#l
+0#k
 #10645
+1#k
 1!
-1#l
-b10000100 "
-b00000001 #
 b10000101 $
+b00000001 #
 #10650
-0#l
+0#k
 #10655
+1#k
 0!
-1#l
+b10000101 "
 b00000010 #
+b10000101 %
+b10000101 #j
 #10660
-0#l
+0#k
 #10665
-1#l
+1#k
 b00000100 #
 #10670
-0#l
+0#k
 #10675
+1#k
 1!
-1#l
 b00001000 #
 #10680
-0#l
+0#k
 #10685
+1#k
 0!
-1#l
 b00010000 #
 #10690
-0#l
+0#k
 #10695
-1#l
+1#k
 b00100000 #
 #10700
-0#l
+0#k
 #10705
-1#l
+1#k
 b01000000 #
 #10710
-0#l
+0#k
 #10715
-1#l
+1#k
 b10000000 #
 #10720
-0#l
+0#k
 #10725
+1#k
 1!
-1#l
-b10000101 "
-b00000001 #
 b10000110 $
+b00000001 #
 #10730
-0#l
+0#k
 #10735
-1#l
+1#k
+b10000110 "
 b00000010 #
+b10000110 #j
+b10000110 %
 #10740
-0#l
+0#k
 #10745
-0!
-1#l
+1#k
 b00000100 #
 #10750
-0#l
+0#k
 #10755
-1!
-1#l
+1#k
 b00001000 #
 #10760
-0#l
+0#k
 #10765
+1#k
 0!
-1#l
 b00010000 #
 #10770
-0#l
+0#k
 #10775
-1#l
+1#k
 b00100000 #
 #10780
-0#l
+0#k
 #10785
-1#l
+1#k
 b01000000 #
 #10790
-0#l
+0#k
 #10795
-1#l
+1#k
 b10000000 #
 #10800
-0#l
+0#k
 #10805
+1#k
 1!
-1#l
-b10000110 "
-b00000001 #
 b10000111 $
+b00000001 #
 #10810
-0#l
+0#k
 #10815
+1#k
 0!
-1#l
+b10000111 "
 b00000010 #
+b10000111 %
+b10000111 #j
 #10820
-0#l
+0#k
 #10825
+1#k
 1!
-1#l
 b00000100 #
 #10830
-0#l
+0#k
 #10835
-1#l
+1#k
 b00001000 #
 #10840
-0#l
+0#k
 #10845
+1#k
 0!
-1#l
 b00010000 #
 #10850
-0#l
+0#k
 #10855
-1#l
+1#k
 b00100000 #
 #10860
-0#l
+0#k
 #10865
-1#l
+1#k
 b01000000 #
 #10870
-0#l
+0#k
 #10875
-1#l
+1#k
 b10000000 #
 #10880
-0#l
+0#k
 #10885
+1#k
 1!
-1#l
-b10000111 "
-b00000001 #
 b10001000 $
+b00000001 #
 #10890
-0#l
+0#k
 #10895
-1#l
+1#k
+b10001000 "
 b00000010 #
+b10001000 #j
+b10001000 %
 #10900
-0#l
+0#k
 #10905
-1#l
+1#k
+0!
 b00000100 #
 #10910
-0#l
+0#k
 #10915
-1#l
+1#k
 b00001000 #
 #10920
-0#l
+0#k
 #10925
-0!
-1#l
+1#k
+1!
 b00010000 #
 #10930
-0#l
+0#k
 #10935
-1#l
+1#k
+0!
 b00100000 #
 #10940
-0#l
+0#k
 #10945
-1#l
+1#k
 b01000000 #
 #10950
-0#l
+0#k
 #10955
-1#l
+1#k
 b10000000 #
 #10960
-0#l
+0#k
 #10965
+1#k
 1!
-1#l
-b10001000 "
-b00000001 #
 b10001001 $
+b00000001 #
 #10970
-0#l
+0#k
 #10975
+1#k
 0!
-1#l
+b10001001 "
 b00000010 #
+b10001001 %
+b10001001 #j
 #10980
-0#l
+0#k
 #10985
-1#l
+1#k
 b00000100 #
 #10990
-0#l
+0#k
 #10995
-1#l
+1#k
 b00001000 #
 #11000
-0#l
+0#k
 #11005
+1#k
 1!
-1#l
 b00010000 #
 #11010
-0#l
+0#k
 #11015
+1#k
 0!
-1#l
 b00100000 #
 #11020
-0#l
+0#k
 #11025
-1#l
+1#k
 b01000000 #
 #11030
-0#l
+0#k
 #11035
-1#l
+1#k
 b10000000 #
 #11040
-0#l
+0#k
 #11045
+1#k
 1!
-1#l
-b10001001 "
-b00000001 #
 b10001010 $
+b00000001 #
 #11050
-0#l
+0#k
 #11055
-1#l
+1#k
+b10001010 "
 b00000010 #
+b10001010 #j
+b10001010 %
 #11060
-0#l
+0#k
 #11065
-0!
-1#l
+1#k
 b00000100 #
 #11070
-0#l
+0#k
 #11075
-1#l
+1#k
+0!
 b00001000 #
 #11080
-0#l
+0#k
 #11085
+1#k
 1!
-1#l
 b00010000 #
 #11090
-0#l
+0#k
 #11095
+1#k
 0!
-1#l
 b00100000 #
 #11100
-0#l
+0#k
 #11105
-1#l
+1#k
 b01000000 #
 #11110
-0#l
+0#k
 #11115
-1#l
+1#k
 b10000000 #
 #11120
-0#l
+0#k
 #11125
+1#k
 1!
-1#l
-b10001010 "
-b00000001 #
 b10001011 $
+b00000001 #
 #11130
-0#l
+0#k
 #11135
+1#k
 0!
-1#l
+b10001011 "
 b00000010 #
+b10001011 %
+b10001011 #j
 #11140
-0#l
+0#k
 #11145
+1#k
 1!
-1#l
 b00000100 #
 #11150
-0#l
+0#k
 #11155
+1#k
 0!
-1#l
 b00001000 #
 #11160
-0#l
+0#k
 #11165
+1#k
 1!
-1#l
 b00010000 #
 #11170
-0#l
+0#k
 #11175
+1#k
 0!
-1#l
 b00100000 #
 #11180
-0#l
+0#k
 #11185
-1#l
+1#k
 b01000000 #
 #11190
-0#l
+0#k
 #11195
-1#l
+1#k
 b10000000 #
 #11200
-0#l
+0#k
 #11205
+1#k
 1!
-1#l
-b10001011 "
-b00000001 #
 b10001100 $
+b00000001 #
 #11210
-0#l
+0#k
 #11215
-1#l
+1#k
+b10001100 "
 b00000010 #
+b10001100 #j
+b10001100 %
 #11220
-0#l
+0#k
 #11225
-1#l
+1#k
+0!
 b00000100 #
 #11230
-0#l
+0#k
 #11235
-0!
-1#l
+1#k
+1!
 b00001000 #
 #11240
-0#l
+0#k
 #11245
-1!
-1#l
+1#k
 b00010000 #
 #11250
-0#l
+0#k
 #11255
+1#k
 0!
-1#l
 b00100000 #
 #11260
-0#l
+0#k
 #11265
-1#l
+1#k
 b01000000 #
 #11270
-0#l
+0#k
 #11275
-1#l
+1#k
 b10000000 #
 #11280
-0#l
+0#k
 #11285
+1#k
 1!
-1#l
-b10001100 "
-b00000001 #
 b10001101 $
+b00000001 #
 #11290
-0#l
+0#k
 #11295
+1#k
 0!
-1#l
+b10001101 "
 b00000010 #
+b10001101 %
+b10001101 #j
 #11300
-0#l
+0#k
 #11305
-1#l
+1#k
 b00000100 #
 #11310
-0#l
+0#k
 #11315
+1#k
 1!
-1#l
 b00001000 #
 #11320
-0#l
+0#k
 #11325
-1#l
+1#k
 b00010000 #
 #11330
-0#l
+0#k
 #11335
+1#k
 0!
-1#l
 b00100000 #
 #11340
-0#l
+0#k
 #11345
-1#l
+1#k
 b01000000 #
 #11350
-0#l
+0#k
 #11355
-1#l
+1#k
 b10000000 #
 #11360
-0#l
+0#k
 #11365
+1#k
 1!
-1#l
-b10001101 "
-b00000001 #
 b10001110 $
+b00000001 #
 #11370
-0#l
+0#k
 #11375
-1#l
+1#k
+b10001110 "
 b00000010 #
+b10001110 #j
+b10001110 %
 #11380
-0#l
+0#k
 #11385
-0!
-1#l
+1#k
 b00000100 #
 #11390
-0#l
+0#k
 #11395
-1!
-1#l
+1#k
 b00001000 #
 #11400
-0#l
+0#k
 #11405
-1#l
+1#k
 b00010000 #
 #11410
-0#l
+0#k
 #11415
+1#k
 0!
-1#l
 b00100000 #
 #11420
-0#l
+0#k
 #11425
-1#l
+1#k
 b01000000 #
 #11430
-0#l
+0#k
 #11435
-1#l
+1#k
 b10000000 #
 #11440
-0#l
+0#k
 #11445
+1#k
 1!
-1#l
-b10001110 "
-b00000001 #
 b10001111 $
+b00000001 #
 #11450
-0#l
+0#k
 #11455
+1#k
 0!
-1#l
+b10001111 "
 b00000010 #
+b10001111 %
+b10001111 #j
 #11460
-0#l
+0#k
 #11465
+1#k
 1!
-1#l
 b00000100 #
 #11470
-0#l
+0#k
 #11475
-1#l
+1#k
 b00001000 #
 #11480
-0#l
+0#k
 #11485
-1#l
+1#k
 b00010000 #
 #11490
-0#l
+0#k
 #11495
+1#k
 0!
-1#l
 b00100000 #
 #11500
-0#l
+0#k
 #11505
-1#l
+1#k
 b01000000 #
 #11510
-0#l
+0#k
 #11515
-1#l
+1#k
 b10000000 #
 #11520
-0#l
+0#k
 #11525
+1#k
 1!
-1#l
-b10001111 "
-b00000001 #
 b10010000 $
+b00000001 #
 #11530
-0#l
+0#k
 #11535
-1#l
+1#k
+b10010000 "
 b00000010 #
+b10010000 #j
+b10010000 %
 #11540
-0#l
+0#k
 #11545
-1#l
+1#k
+0!
 b00000100 #
 #11550
-0#l
+0#k
 #11555
-1#l
+1#k
 b00001000 #
 #11560
-0#l
+0#k
 #11565
-1#l
+1#k
 b00010000 #
 #11570
-0#l
+0#k
 #11575
-0!
-1#l
+1#k
+1!
 b00100000 #
 #11580
-0#l
+0#k
 #11585
-1#l
+1#k
+0!
 b01000000 #
 #11590
-0#l
+0#k
 #11595
-1#l
+1#k
 b10000000 #
 #11600
-0#l
+0#k
 #11605
+1#k
 1!
-1#l
-b10010000 "
-b00000001 #
 b10010001 $
+b00000001 #
 #11610
-0#l
+0#k
 #11615
+1#k
 0!
-1#l
+b10010001 "
 b00000010 #
+b10010001 %
+b10010001 #j
 #11620
-0#l
+0#k
 #11625
-1#l
+1#k
 b00000100 #
 #11630
-0#l
+0#k
 #11635
-1#l
+1#k
 b00001000 #
 #11640
-0#l
+0#k
 #11645
-1#l
+1#k
 b00010000 #
 #11650
-0#l
+0#k
 #11655
+1#k
 1!
-1#l
 b00100000 #
 #11660
-0#l
+0#k
 #11665
+1#k
 0!
-1#l
 b01000000 #
 #11670
-0#l
+0#k
 #11675
-1#l
+1#k
 b10000000 #
 #11680
-0#l
+0#k
 #11685
+1#k
 1!
-1#l
-b10010001 "
-b00000001 #
 b10010010 $
+b00000001 #
 #11690
-0#l
+0#k
 #11695
-1#l
+1#k
+b10010010 "
 b00000010 #
+b10010010 #j
+b10010010 %
 #11700
-0#l
+0#k
 #11705
-0!
-1#l
+1#k
 b00000100 #
 #11710
-0#l
+0#k
 #11715
-1#l
+1#k
+0!
 b00001000 #
 #11720
-0#l
+0#k
 #11725
-1#l
+1#k
 b00010000 #
 #11730
-0#l
+0#k
 #11735
+1#k
 1!
-1#l
 b00100000 #
 #11740
-0#l
+0#k
 #11745
+1#k
 0!
-1#l
 b01000000 #
 #11750
-0#l
+0#k
 #11755
-1#l
+1#k
 b10000000 #
 #11760
-0#l
+0#k
 #11765
+1#k
 1!
-1#l
-b10010010 "
-b00000001 #
 b10010011 $
+b00000001 #
 #11770
-0#l
+0#k
 #11775
+1#k
 0!
-1#l
+b10010011 "
 b00000010 #
+b10010011 %
+b10010011 #j
 #11780
-0#l
+0#k
 #11785
+1#k
 1!
-1#l
 b00000100 #
 #11790
-0#l
+0#k
 #11795
+1#k
 0!
-1#l
 b00001000 #
 #11800
-0#l
+0#k
 #11805
-1#l
+1#k
 b00010000 #
 #11810
-0#l
+0#k
 #11815
+1#k
 1!
-1#l
 b00100000 #
 #11820
-0#l
+0#k
 #11825
+1#k
 0!
-1#l
 b01000000 #
 #11830
-0#l
+0#k
 #11835
-1#l
+1#k
 b10000000 #
 #11840
-0#l
+0#k
 #11845
+1#k
 1!
-1#l
-b10010011 "
-b00000001 #
 b10010100 $
+b00000001 #
 #11850
-0#l
+0#k
 #11855
-1#l
+1#k
+b10010100 "
 b00000010 #
+b10010100 #j
+b10010100 %
 #11860
-0#l
+0#k
 #11865
-1#l
+1#k
+0!
 b00000100 #
 #11870
-0#l
+0#k
 #11875
-0!
-1#l
+1#k
+1!
 b00001000 #
 #11880
-0#l
+0#k
 #11885
-1#l
+1#k
+0!
 b00010000 #
 #11890
-0#l
+0#k
 #11895
+1#k
 1!
-1#l
 b00100000 #
 #11900
-0#l
+0#k
 #11905
+1#k
 0!
-1#l
 b01000000 #
 #11910
-0#l
+0#k
 #11915
-1#l
+1#k
 b10000000 #
 #11920
-0#l
+0#k
 #11925
+1#k
 1!
-1#l
-b10010100 "
-b00000001 #
 b10010101 $
+b00000001 #
 #11930
-0#l
+0#k
 #11935
+1#k
 0!
-1#l
+b10010101 "
 b00000010 #
+b10010101 %
+b10010101 #j
 #11940
-0#l
+0#k
 #11945
-1#l
+1#k
 b00000100 #
 #11950
-0#l
+0#k
 #11955
+1#k
 1!
-1#l
 b00001000 #
 #11960
-0#l
+0#k
 #11965
+1#k
 0!
-1#l
 b00010000 #
 #11970
-0#l
+0#k
 #11975
+1#k
 1!
-1#l
 b00100000 #
 #11980
-0#l
+0#k
 #11985
+1#k
 0!
-1#l
 b01000000 #
 #11990
-0#l
+0#k
 #11995
-1#l
+1#k
 b10000000 #
 #12000
-0#l
+0#k
 #12005
+1#k
 1!
-1#l
-b10010101 "
-b00000001 #
 b10010110 $
+b00000001 #
 #12010
-0#l
+0#k
 #12015
-1#l
+1#k
+b10010110 "
 b00000010 #
+b10010110 #j
+b10010110 %
 #12020
-0#l
+0#k
 #12025
-0!
-1#l
+1#k
 b00000100 #
 #12030
-0#l
+0#k
 #12035
-1!
-1#l
+1#k
 b00001000 #
 #12040
-0#l
+0#k
 #12045
+1#k
 0!
-1#l
 b00010000 #
 #12050
-0#l
+0#k
 #12055
+1#k
 1!
-1#l
 b00100000 #
 #12060
-0#l
+0#k
 #12065
+1#k
 0!
-1#l
 b01000000 #
 #12070
-0#l
+0#k
 #12075
-1#l
+1#k
 b10000000 #
 #12080
-0#l
+0#k
 #12085
+1#k
 1!
-1#l
-b10010110 "
-b00000001 #
 b10010111 $
+b00000001 #
 #12090
-0#l
+0#k
 #12095
+1#k
 0!
-1#l
+b10010111 "
 b00000010 #
+b10010111 %
+b10010111 #j
 #12100
-0#l
+0#k
 #12105
+1#k
 1!
-1#l
 b00000100 #
 #12110
-0#l
+0#k
 #12115
-1#l
+1#k
 b00001000 #
 #12120
-0#l
+0#k
 #12125
+1#k
 0!
-1#l
 b00010000 #
 #12130
-0#l
+0#k
 #12135
+1#k
 1!
-1#l
 b00100000 #
 #12140
-0#l
+0#k
 #12145
+1#k
 0!
-1#l
 b01000000 #
 #12150
-0#l
+0#k
 #12155
-1#l
+1#k
 b10000000 #
 #12160
-0#l
+0#k
 #12165
+1#k
 1!
-1#l
-b10010111 "
-b00000001 #
 b10011000 $
+b00000001 #
 #12170
-0#l
+0#k
 #12175
-1#l
+1#k
+b10011000 "
 b00000010 #
+b10011000 #j
+b10011000 %
 #12180
-0#l
+0#k
 #12185
-1#l
+1#k
+0!
 b00000100 #
 #12190
-0#l
+0#k
 #12195
-1#l
+1#k
 b00001000 #
 #12200
-0#l
+0#k
 #12205
-0!
-1#l
+1#k
+1!
 b00010000 #
 #12210
-0#l
+0#k
 #12215
-1!
-1#l
+1#k
 b00100000 #
 #12220
-0#l
+0#k
 #12225
+1#k
 0!
-1#l
 b01000000 #
 #12230
-0#l
+0#k
 #12235
-1#l
+1#k
 b10000000 #
 #12240
-0#l
+0#k
 #12245
+1#k
 1!
-1#l
-b10011000 "
-b00000001 #
 b10011001 $
+b00000001 #
 #12250
-0#l
+0#k
 #12255
+1#k
 0!
-1#l
+b10011001 "
 b00000010 #
+b10011001 %
+b10011001 #j
 #12260
-0#l
+0#k
 #12265
-1#l
+1#k
 b00000100 #
 #12270
-0#l
+0#k
 #12275
-1#l
+1#k
 b00001000 #
 #12280
-0#l
+0#k
 #12285
+1#k
 1!
-1#l
 b00010000 #
 #12290
-0#l
+0#k
 #12295
-1#l
+1#k
 b00100000 #
 #12300
-0#l
+0#k
 #12305
+1#k
 0!
-1#l
 b01000000 #
 #12310
-0#l
+0#k
 #12315
-1#l
+1#k
 b10000000 #
 #12320
-0#l
+0#k
 #12325
+1#k
 1!
-1#l
-b10011001 "
-b00000001 #
 b10011010 $
+b00000001 #
 #12330
-0#l
+0#k
 #12335
-1#l
+1#k
+b10011010 "
 b00000010 #
+b10011010 #j
+b10011010 %
 #12340
-0#l
+0#k
 #12345
-0!
-1#l
+1#k
 b00000100 #
 #12350
-0#l
+0#k
 #12355
-1#l
+1#k
+0!
 b00001000 #
 #12360
-0#l
+0#k
 #12365
+1#k
 1!
-1#l
 b00010000 #
 #12370
-0#l
+0#k
 #12375
-1#l
+1#k
 b00100000 #
 #12380
-0#l
+0#k
 #12385
+1#k
 0!
-1#l
 b01000000 #
 #12390
-0#l
+0#k
 #12395
-1#l
+1#k
 b10000000 #
 #12400
-0#l
+0#k
 #12405
+1#k
 1!
-1#l
-b10011010 "
-b00000001 #
 b10011011 $
+b00000001 #
 #12410
-0#l
+0#k
 #12415
+1#k
 0!
-1#l
+b10011011 "
 b00000010 #
+b10011011 %
+b10011011 #j
 #12420
-0#l
+0#k
 #12425
+1#k
 1!
-1#l
 b00000100 #
 #12430
-0#l
+0#k
 #12435
+1#k
 0!
-1#l
 b00001000 #
 #12440
-0#l
+0#k
 #12445
+1#k
 1!
-1#l
 b00010000 #
 #12450
-0#l
+0#k
 #12455
-1#l
+1#k
 b00100000 #
 #12460
-0#l
+0#k
 #12465
+1#k
 0!
-1#l
 b01000000 #
 #12470
-0#l
+0#k
 #12475
-1#l
+1#k
 b10000000 #
 #12480
-0#l
+0#k
 #12485
+1#k
 1!
-1#l
-b10011011 "
-b00000001 #
 b10011100 $
+b00000001 #
 #12490
-0#l
+0#k
 #12495
-1#l
+1#k
+b10011100 "
 b00000010 #
+b10011100 #j
+b10011100 %
 #12500
-0#l
+0#k
 #12505
-1#l
+1#k
+0!
 b00000100 #
 #12510
-0#l
+0#k
 #12515
-0!
-1#l
+1#k
+1!
 b00001000 #
 #12520
-0#l
+0#k
 #12525
-1!
-1#l
+1#k
 b00010000 #
 #12530
-0#l
+0#k
 #12535
-1#l
+1#k
 b00100000 #
 #12540
-0#l
+0#k
 #12545
+1#k
 0!
-1#l
 b01000000 #
 #12550
-0#l
+0#k
 #12555
-1#l
+1#k
 b10000000 #
 #12560
-0#l
+0#k
 #12565
+1#k
 1!
-1#l
-b10011100 "
-b00000001 #
 b10011101 $
+b00000001 #
 #12570
-0#l
+0#k
 #12575
+1#k
 0!
-1#l
+b10011101 "
 b00000010 #
+b10011101 %
+b10011101 #j
 #12580
-0#l
+0#k
 #12585
-1#l
+1#k
 b00000100 #
 #12590
-0#l
+0#k
 #12595
+1#k
 1!
-1#l
 b00001000 #
 #12600
-0#l
+0#k
 #12605
-1#l
+1#k
 b00010000 #
 #12610
-0#l
+0#k
 #12615
-1#l
+1#k
 b00100000 #
 #12620
-0#l
+0#k
 #12625
+1#k
 0!
-1#l
 b01000000 #
 #12630
-0#l
+0#k
 #12635
-1#l
+1#k
 b10000000 #
 #12640
-0#l
+0#k
 #12645
+1#k
 1!
-1#l
-b10011101 "
-b00000001 #
 b10011110 $
+b00000001 #
 #12650
-0#l
+0#k
 #12655
-1#l
+1#k
+b10011110 "
 b00000010 #
+b10011110 #j
+b10011110 %
 #12660
-0#l
+0#k
 #12665
-0!
-1#l
+1#k
 b00000100 #
 #12670
-0#l
+0#k
 #12675
-1!
-1#l
+1#k
 b00001000 #
 #12680
-0#l
+0#k
 #12685
-1#l
+1#k
 b00010000 #
 #12690
-0#l
+0#k
 #12695
-1#l
+1#k
 b00100000 #
 #12700
-0#l
+0#k
 #12705
+1#k
 0!
-1#l
 b01000000 #
 #12710
-0#l
+0#k
 #12715
-1#l
+1#k
 b10000000 #
 #12720
-0#l
+0#k
 #12725
+1#k
 1!
-1#l
-b10011110 "
-b00000001 #
 b10011111 $
+b00000001 #
 #12730
-0#l
+0#k
 #12735
+1#k
 0!
-1#l
+b10011111 "
 b00000010 #
+b10011111 %
+b10011111 #j
 #12740
-0#l
+0#k
 #12745
+1#k
 1!
-1#l
 b00000100 #
 #12750
-0#l
+0#k
 #12755
-1#l
+1#k
 b00001000 #
 #12760
-0#l
+0#k
 #12765
-1#l
+1#k
 b00010000 #
 #12770
-0#l
+0#k
 #12775
-1#l
+1#k
 b00100000 #
 #12780
-0#l
+0#k
 #12785
+1#k
 0!
-1#l
 b01000000 #
 #12790
-0#l
+0#k
 #12795
-1#l
+1#k
 b10000000 #
 #12800
-0#l
+0#k
 #12805
+1#k
 1!
-1#l
-b10011111 "
-b00000001 #
 b10100000 $
+b00000001 #
 #12810
-0#l
+0#k
 #12815
-1#l
+1#k
+b10100000 "
 b00000010 #
+b10100000 #j
+b10100000 %
 #12820
-0#l
+0#k
 #12825
-1#l
+1#k
+0!
 b00000100 #
 #12830
-0#l
+0#k
 #12835
-1#l
+1#k
 b00001000 #
 #12840
-0#l
+0#k
 #12845
-1#l
+1#k
 b00010000 #
 #12850
-0#l
+0#k
 #12855
-1#l
+1#k
 b00100000 #
 #12860
-0#l
+0#k
 #12865
-0!
-1#l
+1#k
+1!
 b01000000 #
 #12870
-0#l
+0#k
 #12875
-1#l
+1#k
+0!
 b10000000 #
 #12880
-0#l
+0#k
 #12885
+1#k
 1!
-1#l
-b10100000 "
-b00000001 #
 b10100001 $
+b00000001 #
 #12890
-0#l
+0#k
 #12895
+1#k
 0!
-1#l
+b10100001 "
 b00000010 #
+b10100001 %
+b10100001 #j
 #12900
-0#l
+0#k
 #12905
-1#l
+1#k
 b00000100 #
 #12910
-0#l
+0#k
 #12915
-1#l
+1#k
 b00001000 #
 #12920
-0#l
+0#k
 #12925
-1#l
+1#k
 b00010000 #
 #12930
-0#l
+0#k
 #12935
-1#l
+1#k
 b00100000 #
 #12940
-0#l
+0#k
 #12945
+1#k
 1!
-1#l
 b01000000 #
 #12950
-0#l
+0#k
 #12955
+1#k
 0!
-1#l
 b10000000 #
 #12960
-0#l
+0#k
 #12965
+1#k
 1!
-1#l
-b10100001 "
-b00000001 #
 b10100010 $
+b00000001 #
 #12970
-0#l
+0#k
 #12975
-1#l
+1#k
+b10100010 "
 b00000010 #
+b10100010 #j
+b10100010 %
 #12980
-0#l
+0#k
 #12985
-0!
-1#l
+1#k
 b00000100 #
 #12990
-0#l
+0#k
 #12995
-1#l
+1#k
+0!
 b00001000 #
 #13000
-0#l
+0#k
 #13005
-1#l
+1#k
 b00010000 #
 #13010
-0#l
+0#k
 #13015
-1#l
+1#k
 b00100000 #
 #13020
-0#l
+0#k
 #13025
+1#k
 1!
-1#l
 b01000000 #
 #13030
-0#l
+0#k
 #13035
+1#k
 0!
-1#l
 b10000000 #
 #13040
-0#l
+0#k
 #13045
+1#k
 1!
-1#l
-b10100010 "
-b00000001 #
 b10100011 $
+b00000001 #
 #13050
-0#l
+0#k
 #13055
+1#k
 0!
-1#l
+b10100011 "
 b00000010 #
+b10100011 %
+b10100011 #j
 #13060
-0#l
+0#k
 #13065
+1#k
 1!
-1#l
 b00000100 #
 #13070
-0#l
+0#k
 #13075
+1#k
 0!
-1#l
 b00001000 #
 #13080
-0#l
+0#k
 #13085
-1#l
+1#k
 b00010000 #
 #13090
-0#l
+0#k
 #13095
-1#l
+1#k
 b00100000 #
 #13100
-0#l
+0#k
 #13105
+1#k
 1!
-1#l
 b01000000 #
 #13110
-0#l
+0#k
 #13115
+1#k
 0!
-1#l
 b10000000 #
 #13120
-0#l
+0#k
 #13125
+1#k
 1!
-1#l
-b10100011 "
-b00000001 #
 b10100100 $
+b00000001 #
 #13130
-0#l
+0#k
 #13135
-1#l
+1#k
+b10100100 "
 b00000010 #
+b10100100 #j
+b10100100 %
 #13140
-0#l
+0#k
 #13145
-1#l
+1#k
+0!
 b00000100 #
 #13150
-0#l
+0#k
 #13155
-0!
-1#l
+1#k
+1!
 b00001000 #
 #13160
-0#l
+0#k
 #13165
-1#l
+1#k
+0!
 b00010000 #
 #13170
-0#l
+0#k
 #13175
-1#l
+1#k
 b00100000 #
 #13180
-0#l
+0#k
 #13185
+1#k
 1!
-1#l
 b01000000 #
 #13190
-0#l
+0#k
 #13195
+1#k
 0!
-1#l
 b10000000 #
 #13200
-0#l
+0#k
 #13205
+1#k
 1!
-1#l
-b10100100 "
-b00000001 #
 b10100101 $
+b00000001 #
 #13210
-0#l
+0#k
 #13215
+1#k
 0!
-1#l
+b10100101 "
 b00000010 #
+b10100101 %
+b10100101 #j
 #13220
-0#l
+0#k
 #13225
-1#l
+1#k
 b00000100 #
 #13230
-0#l
+0#k
 #13235
+1#k
 1!
-1#l
 b00001000 #
 #13240
-0#l
+0#k
 #13245
+1#k
 0!
-1#l
 b00010000 #
 #13250
-0#l
+0#k
 #13255
-1#l
+1#k
 b00100000 #
 #13260
-0#l
+0#k
 #13265
+1#k
 1!
-1#l
 b01000000 #
 #13270
-0#l
+0#k
 #13275
+1#k
 0!
-1#l
 b10000000 #
 #13280
-0#l
+0#k
 #13285
+1#k
 1!
-1#l
-b10100101 "
-b00000001 #
 b10100110 $
+b00000001 #
 #13290
-0#l
+0#k
 #13295
-1#l
+1#k
+b10100110 "
 b00000010 #
+b10100110 #j
+b10100110 %
 #13300
-0#l
+0#k
 #13305
-0!
-1#l
+1#k
 b00000100 #
 #13310
-0#l
+0#k
 #13315
-1!
-1#l
+1#k
 b00001000 #
 #13320
-0#l
+0#k
 #13325
+1#k
 0!
-1#l
 b00010000 #
 #13330
-0#l
+0#k
 #13335
-1#l
+1#k
 b00100000 #
 #13340
-0#l
+0#k
 #13345
+1#k
 1!
-1#l
 b01000000 #
 #13350
-0#l
+0#k
 #13355
+1#k
 0!
-1#l
 b10000000 #
 #13360
-0#l
+0#k
 #13365
+1#k
 1!
-1#l
-b10100110 "
-b00000001 #
 b10100111 $
+b00000001 #
 #13370
-0#l
+0#k
 #13375
+1#k
 0!
-1#l
+b10100111 "
 b00000010 #
+b10100111 %
+b10100111 #j
 #13380
-0#l
+0#k
 #13385
+1#k
 1!
-1#l
 b00000100 #
 #13390
-0#l
+0#k
 #13395
-1#l
+1#k
 b00001000 #
 #13400
-0#l
+0#k
 #13405
+1#k
 0!
-1#l
 b00010000 #
 #13410
-0#l
+0#k
 #13415
-1#l
+1#k
 b00100000 #
 #13420
-0#l
+0#k
 #13425
+1#k
 1!
-1#l
 b01000000 #
 #13430
-0#l
+0#k
 #13435
+1#k
 0!
-1#l
 b10000000 #
 #13440
-0#l
+0#k
 #13445
+1#k
 1!
-1#l
-b10100111 "
-b00000001 #
 b10101000 $
+b00000001 #
 #13450
-0#l
+0#k
 #13455
-1#l
+1#k
+b10101000 "
 b00000010 #
+b10101000 #j
+b10101000 %
 #13460
-0#l
+0#k
 #13465
-1#l
+1#k
+0!
 b00000100 #
 #13470
-0#l
+0#k
 #13475
-1#l
+1#k
 b00001000 #
 #13480
-0#l
+0#k
 #13485
-0!
-1#l
+1#k
+1!
 b00010000 #
 #13490
-0#l
+0#k
 #13495
-1#l
+1#k
+0!
 b00100000 #
 #13500
-0#l
+0#k
 #13505
+1#k
 1!
-1#l
 b01000000 #
 #13510
-0#l
+0#k
 #13515
+1#k
 0!
-1#l
 b10000000 #
 #13520
-0#l
+0#k
 #13525
+1#k
 1!
-1#l
-b10101000 "
-b00000001 #
 b10101001 $
+b00000001 #
 #13530
-0#l
+0#k
 #13535
+1#k
 0!
-1#l
+b10101001 "
 b00000010 #
+b10101001 %
+b10101001 #j
 #13540
-0#l
+0#k
 #13545
-1#l
+1#k
 b00000100 #
 #13550
-0#l
+0#k
 #13555
-1#l
+1#k
 b00001000 #
 #13560
-0#l
+0#k
 #13565
+1#k
 1!
-1#l
 b00010000 #
 #13570
-0#l
+0#k
 #13575
+1#k
 0!
-1#l
 b00100000 #
 #13580
-0#l
+0#k
 #13585
+1#k
 1!
-1#l
 b01000000 #
 #13590
-0#l
+0#k
 #13595
+1#k
 0!
-1#l
 b10000000 #
 #13600
-0#l
+0#k
 #13605
+1#k
 1!
-1#l
-b10101001 "
-b00000001 #
 b10101010 $
+b00000001 #
 #13610
-0#l
+0#k
 #13615
-1#l
+1#k
+b10101010 "
 b00000010 #
+b10101010 #j
+b10101010 %
 #13620
-0#l
+0#k
 #13625
-0!
-1#l
+1#k
 b00000100 #
 #13630
-0#l
+0#k
 #13635
-1#l
+1#k
+0!
 b00001000 #
 #13640
-0#l
+0#k
 #13645
+1#k
 1!
-1#l
 b00010000 #
 #13650
-0#l
+0#k
 #13655
+1#k
 0!
-1#l
 b00100000 #
 #13660
-0#l
+0#k
 #13665
+1#k
 1!
-1#l
 b01000000 #
 #13670
-0#l
+0#k
 #13675
+1#k
 0!
-1#l
 b10000000 #
 #13680
-0#l
+0#k
 #13685
+1#k
 1!
-1#l
-b10101010 "
-b00000001 #
 b10101011 $
+b00000001 #
 #13690
-0#l
+0#k
 #13695
+1#k
 0!
-1#l
+b10101011 "
 b00000010 #
+b10101011 %
+b10101011 #j
 #13700
-0#l
+0#k
 #13705
+1#k
 1!
-1#l
 b00000100 #
 #13710
-0#l
+0#k
 #13715
+1#k
 0!
-1#l
 b00001000 #
 #13720
-0#l
+0#k
 #13725
+1#k
 1!
-1#l
 b00010000 #
 #13730
-0#l
+0#k
 #13735
+1#k
 0!
-1#l
 b00100000 #
 #13740
-0#l
+0#k
 #13745
+1#k
 1!
-1#l
 b01000000 #
 #13750
-0#l
+0#k
 #13755
+1#k
 0!
-1#l
 b10000000 #
 #13760
-0#l
+0#k
 #13765
+1#k
 1!
-1#l
-b10101011 "
-b00000001 #
 b10101100 $
+b00000001 #
 #13770
-0#l
+0#k
 #13775
-1#l
+1#k
+b10101100 "
 b00000010 #
+b10101100 #j
+b10101100 %
 #13780
-0#l
+0#k
 #13785
-1#l
+1#k
+0!
 b00000100 #
 #13790
-0#l
+0#k
 #13795
-0!
-1#l
+1#k
+1!
 b00001000 #
 #13800
-0#l
+0#k
 #13805
-1!
-1#l
+1#k
 b00010000 #
 #13810
-0#l
+0#k
 #13815
+1#k
 0!
-1#l
 b00100000 #
 #13820
-0#l
+0#k
 #13825
+1#k
 1!
-1#l
 b01000000 #
 #13830
-0#l
+0#k
 #13835
+1#k
 0!
-1#l
 b10000000 #
 #13840
-0#l
+0#k
 #13845
+1#k
 1!
-1#l
-b10101100 "
-b00000001 #
 b10101101 $
+b00000001 #
 #13850
-0#l
+0#k
 #13855
+1#k
 0!
-1#l
+b10101101 "
 b00000010 #
+b10101101 %
+b10101101 #j
 #13860
-0#l
+0#k
 #13865
-1#l
+1#k
 b00000100 #
 #13870
-0#l
+0#k
 #13875
+1#k
 1!
-1#l
 b00001000 #
 #13880
-0#l
+0#k
 #13885
-1#l
+1#k
 b00010000 #
 #13890
-0#l
+0#k
 #13895
+1#k
 0!
-1#l
 b00100000 #
 #13900
-0#l
+0#k
 #13905
+1#k
 1!
-1#l
 b01000000 #
 #13910
-0#l
+0#k
 #13915
+1#k
 0!
-1#l
 b10000000 #
 #13920
-0#l
+0#k
 #13925
+1#k
 1!
-1#l
-b10101101 "
-b00000001 #
 b10101110 $
+b00000001 #
 #13930
-0#l
+0#k
 #13935
-1#l
+1#k
+b10101110 "
 b00000010 #
+b10101110 #j
+b10101110 %
 #13940
-0#l
+0#k
 #13945
-0!
-1#l
+1#k
 b00000100 #
 #13950
-0#l
+0#k
 #13955
-1!
-1#l
+1#k
 b00001000 #
 #13960
-0#l
+0#k
 #13965
-1#l
+1#k
 b00010000 #
 #13970
-0#l
+0#k
 #13975
+1#k
 0!
-1#l
 b00100000 #
 #13980
-0#l
+0#k
 #13985
+1#k
 1!
-1#l
 b01000000 #
 #13990
-0#l
+0#k
 #13995
+1#k
 0!
-1#l
 b10000000 #
 #14000
-0#l
+0#k
 #14005
+1#k
 1!
-1#l
-b10101110 "
-b00000001 #
 b10101111 $
+b00000001 #
 #14010
-0#l
+0#k
 #14015
+1#k
 0!
-1#l
+b10101111 "
 b00000010 #
+b10101111 %
+b10101111 #j
 #14020
-0#l
+0#k
 #14025
+1#k
 1!
-1#l
 b00000100 #
 #14030
-0#l
+0#k
 #14035
-1#l
+1#k
 b00001000 #
 #14040
-0#l
+0#k
 #14045
-1#l
+1#k
 b00010000 #
 #14050
-0#l
+0#k
 #14055
+1#k
 0!
-1#l
 b00100000 #
 #14060
-0#l
+0#k
 #14065
+1#k
 1!
-1#l
 b01000000 #
 #14070
-0#l
+0#k
 #14075
+1#k
 0!
-1#l
 b10000000 #
 #14080
-0#l
+0#k
 #14085
+1#k
 1!
-1#l
-b10101111 "
-b00000001 #
 b10110000 $
+b00000001 #
 #14090
-0#l
+0#k
 #14095
-1#l
+1#k
+b10110000 "
 b00000010 #
+b10110000 #j
+b10110000 %
 #14100
-0#l
+0#k
 #14105
-1#l
+1#k
+0!
 b00000100 #
 #14110
-0#l
+0#k
 #14115
-1#l
+1#k
 b00001000 #
 #14120
-0#l
+0#k
 #14125
-1#l
+1#k
 b00010000 #
 #14130
-0#l
+0#k
 #14135
-0!
-1#l
+1#k
+1!
 b00100000 #
 #14140
-0#l
+0#k
 #14145
-1!
-1#l
+1#k
 b01000000 #
 #14150
-0#l
+0#k
 #14155
+1#k
 0!
-1#l
 b10000000 #
 #14160
-0#l
+0#k
 #14165
+1#k
 1!
-1#l
-b10110000 "
-b00000001 #
 b10110001 $
+b00000001 #
 #14170
-0#l
+0#k
 #14175
+1#k
 0!
-1#l
+b10110001 "
 b00000010 #
+b10110001 %
+b10110001 #j
 #14180
-0#l
+0#k
 #14185
-1#l
+1#k
 b00000100 #
 #14190
-0#l
+0#k
 #14195
-1#l
+1#k
 b00001000 #
 #14200
-0#l
+0#k
 #14205
-1#l
+1#k
 b00010000 #
 #14210
-0#l
+0#k
 #14215
+1#k
 1!
-1#l
 b00100000 #
 #14220
-0#l
+0#k
 #14225
-1#l
+1#k
 b01000000 #
 #14230
-0#l
+0#k
 #14235
+1#k
 0!
-1#l
 b10000000 #
 #14240
-0#l
+0#k
 #14245
+1#k
 1!
-1#l
-b10110001 "
-b00000001 #
 b10110010 $
+b00000001 #
 #14250
-0#l
+0#k
 #14255
-1#l
+1#k
+b10110010 "
 b00000010 #
+b10110010 #j
+b10110010 %
 #14260
-0#l
+0#k
 #14265
-0!
-1#l
+1#k
 b00000100 #
 #14270
-0#l
+0#k
 #14275
-1#l
+1#k
+0!
 b00001000 #
 #14280
-0#l
+0#k
 #14285
-1#l
+1#k
 b00010000 #
 #14290
-0#l
+0#k
 #14295
+1#k
 1!
-1#l
 b00100000 #
 #14300
-0#l
+0#k
 #14305
-1#l
+1#k
 b01000000 #
 #14310
-0#l
+0#k
 #14315
+1#k
 0!
-1#l
 b10000000 #
 #14320
-0#l
+0#k
 #14325
+1#k
 1!
-1#l
-b10110010 "
-b00000001 #
 b10110011 $
+b00000001 #
 #14330
-0#l
+0#k
 #14335
+1#k
 0!
-1#l
+b10110011 "
 b00000010 #
+b10110011 %
+b10110011 #j
 #14340
-0#l
+0#k
 #14345
+1#k
 1!
-1#l
 b00000100 #
 #14350
-0#l
+0#k
 #14355
+1#k
 0!
-1#l
 b00001000 #
 #14360
-0#l
+0#k
 #14365
-1#l
+1#k
 b00010000 #
 #14370
-0#l
+0#k
 #14375
+1#k
 1!
-1#l
 b00100000 #
 #14380
-0#l
+0#k
 #14385
-1#l
+1#k
 b01000000 #
 #14390
-0#l
+0#k
 #14395
+1#k
 0!
-1#l
 b10000000 #
 #14400
-0#l
+0#k
 #14405
+1#k
 1!
-1#l
-b10110011 "
-b00000001 #
 b10110100 $
+b00000001 #
 #14410
-0#l
+0#k
 #14415
-1#l
+1#k
+b10110100 "
 b00000010 #
+b10110100 #j
+b10110100 %
 #14420
-0#l
+0#k
 #14425
-1#l
+1#k
+0!
 b00000100 #
 #14430
-0#l
+0#k
 #14435
-0!
-1#l
+1#k
+1!
 b00001000 #
 #14440
-0#l
+0#k
 #14445
-1#l
+1#k
+0!
 b00010000 #
 #14450
-0#l
+0#k
 #14455
+1#k
 1!
-1#l
 b00100000 #
 #14460
-0#l
+0#k
 #14465
-1#l
+1#k
 b01000000 #
 #14470
-0#l
+0#k
 #14475
+1#k
 0!
-1#l
 b10000000 #
 #14480
-0#l
+0#k
 #14485
+1#k
 1!
-1#l
-b10110100 "
-b00000001 #
 b10110101 $
+b00000001 #
 #14490
-0#l
+0#k
 #14495
+1#k
 0!
-1#l
+b10110101 "
 b00000010 #
+b10110101 %
+b10110101 #j
 #14500
-0#l
+0#k
 #14505
-1#l
+1#k
 b00000100 #
 #14510
-0#l
+0#k
 #14515
+1#k
 1!
-1#l
 b00001000 #
 #14520
-0#l
+0#k
 #14525
+1#k
 0!
-1#l
 b00010000 #
 #14530
-0#l
+0#k
 #14535
+1#k
 1!
-1#l
 b00100000 #
 #14540
-0#l
+0#k
 #14545
-1#l
+1#k
 b01000000 #
 #14550
-0#l
+0#k
 #14555
+1#k
 0!
-1#l
 b10000000 #
 #14560
-0#l
+0#k
 #14565
+1#k
 1!
-1#l
-b10110101 "
-b00000001 #
 b10110110 $
+b00000001 #
 #14570
-0#l
+0#k
 #14575
-1#l
+1#k
+b10110110 "
 b00000010 #
+b10110110 #j
+b10110110 %
 #14580
-0#l
+0#k
 #14585
-0!
-1#l
+1#k
 b00000100 #
 #14590
-0#l
+0#k
 #14595
-1!
-1#l
+1#k
 b00001000 #
 #14600
-0#l
+0#k
 #14605
+1#k
 0!
-1#l
 b00010000 #
 #14610
-0#l
+0#k
 #14615
+1#k
 1!
-1#l
 b00100000 #
 #14620
-0#l
+0#k
 #14625
-1#l
+1#k
 b01000000 #
 #14630
-0#l
+0#k
 #14635
+1#k
 0!
-1#l
 b10000000 #
 #14640
-0#l
+0#k
 #14645
+1#k
 1!
-1#l
-b10110110 "
-b00000001 #
 b10110111 $
+b00000001 #
 #14650
-0#l
+0#k
 #14655
+1#k
 0!
-1#l
+b10110111 "
 b00000010 #
+b10110111 %
+b10110111 #j
 #14660
-0#l
+0#k
 #14665
+1#k
 1!
-1#l
 b00000100 #
 #14670
-0#l
+0#k
 #14675
-1#l
+1#k
 b00001000 #
 #14680
-0#l
+0#k
 #14685
+1#k
 0!
-1#l
 b00010000 #
 #14690
-0#l
+0#k
 #14695
+1#k
 1!
-1#l
 b00100000 #
 #14700
-0#l
+0#k
 #14705
-1#l
+1#k
 b01000000 #
 #14710
-0#l
+0#k
 #14715
+1#k
 0!
-1#l
 b10000000 #
 #14720
-0#l
+0#k
 #14725
+1#k
 1!
-1#l
-b10110111 "
-b00000001 #
 b10111000 $
+b00000001 #
 #14730
-0#l
+0#k
 #14735
-1#l
+1#k
+b10111000 "
 b00000010 #
+b10111000 #j
+b10111000 %
 #14740
-0#l
+0#k
 #14745
-1#l
+1#k
+0!
 b00000100 #
 #14750
-0#l
+0#k
 #14755
-1#l
+1#k
 b00001000 #
 #14760
-0#l
+0#k
 #14765
-0!
-1#l
+1#k
+1!
 b00010000 #
 #14770
-0#l
+0#k
 #14775
-1!
-1#l
+1#k
 b00100000 #
 #14780
-0#l
+0#k
 #14785
-1#l
+1#k
 b01000000 #
 #14790
-0#l
+0#k
 #14795
+1#k
 0!
-1#l
 b10000000 #
 #14800
-0#l
+0#k
 #14805
+1#k
 1!
-1#l
-b10111000 "
-b00000001 #
 b10111001 $
+b00000001 #
 #14810
-0#l
+0#k
 #14815
+1#k
 0!
-1#l
+b10111001 "
 b00000010 #
+b10111001 %
+b10111001 #j
 #14820
-0#l
+0#k
 #14825
-1#l
+1#k
 b00000100 #
 #14830
-0#l
+0#k
 #14835
-1#l
+1#k
 b00001000 #
 #14840
-0#l
+0#k
 #14845
+1#k
 1!
-1#l
 b00010000 #
 #14850
-0#l
+0#k
 #14855
-1#l
+1#k
 b00100000 #
 #14860
-0#l
+0#k
 #14865
-1#l
+1#k
 b01000000 #
 #14870
-0#l
+0#k
 #14875
+1#k
 0!
-1#l
 b10000000 #
 #14880
-0#l
+0#k
 #14885
+1#k
 1!
-1#l
-b10111001 "
-b00000001 #
 b10111010 $
+b00000001 #
 #14890
-0#l
+0#k
 #14895
-1#l
+1#k
+b10111010 "
 b00000010 #
+b10111010 #j
+b10111010 %
 #14900
-0#l
+0#k
 #14905
-0!
-1#l
+1#k
 b00000100 #
 #14910
-0#l
+0#k
 #14915
-1#l
+1#k
+0!
 b00001000 #
 #14920
-0#l
+0#k
 #14925
+1#k
 1!
-1#l
 b00010000 #
 #14930
-0#l
+0#k
 #14935
-1#l
+1#k
 b00100000 #
 #14940
-0#l
+0#k
 #14945
-1#l
+1#k
 b01000000 #
 #14950
-0#l
+0#k
 #14955
+1#k
 0!
-1#l
 b10000000 #
 #14960
-0#l
+0#k
 #14965
+1#k
 1!
-1#l
-b10111010 "
-b00000001 #
 b10111011 $
+b00000001 #
 #14970
-0#l
+0#k
 #14975
+1#k
 0!
-1#l
+b10111011 "
 b00000010 #
+b10111011 %
+b10111011 #j
 #14980
-0#l
+0#k
 #14985
+1#k
 1!
-1#l
 b00000100 #
 #14990
-0#l
+0#k
 #14995
+1#k
 0!
-1#l
 b00001000 #
 #15000
-0#l
+0#k
 #15005
+1#k
 1!
-1#l
 b00010000 #
 #15010
-0#l
+0#k
 #15015
-1#l
+1#k
 b00100000 #
 #15020
-0#l
+0#k
 #15025
-1#l
+1#k
 b01000000 #
 #15030
-0#l
+0#k
 #15035
+1#k
 0!
-1#l
 b10000000 #
 #15040
-0#l
+0#k
 #15045
+1#k
 1!
-1#l
-b10111011 "
-b00000001 #
 b10111100 $
+b00000001 #
 #15050
-0#l
+0#k
 #15055
-1#l
+1#k
+b10111100 "
 b00000010 #
+b10111100 #j
+b10111100 %
 #15060
-0#l
+0#k
 #15065
-1#l
+1#k
+0!
 b00000100 #
 #15070
-0#l
+0#k
 #15075
-0!
-1#l
+1#k
+1!
 b00001000 #
 #15080
-0#l
+0#k
 #15085
-1!
-1#l
+1#k
 b00010000 #
 #15090
-0#l
+0#k
 #15095
-1#l
+1#k
 b00100000 #
 #15100
-0#l
+0#k
 #15105
-1#l
+1#k
 b01000000 #
 #15110
-0#l
+0#k
 #15115
+1#k
 0!
-1#l
 b10000000 #
 #15120
-0#l
+0#k
 #15125
+1#k
 1!
-1#l
-b10111100 "
-b00000001 #
 b10111101 $
+b00000001 #
 #15130
-0#l
+0#k
 #15135
+1#k
 0!
-1#l
+b10111101 "
 b00000010 #
+b10111101 %
+b10111101 #j
 #15140
-0#l
+0#k
 #15145
-1#l
+1#k
 b00000100 #
 #15150
-0#l
+0#k
 #15155
+1#k
 1!
-1#l
 b00001000 #
 #15160
-0#l
+0#k
 #15165
-1#l
+1#k
 b00010000 #
 #15170
-0#l
+0#k
 #15175
-1#l
+1#k
 b00100000 #
 #15180
-0#l
+0#k
 #15185
-1#l
+1#k
 b01000000 #
 #15190
-0#l
+0#k
 #15195
+1#k
 0!
-1#l
 b10000000 #
 #15200
-0#l
+0#k
 #15205
+1#k
 1!
-1#l
-b10111101 "
-b00000001 #
 b10111110 $
+b00000001 #
 #15210
-0#l
+0#k
 #15215
-1#l
+1#k
+b10111110 "
 b00000010 #
+b10111110 #j
+b10111110 %
 #15220
-0#l
+0#k
 #15225
-0!
-1#l
+1#k
 b00000100 #
 #15230
-0#l
+0#k
 #15235
-1!
-1#l
+1#k
 b00001000 #
 #15240
-0#l
+0#k
 #15245
-1#l
+1#k
 b00010000 #
 #15250
-0#l
+0#k
 #15255
-1#l
+1#k
 b00100000 #
 #15260
-0#l
+0#k
 #15265
-1#l
+1#k
 b01000000 #
 #15270
-0#l
+0#k
 #15275
+1#k
 0!
-1#l
 b10000000 #
 #15280
-0#l
+0#k
 #15285
+1#k
 1!
-1#l
-b10111110 "
-b00000001 #
 b10111111 $
+b00000001 #
 #15290
-0#l
+0#k
 #15295
+1#k
 0!
-1#l
+b10111111 "
 b00000010 #
+b10111111 %
+b10111111 #j
 #15300
-0#l
+0#k
 #15305
+1#k
 1!
-1#l
 b00000100 #
 #15310
-0#l
+0#k
 #15315
-1#l
+1#k
 b00001000 #
 #15320
-0#l
+0#k
 #15325
-1#l
+1#k
 b00010000 #
 #15330
-0#l
+0#k
 #15335
-1#l
+1#k
 b00100000 #
 #15340
-0#l
+0#k
 #15345
-1#l
+1#k
 b01000000 #
 #15350
-0#l
+0#k
 #15355
+1#k
 0!
-1#l
 b10000000 #
 #15360
-0#l
+0#k
 #15365
+1#k
 1!
-1#l
-b10111111 "
-b00000001 #
 b11000000 $
+b00000001 #
 #15370
-0#l
+0#k
 #15375
-1#l
+1#k
+b11000000 "
 b00000010 #
+b11000000 #j
+b11000000 %
 #15380
-0#l
+0#k
 #15385
-1#l
+1#k
+0!
 b00000100 #
 #15390
-0#l
+0#k
 #15395
-1#l
+1#k
 b00001000 #
 #15400
-0#l
+0#k
 #15405
-1#l
+1#k
 b00010000 #
 #15410
-0#l
+0#k
 #15415
-1#l
+1#k
 b00100000 #
 #15420
-0#l
+0#k
 #15425
-1#l
+1#k
 b01000000 #
 #15430
-0#l
+0#k
 #15435
-0!
-1#l
+1#k
+1!
 b10000000 #
 #15440
-0#l
+0#k
 #15445
-1!
-1#l
-b11000000 "
-b00000001 #
+1#k
 b11000001 $
+b00000001 #
 #15450
-0#l
+0#k
 #15455
+1#k
 0!
-1#l
+b11000001 "
 b00000010 #
+b11000001 %
+b11000001 #j
 #15460
-0#l
+0#k
 #15465
-1#l
+1#k
 b00000100 #
 #15470
-0#l
+0#k
 #15475
-1#l
+1#k
 b00001000 #
 #15480
-0#l
+0#k
 #15485
-1#l
+1#k
 b00010000 #
 #15490
-0#l
+0#k
 #15495
-1#l
+1#k
 b00100000 #
 #15500
-0#l
+0#k
 #15505
-1#l
+1#k
 b01000000 #
 #15510
-0#l
+0#k
 #15515
+1#k
 1!
-1#l
 b10000000 #
 #15520
-0#l
+0#k
 #15525
+1#k
 b11000010 $
-1#l
-b11000001 "
 b00000001 #
 #15530
-0#l
+0#k
 #15535
-1#l
+1#k
+b11000010 "
 b00000010 #
+b11000010 #j
+b11000010 %
 #15540
-0#l
+0#k
 #15545
-0!
-1#l
+1#k
 b00000100 #
 #15550
-0#l
+0#k
 #15555
-1#l
+1#k
+0!
 b00001000 #
 #15560
-0#l
+0#k
 #15565
-1#l
+1#k
 b00010000 #
 #15570
-0#l
+0#k
 #15575
-1#l
+1#k
 b00100000 #
 #15580
-0#l
+0#k
 #15585
-1#l
+1#k
 b01000000 #
 #15590
-0#l
+0#k
 #15595
+1#k
 1!
-1#l
 b10000000 #
 #15600
-0#l
+0#k
 #15605
+1#k
 b11000011 $
-1#l
-b11000010 "
 b00000001 #
 #15610
-0#l
+0#k
 #15615
+1#k
 0!
-1#l
+b11000011 "
 b00000010 #
+b11000011 %
+b11000011 #j
 #15620
-0#l
+0#k
 #15625
+1#k
 1!
-1#l
 b00000100 #
 #15630
-0#l
+0#k
 #15635
+1#k
 0!
-1#l
 b00001000 #
 #15640
-0#l
+0#k
 #15645
-1#l
+1#k
 b00010000 #
 #15650
-0#l
+0#k
 #15655
-1#l
+1#k
 b00100000 #
 #15660
-0#l
+0#k
 #15665
-1#l
+1#k
 b01000000 #
 #15670
-0#l
+0#k
 #15675
+1#k
 1!
-1#l
 b10000000 #
 #15680
-0#l
+0#k
 #15685
+1#k
 b11000100 $
-1#l
-b11000011 "
 b00000001 #
 #15690
-0#l
+0#k
 #15695
-1#l
+1#k
+b11000100 "
 b00000010 #
+b11000100 #j
+b11000100 %
 #15700
-0#l
+0#k
 #15705
-1#l
+1#k
+0!
 b00000100 #
 #15710
-0#l
+0#k
 #15715
-0!
-1#l
+1#k
+1!
 b00001000 #
 #15720
-0#l
+0#k
 #15725
-1#l
+1#k
+0!
 b00010000 #
 #15730
-0#l
+0#k
 #15735
-1#l
+1#k
 b00100000 #
 #15740
-0#l
+0#k
 #15745
-1#l
+1#k
 b01000000 #
 #15750
-0#l
+0#k
 #15755
+1#k
 1!
-1#l
 b10000000 #
 #15760
-0#l
+0#k
 #15765
+1#k
 b11000101 $
-1#l
-b11000100 "
 b00000001 #
 #15770
-0#l
+0#k
 #15775
+1#k
 0!
-1#l
+b11000101 "
 b00000010 #
+b11000101 %
+b11000101 #j
 #15780
-0#l
+0#k
 #15785
-1#l
+1#k
 b00000100 #
 #15790
-0#l
+0#k
 #15795
+1#k
 1!
-1#l
 b00001000 #
 #15800
-0#l
+0#k
 #15805
+1#k
 0!
-1#l
 b00010000 #
 #15810
-0#l
+0#k
 #15815
-1#l
+1#k
 b00100000 #
 #15820
-0#l
+0#k
 #15825
-1#l
+1#k
 b01000000 #
 #15830
-0#l
+0#k
 #15835
+1#k
 1!
-1#l
 b10000000 #
 #15840
-0#l
+0#k
 #15845
+1#k
 b11000110 $
-1#l
-b11000101 "
 b00000001 #
 #15850
-0#l
+0#k
 #15855
-1#l
+1#k
+b11000110 "
 b00000010 #
+b11000110 #j
+b11000110 %
 #15860
-0#l
+0#k
 #15865
-0!
-1#l
+1#k
 b00000100 #
 #15870
-0#l
+0#k
 #15875
-1!
-1#l
+1#k
 b00001000 #
 #15880
-0#l
+0#k
 #15885
+1#k
 0!
-1#l
 b00010000 #
 #15890
-0#l
+0#k
 #15895
-1#l
+1#k
 b00100000 #
 #15900
-0#l
+0#k
 #15905
-1#l
+1#k
 b01000000 #
 #15910
-0#l
+0#k
 #15915
+1#k
 1!
-1#l
 b10000000 #
 #15920
-0#l
+0#k
 #15925
+1#k
 b11000111 $
-1#l
-b11000110 "
 b00000001 #
 #15930
-0#l
+0#k
 #15935
+1#k
 0!
-1#l
+b11000111 "
 b00000010 #
+b11000111 %
+b11000111 #j
 #15940
-0#l
+0#k
 #15945
+1#k
 1!
-1#l
 b00000100 #
 #15950
-0#l
+0#k
 #15955
-1#l
+1#k
 b00001000 #
 #15960
-0#l
+0#k
 #15965
+1#k
 0!
-1#l
 b00010000 #
 #15970
-0#l
+0#k
 #15975
-1#l
+1#k
 b00100000 #
 #15980
-0#l
+0#k
 #15985
-1#l
+1#k
 b01000000 #
 #15990
-0#l
+0#k
 #15995
+1#k
 1!
-1#l
 b10000000 #
 #16000
-0#l
+0#k
 #16005
+1#k
 b11001000 $
-1#l
-b11000111 "
 b00000001 #
 #16010
-0#l
+0#k
 #16015
-1#l
+1#k
+b11001000 "
 b00000010 #
+b11001000 #j
+b11001000 %
 #16020
-0#l
+0#k
 #16025
-1#l
+1#k
+0!
 b00000100 #
 #16030
-0#l
+0#k
 #16035
-1#l
+1#k
 b00001000 #
 #16040
-0#l
+0#k
 #16045
-0!
-1#l
+1#k
+1!
 b00010000 #
 #16050
-0#l
+0#k
 #16055
-1#l
+1#k
+0!
 b00100000 #
 #16060
-0#l
+0#k
 #16065
-1#l
+1#k
 b01000000 #
 #16070
-0#l
+0#k
 #16075
+1#k
 1!
-1#l
 b10000000 #
 #16080
-0#l
+0#k
 #16085
+1#k
 b11001001 $
-1#l
-b11001000 "
 b00000001 #
 #16090
-0#l
+0#k
 #16095
+1#k
 0!
-1#l
+b11001001 "
 b00000010 #
+b11001001 %
+b11001001 #j
 #16100
-0#l
+0#k
 #16105
-1#l
+1#k
 b00000100 #
 #16110
-0#l
+0#k
 #16115
-1#l
+1#k
 b00001000 #
 #16120
-0#l
+0#k
 #16125
+1#k
 1!
-1#l
 b00010000 #
 #16130
-0#l
+0#k
 #16135
+1#k
 0!
-1#l
 b00100000 #
 #16140
-0#l
+0#k
 #16145
-1#l
+1#k
 b01000000 #
 #16150
-0#l
+0#k
 #16155
+1#k
 1!
-1#l
 b10000000 #
 #16160
-0#l
+0#k
 #16165
+1#k
 b11001010 $
-1#l
-b11001001 "
 b00000001 #
 #16170
-0#l
+0#k
 #16175
-1#l
+1#k
+b11001010 "
 b00000010 #
+b11001010 #j
+b11001010 %
 #16180
-0#l
+0#k
 #16185
-0!
-1#l
+1#k
 b00000100 #
 #16190
-0#l
+0#k
 #16195
-1#l
+1#k
+0!
 b00001000 #
 #16200
-0#l
+0#k
 #16205
+1#k
 1!
-1#l
 b00010000 #
 #16210
-0#l
+0#k
 #16215
+1#k
 0!
-1#l
 b00100000 #
 #16220
-0#l
+0#k
 #16225
-1#l
+1#k
 b01000000 #
 #16230
-0#l
+0#k
 #16235
+1#k
 1!
-1#l
 b10000000 #
 #16240
-0#l
+0#k
 #16245
+1#k
 b11001011 $
-1#l
-b11001010 "
 b00000001 #
 #16250
-0#l
+0#k
 #16255
+1#k
 0!
-1#l
+b11001011 "
 b00000010 #
+b11001011 %
+b11001011 #j
 #16260
-0#l
+0#k
 #16265
+1#k
 1!
-1#l
 b00000100 #
 #16270
-0#l
+0#k
 #16275
+1#k
 0!
-1#l
 b00001000 #
 #16280
-0#l
+0#k
 #16285
+1#k
 1!
-1#l
 b00010000 #
 #16290
-0#l
+0#k
 #16295
+1#k
 0!
-1#l
 b00100000 #
 #16300
-0#l
+0#k
 #16305
-1#l
+1#k
 b01000000 #
 #16310
-0#l
+0#k
 #16315
+1#k
 1!
-1#l
 b10000000 #
 #16320
-0#l
+0#k
 #16325
+1#k
 b11001100 $
-1#l
-b11001011 "
 b00000001 #
 #16330
-0#l
+0#k
 #16335
-1#l
+1#k
+b11001100 "
 b00000010 #
+b11001100 #j
+b11001100 %
 #16340
-0#l
+0#k
 #16345
-1#l
+1#k
+0!
 b00000100 #
 #16350
-0#l
+0#k
 #16355
-0!
-1#l
+1#k
+1!
 b00001000 #
 #16360
-0#l
+0#k
 #16365
-1!
-1#l
+1#k
 b00010000 #
 #16370
-0#l
+0#k
 #16375
+1#k
 0!
-1#l
 b00100000 #
 #16380
-0#l
+0#k
 #16385
-1#l
+1#k
 b01000000 #
 #16390
-0#l
+0#k
 #16395
+1#k
 1!
-1#l
 b10000000 #
 #16400
-0#l
+0#k
 #16405
+1#k
 b11001101 $
-1#l
-b11001100 "
 b00000001 #
 #16410
-0#l
+0#k
 #16415
+1#k
 0!
-1#l
+b11001101 "
 b00000010 #
+b11001101 %
+b11001101 #j
 #16420
-0#l
+0#k
 #16425
-1#l
+1#k
 b00000100 #
 #16430
-0#l
+0#k
 #16435
+1#k
 1!
-1#l
 b00001000 #
 #16440
-0#l
+0#k
 #16445
-1#l
+1#k
 b00010000 #
 #16450
-0#l
+0#k
 #16455
+1#k
 0!
-1#l
 b00100000 #
 #16460
-0#l
+0#k
 #16465
-1#l
+1#k
 b01000000 #
 #16470
-0#l
+0#k
 #16475
+1#k
 1!
-1#l
 b10000000 #
 #16480
-0#l
+0#k
 #16485
+1#k
 b11001110 $
-1#l
-b11001101 "
 b00000001 #
 #16490
-0#l
+0#k
 #16495
-1#l
+1#k
+b11001110 "
 b00000010 #
+b11001110 #j
+b11001110 %
 #16500
-0#l
+0#k
 #16505
-0!
-1#l
+1#k
 b00000100 #
 #16510
-0#l
+0#k
 #16515
-1!
-1#l
+1#k
 b00001000 #
 #16520
-0#l
+0#k
 #16525
-1#l
+1#k
 b00010000 #
 #16530
-0#l
+0#k
 #16535
+1#k
 0!
-1#l
 b00100000 #
 #16540
-0#l
+0#k
 #16545
-1#l
+1#k
 b01000000 #
 #16550
-0#l
+0#k
 #16555
+1#k
 1!
-1#l
 b10000000 #
 #16560
-0#l
+0#k
 #16565
+1#k
 b11001111 $
-1#l
-b11001110 "
 b00000001 #
 #16570
-0#l
+0#k
 #16575
+1#k
 0!
-1#l
+b11001111 "
 b00000010 #
+b11001111 %
+b11001111 #j
 #16580
-0#l
+0#k
 #16585
+1#k
 1!
-1#l
 b00000100 #
 #16590
-0#l
+0#k
 #16595
-1#l
+1#k
 b00001000 #
 #16600
-0#l
+0#k
 #16605
-1#l
+1#k
 b00010000 #
 #16610
-0#l
+0#k
 #16615
+1#k
 0!
-1#l
 b00100000 #
 #16620
-0#l
+0#k
 #16625
-1#l
+1#k
 b01000000 #
 #16630
-0#l
+0#k
 #16635
+1#k
 1!
-1#l
 b10000000 #
 #16640
-0#l
+0#k
 #16645
+1#k
 b11010000 $
-1#l
-b11001111 "
 b00000001 #
 #16650
-0#l
+0#k
 #16655
-1#l
+1#k
+b11010000 "
 b00000010 #
+b11010000 #j
+b11010000 %
 #16660
-0#l
+0#k
 #16665
-1#l
+1#k
+0!
 b00000100 #
 #16670
-0#l
+0#k
 #16675
-1#l
+1#k
 b00001000 #
 #16680
-0#l
+0#k
 #16685
-1#l
+1#k
 b00010000 #
 #16690
-0#l
+0#k
 #16695
-0!
-1#l
+1#k
+1!
 b00100000 #
 #16700
-0#l
+0#k
 #16705
-1#l
+1#k
+0!
 b01000000 #
 #16710
-0#l
+0#k
 #16715
+1#k
 1!
-1#l
 b10000000 #
 #16720
-0#l
+0#k
 #16725
+1#k
 b11010001 $
-1#l
-b11010000 "
 b00000001 #
 #16730
-0#l
+0#k
 #16735
+1#k
 0!
-1#l
+b11010001 "
 b00000010 #
+b11010001 %
+b11010001 #j
 #16740
-0#l
+0#k
 #16745
-1#l
+1#k
 b00000100 #
 #16750
-0#l
+0#k
 #16755
-1#l
+1#k
 b00001000 #
 #16760
-0#l
+0#k
 #16765
-1#l
+1#k
 b00010000 #
 #16770
-0#l
+0#k
 #16775
+1#k
 1!
-1#l
 b00100000 #
 #16780
-0#l
+0#k
 #16785
+1#k
 0!
-1#l
 b01000000 #
 #16790
-0#l
+0#k
 #16795
+1#k
 1!
-1#l
 b10000000 #
 #16800
-0#l
+0#k
 #16805
+1#k
 b11010010 $
-1#l
-b11010001 "
 b00000001 #
 #16810
-0#l
+0#k
 #16815
-1#l
+1#k
+b11010010 "
 b00000010 #
+b11010010 #j
+b11010010 %
 #16820
-0#l
+0#k
 #16825
-0!
-1#l
+1#k
 b00000100 #
 #16830
-0#l
+0#k
 #16835
-1#l
+1#k
+0!
 b00001000 #
 #16840
-0#l
+0#k
 #16845
-1#l
+1#k
 b00010000 #
 #16850
-0#l
+0#k
 #16855
+1#k
 1!
-1#l
 b00100000 #
 #16860
-0#l
+0#k
 #16865
+1#k
 0!
-1#l
 b01000000 #
 #16870
-0#l
+0#k
 #16875
+1#k
 1!
-1#l
 b10000000 #
 #16880
-0#l
+0#k
 #16885
+1#k
 b11010011 $
-1#l
-b11010010 "
 b00000001 #
 #16890
-0#l
+0#k
 #16895
+1#k
 0!
-1#l
+b11010011 "
 b00000010 #
+b11010011 %
+b11010011 #j
 #16900
-0#l
+0#k
 #16905
+1#k
 1!
-1#l
 b00000100 #
 #16910
-0#l
+0#k
 #16915
+1#k
 0!
-1#l
 b00001000 #
 #16920
-0#l
+0#k
 #16925
-1#l
+1#k
 b00010000 #
 #16930
-0#l
+0#k
 #16935
+1#k
 1!
-1#l
 b00100000 #
 #16940
-0#l
+0#k
 #16945
+1#k
 0!
-1#l
 b01000000 #
 #16950
-0#l
+0#k
 #16955
+1#k
 1!
-1#l
 b10000000 #
 #16960
-0#l
+0#k
 #16965
+1#k
 b11010100 $
-1#l
-b11010011 "
 b00000001 #
 #16970
-0#l
+0#k
 #16975
-1#l
+1#k
+b11010100 "
 b00000010 #
+b11010100 #j
+b11010100 %
 #16980
-0#l
+0#k
 #16985
-1#l
+1#k
+0!
 b00000100 #
 #16990
-0#l
+0#k
 #16995
-0!
-1#l
+1#k
+1!
 b00001000 #
 #17000
-0#l
+0#k
 #17005
-1#l
+1#k
+0!
 b00010000 #
 #17010
-0#l
+0#k
 #17015
+1#k
 1!
-1#l
 b00100000 #
 #17020
-0#l
+0#k
 #17025
+1#k
 0!
-1#l
 b01000000 #
 #17030
-0#l
+0#k
 #17035
+1#k
 1!
-1#l
 b10000000 #
 #17040
-0#l
+0#k
 #17045
+1#k
 b11010101 $
-1#l
-b11010100 "
 b00000001 #
 #17050
-0#l
+0#k
 #17055
+1#k
 0!
-1#l
+b11010101 "
 b00000010 #
+b11010101 %
+b11010101 #j
 #17060
-0#l
+0#k
 #17065
-1#l
+1#k
 b00000100 #
 #17070
-0#l
+0#k
 #17075
+1#k
 1!
-1#l
 b00001000 #
 #17080
-0#l
+0#k
 #17085
+1#k
 0!
-1#l
 b00010000 #
 #17090
-0#l
+0#k
 #17095
+1#k
 1!
-1#l
 b00100000 #
 #17100
-0#l
+0#k
 #17105
+1#k
 0!
-1#l
 b01000000 #
 #17110
-0#l
+0#k
 #17115
+1#k
 1!
-1#l
 b10000000 #
 #17120
-0#l
+0#k
 #17125
+1#k
 b11010110 $
-1#l
-b11010101 "
 b00000001 #
 #17130
-0#l
+0#k
 #17135
-1#l
+1#k
+b11010110 "
 b00000010 #
+b11010110 #j
+b11010110 %
 #17140
-0#l
+0#k
 #17145
-0!
-1#l
+1#k
 b00000100 #
 #17150
-0#l
+0#k
 #17155
-1!
-1#l
+1#k
 b00001000 #
 #17160
-0#l
+0#k
 #17165
+1#k
 0!
-1#l
 b00010000 #
 #17170
-0#l
+0#k
 #17175
+1#k
 1!
-1#l
 b00100000 #
 #17180
-0#l
+0#k
 #17185
+1#k
 0!
-1#l
 b01000000 #
 #17190
-0#l
+0#k
 #17195
+1#k
 1!
-1#l
 b10000000 #
 #17200
-0#l
+0#k
 #17205
+1#k
 b11010111 $
-1#l
-b11010110 "
 b00000001 #
 #17210
-0#l
+0#k
 #17215
+1#k
 0!
-1#l
+b11010111 "
 b00000010 #
+b11010111 %
+b11010111 #j
 #17220
-0#l
+0#k
 #17225
+1#k
 1!
-1#l
 b00000100 #
 #17230
-0#l
+0#k
 #17235
-1#l
+1#k
 b00001000 #
 #17240
-0#l
+0#k
 #17245
+1#k
 0!
-1#l
 b00010000 #
 #17250
-0#l
+0#k
 #17255
+1#k
 1!
-1#l
 b00100000 #
 #17260
-0#l
+0#k
 #17265
+1#k
 0!
-1#l
 b01000000 #
 #17270
-0#l
+0#k
 #17275
+1#k
 1!
-1#l
 b10000000 #
 #17280
-0#l
+0#k
 #17285
+1#k
 b11011000 $
-1#l
-b11010111 "
 b00000001 #
 #17290
-0#l
+0#k
 #17295
-1#l
+1#k
+b11011000 "
 b00000010 #
+b11011000 #j
+b11011000 %
 #17300
-0#l
+0#k
 #17305
-1#l
+1#k
+0!
 b00000100 #
 #17310
-0#l
+0#k
 #17315
-1#l
+1#k
 b00001000 #
 #17320
-0#l
+0#k
 #17325
-0!
-1#l
+1#k
+1!
 b00010000 #
 #17330
-0#l
+0#k
 #17335
-1!
-1#l
+1#k
 b00100000 #
 #17340
-0#l
+0#k
 #17345
+1#k
 0!
-1#l
 b01000000 #
 #17350
-0#l
+0#k
 #17355
+1#k
 1!
-1#l
 b10000000 #
 #17360
-0#l
+0#k
 #17365
+1#k
 b11011001 $
-1#l
-b11011000 "
 b00000001 #
 #17370
-0#l
+0#k
 #17375
+1#k
 0!
-1#l
+b11011001 "
 b00000010 #
+b11011001 %
+b11011001 #j
 #17380
-0#l
+0#k
 #17385
-1#l
+1#k
 b00000100 #
 #17390
-0#l
+0#k
 #17395
-1#l
+1#k
 b00001000 #
 #17400
-0#l
+0#k
 #17405
+1#k
 1!
-1#l
 b00010000 #
 #17410
-0#l
+0#k
 #17415
-1#l
+1#k
 b00100000 #
 #17420
-0#l
+0#k
 #17425
+1#k
 0!
-1#l
 b01000000 #
 #17430
-0#l
+0#k
 #17435
+1#k
 1!
-1#l
 b10000000 #
 #17440
-0#l
+0#k
 #17445
+1#k
 b11011010 $
-1#l
-b11011001 "
 b00000001 #
 #17450
-0#l
+0#k
 #17455
-1#l
+1#k
+b11011010 "
 b00000010 #
+b11011010 #j
+b11011010 %
 #17460
-0#l
+0#k
 #17465
-0!
-1#l
+1#k
 b00000100 #
 #17470
-0#l
+0#k
 #17475
-1#l
+1#k
+0!
 b00001000 #
 #17480
-0#l
+0#k
 #17485
+1#k
 1!
-1#l
 b00010000 #
 #17490
-0#l
+0#k
 #17495
-1#l
+1#k
 b00100000 #
 #17500
-0#l
+0#k
 #17505
+1#k
 0!
-1#l
 b01000000 #
 #17510
-0#l
+0#k
 #17515
+1#k
 1!
-1#l
 b10000000 #
 #17520
-0#l
+0#k
 #17525
+1#k
 b11011011 $
-1#l
-b11011010 "
 b00000001 #
 #17530
-0#l
+0#k
 #17535
+1#k
 0!
-1#l
+b11011011 "
 b00000010 #
+b11011011 %
+b11011011 #j
 #17540
-0#l
+0#k
 #17545
+1#k
 1!
-1#l
 b00000100 #
 #17550
-0#l
+0#k
 #17555
+1#k
 0!
-1#l
 b00001000 #
 #17560
-0#l
+0#k
 #17565
+1#k
 1!
-1#l
 b00010000 #
 #17570
-0#l
+0#k
 #17575
-1#l
+1#k
 b00100000 #
 #17580
-0#l
+0#k
 #17585
+1#k
 0!
-1#l
 b01000000 #
 #17590
-0#l
+0#k
 #17595
+1#k
 1!
-1#l
 b10000000 #
 #17600
-0#l
+0#k
 #17605
+1#k
 b11011100 $
-1#l
-b11011011 "
 b00000001 #
 #17610
-0#l
+0#k
 #17615
-1#l
+1#k
+b11011100 "
 b00000010 #
+b11011100 #j
+b11011100 %
 #17620
-0#l
+0#k
 #17625
-1#l
+1#k
+0!
 b00000100 #
 #17630
-0#l
+0#k
 #17635
-0!
-1#l
+1#k
+1!
 b00001000 #
 #17640
-0#l
+0#k
 #17645
-1!
-1#l
+1#k
 b00010000 #
 #17650
-0#l
+0#k
 #17655
-1#l
+1#k
 b00100000 #
 #17660
-0#l
+0#k
 #17665
+1#k
 0!
-1#l
 b01000000 #
 #17670
-0#l
+0#k
 #17675
+1#k
 1!
-1#l
 b10000000 #
 #17680
-0#l
+0#k
 #17685
+1#k
 b11011101 $
-1#l
-b11011100 "
 b00000001 #
 #17690
-0#l
+0#k
 #17695
+1#k
 0!
-1#l
+b11011101 "
 b00000010 #
+b11011101 %
+b11011101 #j
 #17700
-0#l
+0#k
 #17705
-1#l
+1#k
 b00000100 #
 #17710
-0#l
+0#k
 #17715
+1#k
 1!
-1#l
 b00001000 #
 #17720
-0#l
+0#k
 #17725
-1#l
+1#k
 b00010000 #
 #17730
-0#l
+0#k
 #17735
-1#l
+1#k
 b00100000 #
 #17740
-0#l
+0#k
 #17745
+1#k
 0!
-1#l
 b01000000 #
 #17750
-0#l
+0#k
 #17755
+1#k
 1!
-1#l
 b10000000 #
 #17760
-0#l
+0#k
 #17765
+1#k
 b11011110 $
-1#l
-b11011101 "
 b00000001 #
 #17770
-0#l
+0#k
 #17775
-1#l
+1#k
+b11011110 "
 b00000010 #
+b11011110 #j
+b11011110 %
 #17780
-0#l
+0#k
 #17785
-0!
-1#l
+1#k
 b00000100 #
 #17790
-0#l
+0#k
 #17795
-1!
-1#l
+1#k
 b00001000 #
 #17800
-0#l
+0#k
 #17805
-1#l
+1#k
 b00010000 #
 #17810
-0#l
+0#k
 #17815
-1#l
+1#k
 b00100000 #
 #17820
-0#l
+0#k
 #17825
+1#k
 0!
-1#l
 b01000000 #
 #17830
-0#l
+0#k
 #17835
+1#k
 1!
-1#l
 b10000000 #
 #17840
-0#l
+0#k
 #17845
+1#k
 b11011111 $
-1#l
-b11011110 "
 b00000001 #
 #17850
-0#l
+0#k
 #17855
+1#k
 0!
-1#l
+b11011111 "
 b00000010 #
+b11011111 %
+b11011111 #j
 #17860
-0#l
+0#k
 #17865
+1#k
 1!
-1#l
 b00000100 #
 #17870
-0#l
+0#k
 #17875
-1#l
+1#k
 b00001000 #
 #17880
-0#l
+0#k
 #17885
-1#l
+1#k
 b00010000 #
 #17890
-0#l
+0#k
 #17895
-1#l
+1#k
 b00100000 #
 #17900
-0#l
+0#k
 #17905
+1#k
 0!
-1#l
 b01000000 #
 #17910
-0#l
+0#k
 #17915
+1#k
 1!
-1#l
 b10000000 #
 #17920
-0#l
+0#k
 #17925
+1#k
 b11100000 $
-1#l
-b11011111 "
 b00000001 #
 #17930
-0#l
+0#k
 #17935
-1#l
+1#k
+b11100000 "
 b00000010 #
+b11100000 #j
+b11100000 %
 #17940
-0#l
+0#k
 #17945
-1#l
+1#k
+0!
 b00000100 #
 #17950
-0#l
+0#k
 #17955
-1#l
+1#k
 b00001000 #
 #17960
-0#l
+0#k
 #17965
-1#l
+1#k
 b00010000 #
 #17970
-0#l
+0#k
 #17975
-1#l
+1#k
 b00100000 #
 #17980
-0#l
+0#k
 #17985
-0!
-1#l
+1#k
+1!
 b01000000 #
 #17990
-0#l
+0#k
 #17995
-1!
-1#l
+1#k
 b10000000 #
 #18000
-0#l
+0#k
 #18005
+1#k
 b11100001 $
-1#l
-b11100000 "
 b00000001 #
 #18010
-0#l
+0#k
 #18015
+1#k
 0!
-1#l
+b11100001 "
 b00000010 #
+b11100001 %
+b11100001 #j
 #18020
-0#l
+0#k
 #18025
-1#l
+1#k
 b00000100 #
 #18030
-0#l
+0#k
 #18035
-1#l
+1#k
 b00001000 #
 #18040
-0#l
+0#k
 #18045
-1#l
+1#k
 b00010000 #
 #18050
-0#l
+0#k
 #18055
-1#l
+1#k
 b00100000 #
 #18060
-0#l
+0#k
 #18065
+1#k
 1!
-1#l
 b01000000 #
 #18070
-0#l
+0#k
 #18075
-1#l
+1#k
 b10000000 #
 #18080
-0#l
+0#k
 #18085
+1#k
 b11100010 $
-1#l
-b11100001 "
 b00000001 #
 #18090
-0#l
+0#k
 #18095
-1#l
+1#k
+b11100010 "
 b00000010 #
+b11100010 #j
+b11100010 %
 #18100
-0#l
+0#k
 #18105
-0!
-1#l
+1#k
 b00000100 #
 #18110
-0#l
+0#k
 #18115
-1#l
+1#k
+0!
 b00001000 #
 #18120
-0#l
+0#k
 #18125
-1#l
+1#k
 b00010000 #
 #18130
-0#l
+0#k
 #18135
-1#l
+1#k
 b00100000 #
 #18140
-0#l
+0#k
 #18145
+1#k
 1!
-1#l
 b01000000 #
 #18150
-0#l
+0#k
 #18155
-1#l
+1#k
 b10000000 #
 #18160
-0#l
+0#k
 #18165
+1#k
 b11100011 $
-1#l
-b11100010 "
 b00000001 #
 #18170
-0#l
+0#k
 #18175
+1#k
 0!
-1#l
+b11100011 "
 b00000010 #
+b11100011 %
+b11100011 #j
 #18180
-0#l
+0#k
 #18185
+1#k
 1!
-1#l
 b00000100 #
 #18190
-0#l
+0#k
 #18195
+1#k
 0!
-1#l
 b00001000 #
 #18200
-0#l
+0#k
 #18205
-1#l
+1#k
 b00010000 #
 #18210
-0#l
+0#k
 #18215
-1#l
+1#k
 b00100000 #
 #18220
-0#l
+0#k
 #18225
+1#k
 1!
-1#l
 b01000000 #
 #18230
-0#l
+0#k
 #18235
-1#l
+1#k
 b10000000 #
 #18240
-0#l
+0#k
 #18245
+1#k
 b11100100 $
-1#l
-b11100011 "
 b00000001 #
 #18250
-0#l
+0#k
 #18255
-1#l
+1#k
+b11100100 "
 b00000010 #
+b11100100 #j
+b11100100 %
 #18260
-0#l
+0#k
 #18265
-1#l
+1#k
+0!
 b00000100 #
 #18270
-0#l
+0#k
 #18275
-0!
-1#l
+1#k
+1!
 b00001000 #
 #18280
-0#l
+0#k
 #18285
-1#l
+1#k
+0!
 b00010000 #
 #18290
-0#l
+0#k
 #18295
-1#l
+1#k
 b00100000 #
 #18300
-0#l
+0#k
 #18305
+1#k
 1!
-1#l
 b01000000 #
 #18310
-0#l
+0#k
 #18315
-1#l
+1#k
 b10000000 #
 #18320
-0#l
+0#k
 #18325
+1#k
 b11100101 $
-1#l
-b11100100 "
 b00000001 #
 #18330
-0#l
+0#k
 #18335
+1#k
 0!
-1#l
+b11100101 "
 b00000010 #
+b11100101 %
+b11100101 #j
 #18340
-0#l
+0#k
 #18345
-1#l
+1#k
 b00000100 #
 #18350
-0#l
+0#k
 #18355
+1#k
 1!
-1#l
 b00001000 #
 #18360
-0#l
+0#k
 #18365
+1#k
 0!
-1#l
 b00010000 #
 #18370
-0#l
+0#k
 #18375
-1#l
+1#k
 b00100000 #
 #18380
-0#l
+0#k
 #18385
+1#k
 1!
-1#l
 b01000000 #
 #18390
-0#l
+0#k
 #18395
-1#l
+1#k
 b10000000 #
 #18400
-0#l
+0#k
 #18405
+1#k
 b11100110 $
-1#l
-b11100101 "
 b00000001 #
 #18410
-0#l
+0#k
 #18415
-1#l
+1#k
+b11100110 "
 b00000010 #
+b11100110 #j
+b11100110 %
 #18420
-0#l
+0#k
 #18425
-0!
-1#l
+1#k
 b00000100 #
 #18430
-0#l
+0#k
 #18435
-1!
-1#l
+1#k
 b00001000 #
 #18440
-0#l
+0#k
 #18445
+1#k
 0!
-1#l
 b00010000 #
 #18450
-0#l
+0#k
 #18455
-1#l
+1#k
 b00100000 #
 #18460
-0#l
+0#k
 #18465
+1#k
 1!
-1#l
 b01000000 #
 #18470
-0#l
+0#k
 #18475
-1#l
+1#k
 b10000000 #
 #18480
-0#l
+0#k
 #18485
+1#k
 b11100111 $
-1#l
-b11100110 "
 b00000001 #
 #18490
-0#l
+0#k
 #18495
+1#k
 0!
-1#l
+b11100111 "
 b00000010 #
+b11100111 %
+b11100111 #j
 #18500
-0#l
+0#k
 #18505
+1#k
 1!
-1#l
 b00000100 #
 #18510
-0#l
+0#k
 #18515
-1#l
+1#k
 b00001000 #
 #18520
-0#l
+0#k
 #18525
+1#k
 0!
-1#l
 b00010000 #
 #18530
-0#l
+0#k
 #18535
-1#l
+1#k
 b00100000 #
 #18540
-0#l
+0#k
 #18545
+1#k
 1!
-1#l
 b01000000 #
 #18550
-0#l
+0#k
 #18555
-1#l
+1#k
 b10000000 #
 #18560
-0#l
+0#k
 #18565
+1#k
 b11101000 $
-1#l
-b11100111 "
 b00000001 #
 #18570
-0#l
+0#k
 #18575
-1#l
+1#k
+b11101000 "
 b00000010 #
+b11101000 #j
+b11101000 %
 #18580
-0#l
+0#k
 #18585
-1#l
+1#k
+0!
 b00000100 #
 #18590
-0#l
+0#k
 #18595
-1#l
+1#k
 b00001000 #
 #18600
-0#l
+0#k
 #18605
-0!
-1#l
+1#k
+1!
 b00010000 #
 #18610
-0#l
+0#k
 #18615
-1#l
+1#k
+0!
 b00100000 #
 #18620
-0#l
+0#k
 #18625
+1#k
 1!
-1#l
 b01000000 #
 #18630
-0#l
+0#k
 #18635
-1#l
+1#k
 b10000000 #
 #18640
-0#l
+0#k
 #18645
+1#k
 b11101001 $
-1#l
-b11101000 "
 b00000001 #
 #18650
-0#l
+0#k
 #18655
+1#k
 0!
-1#l
+b11101001 "
 b00000010 #
+b11101001 %
+b11101001 #j
 #18660
-0#l
+0#k
 #18665
-1#l
+1#k
 b00000100 #
 #18670
-0#l
+0#k
 #18675
-1#l
+1#k
 b00001000 #
 #18680
-0#l
+0#k
 #18685
+1#k
 1!
-1#l
 b00010000 #
 #18690
-0#l
+0#k
 #18695
+1#k
 0!
-1#l
 b00100000 #
 #18700
-0#l
+0#k
 #18705
+1#k
 1!
-1#l
 b01000000 #
 #18710
-0#l
+0#k
 #18715
-1#l
+1#k
 b10000000 #
 #18720
-0#l
+0#k
 #18725
+1#k
 b11101010 $
-1#l
-b11101001 "
 b00000001 #
 #18730
-0#l
+0#k
 #18735
-1#l
+1#k
+b11101010 "
 b00000010 #
+b11101010 #j
+b11101010 %
 #18740
-0#l
+0#k
 #18745
-0!
-1#l
+1#k
 b00000100 #
 #18750
-0#l
+0#k
 #18755
-1#l
+1#k
+0!
 b00001000 #
 #18760
-0#l
+0#k
 #18765
+1#k
 1!
-1#l
 b00010000 #
 #18770
-0#l
+0#k
 #18775
+1#k
 0!
-1#l
 b00100000 #
 #18780
-0#l
+0#k
 #18785
+1#k
 1!
-1#l
 b01000000 #
 #18790
-0#l
+0#k
 #18795
-1#l
+1#k
 b10000000 #
 #18800
-0#l
+0#k
 #18805
+1#k
 b11101011 $
-1#l
-b11101010 "
 b00000001 #
 #18810
-0#l
+0#k
 #18815
+1#k
 0!
-1#l
+b11101011 "
 b00000010 #
+b11101011 %
+b11101011 #j
 #18820
-0#l
+0#k
 #18825
+1#k
 1!
-1#l
 b00000100 #
 #18830
-0#l
+0#k
 #18835
+1#k
 0!
-1#l
 b00001000 #
 #18840
-0#l
+0#k
 #18845
+1#k
 1!
-1#l
 b00010000 #
 #18850
-0#l
+0#k
 #18855
+1#k
 0!
-1#l
 b00100000 #
 #18860
-0#l
+0#k
 #18865
+1#k
 1!
-1#l
 b01000000 #
 #18870
-0#l
+0#k
 #18875
-1#l
+1#k
 b10000000 #
 #18880
-0#l
+0#k
 #18885
+1#k
 b11101100 $
-1#l
-b11101011 "
 b00000001 #
 #18890
-0#l
+0#k
 #18895
-1#l
+1#k
+b11101100 "
 b00000010 #
+b11101100 #j
+b11101100 %
 #18900
-0#l
+0#k
 #18905
-1#l
+1#k
+0!
 b00000100 #
 #18910
-0#l
+0#k
 #18915
-0!
-1#l
+1#k
+1!
 b00001000 #
 #18920
-0#l
+0#k
 #18925
-1!
-1#l
+1#k
 b00010000 #
 #18930
-0#l
+0#k
 #18935
+1#k
 0!
-1#l
 b00100000 #
 #18940
-0#l
+0#k
 #18945
+1#k
 1!
-1#l
 b01000000 #
 #18950
-0#l
+0#k
 #18955
-1#l
+1#k
 b10000000 #
 #18960
-0#l
+0#k
 #18965
+1#k
 b11101101 $
-1#l
-b11101100 "
 b00000001 #
 #18970
-0#l
+0#k
 #18975
+1#k
 0!
-1#l
+b11101101 "
 b00000010 #
+b11101101 %
+b11101101 #j
 #18980
-0#l
+0#k
 #18985
-1#l
+1#k
 b00000100 #
 #18990
-0#l
+0#k
 #18995
+1#k
 1!
-1#l
 b00001000 #
 #19000
-0#l
+0#k
 #19005
-1#l
+1#k
 b00010000 #
 #19010
-0#l
+0#k
 #19015
+1#k
 0!
-1#l
 b00100000 #
 #19020
-0#l
+0#k
 #19025
+1#k
 1!
-1#l
 b01000000 #
 #19030
-0#l
+0#k
 #19035
-1#l
+1#k
 b10000000 #
 #19040
-0#l
+0#k
 #19045
+1#k
 b11101110 $
-1#l
-b11101101 "
 b00000001 #
 #19050
-0#l
+0#k
 #19055
-1#l
+1#k
+b11101110 "
 b00000010 #
+b11101110 #j
+b11101110 %
 #19060
-0#l
+0#k
 #19065
-0!
-1#l
+1#k
 b00000100 #
 #19070
-0#l
+0#k
 #19075
-1!
-1#l
+1#k
 b00001000 #
 #19080
-0#l
+0#k
 #19085
-1#l
+1#k
 b00010000 #
 #19090
-0#l
+0#k
 #19095
+1#k
 0!
-1#l
 b00100000 #
 #19100
-0#l
+0#k
 #19105
+1#k
 1!
-1#l
 b01000000 #
 #19110
-0#l
+0#k
 #19115
-1#l
+1#k
 b10000000 #
 #19120
-0#l
+0#k
 #19125
+1#k
 b11101111 $
-1#l
-b11101110 "
 b00000001 #
 #19130
-0#l
+0#k
 #19135
+1#k
 0!
-1#l
+b11101111 "
 b00000010 #
+b11101111 %
+b11101111 #j
 #19140
-0#l
+0#k
 #19145
+1#k
 1!
-1#l
 b00000100 #
 #19150
-0#l
+0#k
 #19155
-1#l
+1#k
 b00001000 #
 #19160
-0#l
+0#k
 #19165
-1#l
+1#k
 b00010000 #
 #19170
-0#l
+0#k
 #19175
+1#k
 0!
-1#l
 b00100000 #
 #19180
-0#l
+0#k
 #19185
+1#k
 1!
-1#l
 b01000000 #
 #19190
-0#l
+0#k
 #19195
-1#l
+1#k
 b10000000 #
 #19200
-0#l
+0#k
 #19205
+1#k
 b11110000 $
-1#l
-b11101111 "
 b00000001 #
 #19210
-0#l
+0#k
 #19215
-1#l
+1#k
+b11110000 "
 b00000010 #
+b11110000 #j
+b11110000 %
 #19220
-0#l
+0#k
 #19225
-1#l
+1#k
+0!
 b00000100 #
 #19230
-0#l
+0#k
 #19235
-1#l
+1#k
 b00001000 #
 #19240
-0#l
+0#k
 #19245
-1#l
+1#k
 b00010000 #
 #19250
-0#l
+0#k
 #19255
-0!
-1#l
+1#k
+1!
 b00100000 #
 #19260
-0#l
+0#k
 #19265
-1!
-1#l
+1#k
 b01000000 #
 #19270
-0#l
+0#k
 #19275
-1#l
+1#k
 b10000000 #
 #19280
-0#l
+0#k
 #19285
+1#k
 b11110001 $
-1#l
-b11110000 "
 b00000001 #
 #19290
-0#l
+0#k
 #19295
+1#k
 0!
-1#l
+b11110001 "
 b00000010 #
+b11110001 %
+b11110001 #j
 #19300
-0#l
+0#k
 #19305
-1#l
+1#k
 b00000100 #
 #19310
-0#l
+0#k
 #19315
-1#l
+1#k
 b00001000 #
 #19320
-0#l
+0#k
 #19325
-1#l
+1#k
 b00010000 #
 #19330
-0#l
+0#k
 #19335
+1#k
 1!
-1#l
 b00100000 #
 #19340
-0#l
+0#k
 #19345
-1#l
+1#k
 b01000000 #
 #19350
-0#l
+0#k
 #19355
-1#l
+1#k
 b10000000 #
 #19360
-0#l
+0#k
 #19365
+1#k
 b11110010 $
-1#l
-b11110001 "
 b00000001 #
 #19370
-0#l
+0#k
 #19375
-1#l
+1#k
+b11110010 "
 b00000010 #
+b11110010 #j
+b11110010 %
 #19380
-0#l
+0#k
 #19385
-0!
-1#l
+1#k
 b00000100 #
 #19390
-0#l
+0#k
 #19395
-1#l
+1#k
+0!
 b00001000 #
 #19400
-0#l
+0#k
 #19405
-1#l
+1#k
 b00010000 #
 #19410
-0#l
+0#k
 #19415
+1#k
 1!
-1#l
 b00100000 #
 #19420
-0#l
+0#k
 #19425
-1#l
+1#k
 b01000000 #
 #19430
-0#l
+0#k
 #19435
-1#l
+1#k
 b10000000 #
 #19440
-0#l
+0#k
 #19445
+1#k
 b11110011 $
-1#l
-b11110010 "
 b00000001 #
 #19450
-0#l
+0#k
 #19455
+1#k
 0!
-1#l
+b11110011 "
 b00000010 #
+b11110011 %
+b11110011 #j
 #19460
-0#l
+0#k
 #19465
+1#k
 1!
-1#l
 b00000100 #
 #19470
-0#l
+0#k
 #19475
+1#k
 0!
-1#l
 b00001000 #
 #19480
-0#l
+0#k
 #19485
-1#l
+1#k
 b00010000 #
 #19490
-0#l
+0#k
 #19495
+1#k
 1!
-1#l
 b00100000 #
 #19500
-0#l
+0#k
 #19505
-1#l
+1#k
 b01000000 #
 #19510
-0#l
+0#k
 #19515
-1#l
+1#k
 b10000000 #
 #19520
-0#l
+0#k
 #19525
+1#k
 b11110100 $
-1#l
-b11110011 "
 b00000001 #
 #19530
-0#l
+0#k
 #19535
-1#l
+1#k
+b11110100 "
 b00000010 #
+b11110100 #j
+b11110100 %
 #19540
-0#l
+0#k
 #19545
-1#l
+1#k
+0!
 b00000100 #
 #19550
-0#l
+0#k
 #19555
-0!
-1#l
+1#k
+1!
 b00001000 #
 #19560
-0#l
+0#k
 #19565
-1#l
+1#k
+0!
 b00010000 #
 #19570
-0#l
+0#k
 #19575
+1#k
 1!
-1#l
 b00100000 #
 #19580
-0#l
+0#k
 #19585
-1#l
+1#k
 b01000000 #
 #19590
-0#l
+0#k
 #19595
-1#l
+1#k
 b10000000 #
 #19600
-0#l
+0#k
 #19605
+1#k
 b11110101 $
-1#l
-b11110100 "
 b00000001 #
 #19610
-0#l
+0#k
 #19615
+1#k
 0!
-1#l
+b11110101 "
 b00000010 #
+b11110101 %
+b11110101 #j
 #19620
-0#l
+0#k
 #19625
-1#l
+1#k
 b00000100 #
 #19630
-0#l
+0#k
 #19635
+1#k
 1!
-1#l
 b00001000 #
 #19640
-0#l
+0#k
 #19645
+1#k
 0!
-1#l
 b00010000 #
 #19650
-0#l
+0#k
 #19655
+1#k
 1!
-1#l
 b00100000 #
 #19660
-0#l
+0#k
 #19665
-1#l
+1#k
 b01000000 #
 #19670
-0#l
+0#k
 #19675
-1#l
+1#k
 b10000000 #
 #19680
-0#l
+0#k
 #19685
+1#k
 b11110110 $
-1#l
-b11110101 "
 b00000001 #
 #19690
-0#l
+0#k
 #19695
-1#l
+1#k
+b11110110 "
 b00000010 #
+b11110110 #j
+b11110110 %
 #19700
-0#l
+0#k
 #19705
-0!
-1#l
+1#k
 b00000100 #
 #19710
-0#l
+0#k
 #19715
-1!
-1#l
+1#k
 b00001000 #
 #19720
-0#l
+0#k
 #19725
+1#k
 0!
-1#l
 b00010000 #
 #19730
-0#l
+0#k
 #19735
+1#k
 1!
-1#l
 b00100000 #
 #19740
-0#l
+0#k
 #19745
-1#l
+1#k
 b01000000 #
 #19750
-0#l
+0#k
 #19755
-1#l
+1#k
 b10000000 #
 #19760
-0#l
+0#k
 #19765
+1#k
 b11110111 $
-1#l
-b11110110 "
 b00000001 #
 #19770
-0#l
+0#k
 #19775
+1#k
 0!
-1#l
+b11110111 "
 b00000010 #
+b11110111 %
+b11110111 #j
 #19780
-0#l
+0#k
 #19785
+1#k
 1!
-1#l
 b00000100 #
 #19790
-0#l
+0#k
 #19795
-1#l
+1#k
 b00001000 #
 #19800
-0#l
+0#k
 #19805
+1#k
 0!
-1#l
 b00010000 #
 #19810
-0#l
+0#k
 #19815
+1#k
 1!
-1#l
 b00100000 #
 #19820
-0#l
+0#k
 #19825
-1#l
+1#k
 b01000000 #
 #19830
-0#l
+0#k
 #19835
-1#l
+1#k
 b10000000 #
 #19840
-0#l
+0#k
 #19845
+1#k
 b11111000 $
-1#l
-b11110111 "
 b00000001 #
 #19850
-0#l
+0#k
 #19855
-1#l
+1#k
+b11111000 "
 b00000010 #
+b11111000 #j
+b11111000 %
 #19860
-0#l
+0#k
 #19865
-1#l
+1#k
+0!
 b00000100 #
 #19870
-0#l
+0#k
 #19875
-1#l
+1#k
 b00001000 #
 #19880
-0#l
+0#k
 #19885
-0!
-1#l
+1#k
+1!
 b00010000 #
 #19890
-0#l
+0#k
 #19895
-1!
-1#l
+1#k
 b00100000 #
 #19900
-0#l
+0#k
 #19905
-1#l
+1#k
 b01000000 #
 #19910
-0#l
+0#k
 #19915
-1#l
+1#k
 b10000000 #
 #19920
-0#l
+0#k
 #19925
+1#k
 b11111001 $
-1#l
-b11111000 "
 b00000001 #
 #19930
-0#l
+0#k
 #19935
+1#k
 0!
-1#l
+b11111001 "
 b00000010 #
+b11111001 %
+b11111001 #j
 #19940
-0#l
+0#k
 #19945
-1#l
+1#k
 b00000100 #
 #19950
-0#l
+0#k
 #19955
-1#l
+1#k
 b00001000 #
 #19960
-0#l
+0#k
 #19965
+1#k
 1!
-1#l
 b00010000 #
 #19970
-0#l
+0#k
 #19975
-1#l
+1#k
 b00100000 #
 #19980
-0#l
+0#k
 #19985
-1#l
+1#k
 b01000000 #
 #19990
-0#l
+0#k
 #19995
-1#l
+1#k
 b10000000 #
 #20000
-0#l
+0#k
 #20005
+1#k
 b11111010 $
-1#l
-b11111001 "
 b00000001 #
 #20010
-0#l
+0#k
 #20015
-1#l
+1#k
+b11111010 "
 b00000010 #
+b11111010 #j
+b11111010 %
 #20020
-0#l
+0#k
 #20025
-0!
-1#l
+1#k
 b00000100 #
 #20030
-0#l
+0#k
 #20035
-1#l
+1#k
+0!
 b00001000 #
 #20040
-0#l
+0#k
 #20045
+1#k
 1!
-1#l
 b00010000 #
 #20050
-0#l
+0#k
 #20055
-1#l
+1#k
 b00100000 #
 #20060
-0#l
+0#k
 #20065
-1#l
+1#k
 b01000000 #
 #20070
-0#l
+0#k
 #20075
-1#l
+1#k
 b10000000 #
 #20080
-0#l
+0#k
 #20085
+1#k
 b11111011 $
-1#l
-b11111010 "
 b00000001 #
 #20090
-0#l
+0#k
 #20095
+1#k
 0!
-1#l
+b11111011 "
 b00000010 #
+b11111011 %
+b11111011 #j
 #20100
-0#l
+0#k
 #20105
+1#k
 1!
-1#l
 b00000100 #
 #20110
-0#l
+0#k
 #20115
+1#k
 0!
-1#l
 b00001000 #
 #20120
-0#l
+0#k
 #20125
+1#k
 1!
-1#l
 b00010000 #
 #20130
-0#l
+0#k
 #20135
-1#l
+1#k
 b00100000 #
 #20140
-0#l
+0#k
 #20145
-1#l
+1#k
 b01000000 #
 #20150
-0#l
+0#k
 #20155
-1#l
+1#k
 b10000000 #
 #20160
-0#l
+0#k
 #20165
+1#k
 b11111100 $
-1#l
-b11111011 "
 b00000001 #
 #20170
-0#l
+0#k
 #20175
-1#l
+1#k
+b11111100 "
 b00000010 #
+b11111100 #j
+b11111100 %
 #20180
-0#l
+0#k
 #20185
-1#l
+1#k
+0!
 b00000100 #
 #20190
-0#l
+0#k
 #20195
-0!
-1#l
+1#k
+1!
 b00001000 #
 #20200
-0#l
+0#k
 #20205
-1!
-1#l
+1#k
 b00010000 #
 #20210
-0#l
+0#k
 #20215
-1#l
+1#k
 b00100000 #
 #20220
-0#l
+0#k
 #20225
-1#l
+1#k
 b01000000 #
 #20230
-0#l
+0#k
 #20235
-1#l
+1#k
 b10000000 #
 #20240
-0#l
+0#k
 #20245
+1#k
 b11111101 $
-1#l
-b11111100 "
 b00000001 #
 #20250
-0#l
+0#k
 #20255
+1#k
 0!
-1#l
+b11111101 "
 b00000010 #
+b11111101 %
+b11111101 #j
 #20260
-0#l
+0#k
 #20265
-1#l
+1#k
 b00000100 #
 #20270
-0#l
+0#k
 #20275
+1#k
 1!
-1#l
 b00001000 #
 #20280
-0#l
+0#k
 #20285
-1#l
+1#k
 b00010000 #
 #20290
-0#l
+0#k
 #20295
-1#l
+1#k
 b00100000 #
 #20300
-0#l
+0#k
 #20305
-1#l
+1#k
 b01000000 #
 #20310
-0#l
+0#k
 #20315
-1#l
+1#k
 b10000000 #
 #20320
-0#l
+0#k
 #20325
+1#k
 b11111110 $
-1#l
-b11111101 "
 b00000001 #
 #20330
-0#l
+0#k
 #20335
-1#l
+1#k
+b11111110 "
 b00000010 #
+b11111110 #j
+b11111110 %
 #20340
-0#l
+0#k
 #20345
-0!
-1#l
+1#k
 b00000100 #
 #20350
-0#l
+0#k
 #20355
-1!
-1#l
+1#k
 b00001000 #
 #20360
-0#l
+0#k
 #20365
-1#l
+1#k
 b00010000 #
 #20370
-0#l
+0#k
 #20375
-1#l
+1#k
 b00100000 #
 #20380
-0#l
+0#k
 #20385
-1#l
+1#k
 b01000000 #
 #20390
-0#l
+0#k
 #20395
-1#l
+1#k
 b10000000 #
 #20400
-0#l
+0#k
 #20405
+1#k
 b11111111 $
-1#l
-b11111110 "
 b00000001 #
 #20410
-0#l
+0#k
 #20415
-1#l
+1#k
+b00000000 "
+b11111111 #j
+b00000000 %
 #20420
-0#l
+0#k
 #20425
-1#l
+1#k
 0!
 b00000000 "
 b00000000 #
 b00000000 $
 b00000000 %
 b00000000 &
-0'
-b00000000 (
-b00000001 )
-b00000010 *
-b00000011 +
-b00000100 ,
-b00000101 -
-b00000110 .
-b00000111 /
-b00001000 0
-b00001001 1
-b00001010 2
-b00001011 3
-b00001100 4
-b00001101 5
-b00001110 6
-b00001111 7
-b00010000 8
-b00010001 9
-b00010010 :
-b00010011 ;
-b00010100 <
-b00010101 =
-b00010110 >
-b00010111 ?
-b00011000 @
-b00011001 A
-b00011010 B
-b00011011 C
-b00011100 D
-b00011101 E
-b00011110 F
-b00011111 G
-b00100000 H
-b00100001 I
-b00100010 J
-b00100011 K
-b00100100 L
-b00100101 M
-b00100110 N
-b00100111 O
-b00101000 P
-b00101001 Q
-b00101010 R
-b00101011 S
-b00101100 T
-b00101101 U
-b00101110 V
-b00101111 W
-b00110000 X
-b00110001 Y
-b00110010 Z
-b00110011 [
-b00110100 \
-b00110101 ]
-b00110110 ^
-b00110111 _
-b00111000 `
-b00111001 a
-b00111010 b
-b00111011 c
-b00111100 d
-b00111101 e
-b00111110 f
-b00111111 g
-b01000000 h
-b01000001 i
-b01000010 j
-b01000011 k
-b01000100 l
-b01000101 m
-b01000110 n
-b01000111 o
-b01001000 p
-b01001001 q
-b01001010 r
-b01001011 s
-b01001100 t
-b01001101 u
-b01001110 v
-b01001111 w
-b01010000 x
-b01010001 y
-b01010010 z
-b01010011 {
-b01010100 |
-b01010101 }
-b01010110 ~
-b01010111 "!
-b01011000 ""
-b01011001 "#
-b01011010 "$
-b01011011 "%
-b01011100 "&
-b01011101 "'
-b01011110 "(
-b01011111 ")
-b01100000 "*
-b01100001 "+
-b01100010 ",
-b01100011 "-
-b01100100 ".
-b01100101 "/
-b01100110 "0
-b01100111 "1
-b01101000 "2
-b01101001 "3
-b01101010 "4
-b01101011 "5
-b01101100 "6
-b01101101 "7
-b01101110 "8
-b01101111 "9
-b01110000 ":
-b01110001 ";
-b01110010 "<
-b01110011 "=
-b01110100 ">
-b01110101 "?
-b01110110 "@
-b01110111 "A
-b01111000 "B
-b01111001 "C
-b01111010 "D
-b01111011 "E
-b01111100 "F
-b01111101 "G
-b01111110 "H
-b01111111 "I
-b10000000 "J
-b10000001 "K
-b10000010 "L
-b10000011 "M
-b10000100 "N
-b10000101 "O
-b10000110 "P
-b10000111 "Q
-b10001000 "R
-b10001001 "S
-b10001010 "T
-b10001011 "U
-b10001100 "V
-b10001101 "W
-b10001110 "X
-b10001111 "Y
-b10010000 "Z
-b10010001 "[
-b10010010 "\
-b10010011 "]
-b10010100 "^
-b10010101 "_
-b10010110 "`
-b10010111 "a
-b10011000 "b
-b10011001 "c
-b10011010 "d
-b10011011 "e
-b10011100 "f
-b10011101 "g
-b10011110 "h
-b10011111 "i
-b10100000 "j
-b10100001 "k
-b10100010 "l
-b10100011 "m
-b10100100 "n
-b10100101 "o
-b10100110 "p
-b10100111 "q
-b10101000 "r
-b10101001 "s
-b10101010 "t
-b10101011 "u
-b10101100 "v
-b10101101 "w
-b10101110 "x
-b10101111 "y
-b10110000 "z
-b10110001 "{
-b10110010 "|
-b10110011 "}
-b10110100 "~
-b10110101 #!
-b10110110 #"
-b10110111 ##
-b10111000 #$
-b10111001 #%
-b10111010 #&
-b10111011 #'
-b10111100 #(
-b10111101 #)
-b10111110 #*
-b10111111 #+
-b11000000 #,
-b11000001 #-
-b11000010 #.
-b11000011 #/
-b11000100 #0
-b11000101 #1
-b11000110 #2
-b11000111 #3
-b11001000 #4
-b11001001 #5
-b11001010 #6
-b11001011 #7
-b11001100 #8
-b11001101 #9
-b11001110 #:
-b11001111 #;
-b11010000 #<
-b11010001 #=
-b11010010 #>
-b11010011 #?
-b11010100 #@
-b11010101 #A
-b11010110 #B
-b11010111 #C
-b11011000 #D
-b11011001 #E
-b11011010 #F
-b11011011 #G
-b11011100 #H
-b11011101 #I
-b11011110 #J
-b11011111 #K
-b11100000 #L
-b11100001 #M
-b11100010 #N
-b11100011 #O
-b11100100 #P
-b11100101 #Q
-b11100110 #R
-b11100111 #S
-b11101000 #T
-b11101001 #U
-b11101010 #V
-b11101011 #W
-b11101100 #X
-b11101101 #Y
-b11101110 #Z
-b11101111 #[
-b11110000 #\
-b11110001 #]
-b11110010 #^
-b11110011 #_
-b11110100 #`
-b11110101 #a
-b11110110 #b
-b11110111 #c
-b11111000 #d
-b11111001 #e
-b11111010 #f
-b11111011 #g
-b11111100 #h
-b11111101 #i
-b11111110 #j
-b00000000 #k
-0#l
+b00000001 '
+b00000010 (
+b00000011 )
+b00000100 *
+b00000101 +
+b00000110 ,
+b00000111 -
+b00001000 .
+b00001001 /
+b00001010 0
+b00001011 1
+b00001100 2
+b00001101 3
+b00001110 4
+b00001111 5
+b00010000 6
+b00010001 7
+b00010010 8
+b00010011 9
+b00010100 :
+b00010101 ;
+b00010110 <
+b00010111 =
+b00011000 >
+b00011001 ?
+b00011010 @
+b00011011 A
+b00011100 B
+b00011101 C
+b00011110 D
+b00011111 E
+b00100000 F
+b00100001 G
+b00100010 H
+b00100011 I
+b00100100 J
+b00100101 K
+b00100110 L
+b00100111 M
+b00101000 N
+b00101001 O
+b00101010 P
+b00101011 Q
+b00101100 R
+b00101101 S
+b00101110 T
+b00101111 U
+b00110000 V
+b00110001 W
+b00110010 X
+b00110011 Y
+b00110100 Z
+b00110101 [
+b00110110 \
+b00110111 ]
+b00111000 ^
+b00111001 _
+b00111010 `
+b00111011 a
+b00111100 b
+b00111101 c
+b00111110 d
+b00111111 e
+b01000000 f
+b01000001 g
+b01000010 h
+b01000011 i
+b01000100 j
+b01000101 k
+b01000110 l
+b01000111 m
+b01001000 n
+b01001001 o
+b01001010 p
+b01001011 q
+b01001100 r
+b01001101 s
+b01001110 t
+b01001111 u
+b01010000 v
+b01010001 w
+b01010010 x
+b01010011 y
+b01010100 z
+b01010101 {
+b01010110 |
+b01010111 }
+b01011000 ~
+b01011001 "!
+b01011010 ""
+b01011011 "#
+b01011100 "$
+b01011101 "%
+b01011110 "&
+b01011111 "'
+b01100000 "(
+b01100001 ")
+b01100010 "*
+b01100011 "+
+b01100100 ",
+b01100101 "-
+b01100110 ".
+b01100111 "/
+b01101000 "0
+b01101001 "1
+b01101010 "2
+b01101011 "3
+b01101100 "4
+b01101101 "5
+b01101110 "6
+b01101111 "7
+b01110000 "8
+b01110001 "9
+b01110010 ":
+b01110011 ";
+b01110100 "<
+b01110101 "=
+b01110110 ">
+b01110111 "?
+b01111000 "@
+b01111001 "A
+b01111010 "B
+b01111011 "C
+b01111100 "D
+b01111101 "E
+b01111110 "F
+b01111111 "G
+b10000000 "H
+b10000001 "I
+b10000010 "J
+b10000011 "K
+b10000100 "L
+b10000101 "M
+b10000110 "N
+b10000111 "O
+b10001000 "P
+b10001001 "Q
+b10001010 "R
+b10001011 "S
+b10001100 "T
+b10001101 "U
+b10001110 "V
+b10001111 "W
+b10010000 "X
+b10010001 "Y
+b10010010 "Z
+b10010011 "[
+b10010100 "\
+b10010101 "]
+b10010110 "^
+b10010111 "_
+b10011000 "`
+b10011001 "a
+b10011010 "b
+b10011011 "c
+b10011100 "d
+b10011101 "e
+b10011110 "f
+b10011111 "g
+b10100000 "h
+b10100001 "i
+b10100010 "j
+b10100011 "k
+b10100100 "l
+b10100101 "m
+b10100110 "n
+b10100111 "o
+b10101000 "p
+b10101001 "q
+b10101010 "r
+b10101011 "s
+b10101100 "t
+b10101101 "u
+b10101110 "v
+b10101111 "w
+b10110000 "x
+b10110001 "y
+b10110010 "z
+b10110011 "{
+b10110100 "|
+b10110101 "}
+b10110110 "~
+b10110111 #!
+b10111000 #"
+b10111001 ##
+b10111010 #$
+b10111011 #%
+b10111100 #&
+b10111101 #'
+b10111110 #(
+b10111111 #)
+b11000000 #*
+b11000001 #+
+b11000010 #,
+b11000011 #-
+b11000100 #.
+b11000101 #/
+b11000110 #0
+b11000111 #1
+b11001000 #2
+b11001001 #3
+b11001010 #4
+b11001011 #5
+b11001100 #6
+b11001101 #7
+b11001110 #8
+b11001111 #9
+b11010000 #:
+b11010001 #;
+b11010010 #<
+b11010011 #=
+b11010100 #>
+b11010101 #?
+b11010110 #@
+b11010111 #A
+b11011000 #B
+b11011001 #C
+b11011010 #D
+b11011011 #E
+b11011100 #F
+b11011101 #G
+b11011110 #H
+b11011111 #I
+b11100000 #J
+b11100001 #K
+b11100010 #L
+b11100011 #M
+b11100100 #N
+b11100101 #O
+b11100110 #P
+b11100111 #Q
+b11101000 #R
+b11101001 #S
+b11101010 #T
+b11101011 #U
+b11101100 #V
+b11101101 #W
+b11101110 #X
+b11101111 #Y
+b11110000 #Z
+b11110001 #[
+b11110010 #\
+b11110011 #]
+b11110100 #^
+b11110101 #_
+b11110110 #`
+b11110111 #a
+b11111000 #b
+b11111001 #c
+b11111010 #d
+b11111011 #e
+b11111100 #f
+b11111101 #g
+b11111110 #h
+b00000000 #i
+b00000000 #j
+0#k
