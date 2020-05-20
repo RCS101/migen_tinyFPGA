@@ -2,8 +2,6 @@ from migen import *
 
 import tinyPlatform
 
-# blabdlblsbgljsbglsbgsbgs;bgs;gb
-
 class main(Module):
     def __init__(self):
 
