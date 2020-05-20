@@ -26,11 +26,7 @@ serial = [
 
 # Define io here
 _io = [
-    ("user_led0", 0, Pins("GPIO:0"), IOStandard("LVCMOS33")), # Pin 1, GPIO 13
-    ("user_sclk", 0, Pins("GPIO:1"), IOStandard("LVCMOS33")), # pin 2, GPIO 14
-    ("Dout", 0, Pins("GPIO:2"), IOStandard("LVCMOS33")), # pin 3, GPIO 16
-    ("user_mosi", 0, Pins("GPIO:3"), IOStandard("LVCMOS33")), # pin 4, GPIO 17
-    ("user_cs", 0, Pins("GPIO:4"), IOStandard("LVCMOS33")) # pin 5, GPIO 20
+    ("user_led0", 0, Pins("GPIO:0"), IOStandard("LVCMOS33"))# Pin 1, GPIO 13
 ]
 
 
