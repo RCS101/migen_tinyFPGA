@@ -6,6 +6,8 @@ module top(
 wire osch_clk;
 reg [7:0] dataIn = 8'd0;
 reg [7:0] bitmask = 8'd0;
+reg [7:0] adr = 8'd0;
+wire [7:0] dat_r;
 wire sys_clk;
 wire sys_rst;
 wire por_clk;
@@ -40,6 +42,18 @@ always @(posedge sys_clk) begin
 		user_led0 <= 1'd0;
 		bitmask <= 8'd0;
 	end
+end
+
+reg [7:0] memories[0:255];
+reg [7:0] memadr;
+always @(posedge sys_clk) begin
+	memadr <= adr;
+end
+
+assign dat_r = memories[memadr];
+
+initial begin
+	$readmemh("memories.init", memories);
 end
 
 OSCH #(
