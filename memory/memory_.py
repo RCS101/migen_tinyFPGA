@@ -21,9 +21,9 @@ class main(Module):
         self.specials += self.mem
         self.r_pt = self.mem.get_port(write_capable=False)
 
-        # clcok through each byte toggling LED
+        # clock through each byte toggling LED
         self.sync += [
-            If(self.r_pt.adr< 255,
+            If(self.r_pt.adr < 255,
 
                 If((self.dataIn & self.bitmask),
                     self.led0.eq(1)
